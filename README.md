@@ -2,6 +2,8 @@
 8088 PC Compatible
 This is a repository for my 8088 PC XT Compatible project developed in 2021. 
 
+![alt text](/images/20211027_110916.jpg)
+
 https://www.homebrew8088.com/
 
 My BIOS files are early versions and are very primitive.
