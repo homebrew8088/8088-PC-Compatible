@@ -2,6 +2,8 @@
 8088 PC Compatible
 ![alt text](/images/20211027_110916.jpg)
 
+\
+\
 This is a repository for my 8088 PC Compatible project developed in 2021. The Motherboard is built to be generally PC XT compatible.
 
 https://www.homebrew8088.com/
