@@ -40,7 +40,7 @@ VT82C42V	|1
 CH376	|1
 USB Drive	|1
 
-## 8088 / V20
+## 8088 / V20 Card
 Description           | Quantity
 --------------------- | ------------------------
 PCB	                  |1
@@ -65,7 +65,7 @@ P8285               	|1
 Keystone 9202	        |1
 Screws              	|2
 
-## V40
+## V40 Card
 Description           | Quantity
 --------------------- | ------------------------
 PCB	                  |1
@@ -80,7 +80,7 @@ PLCC 68 Socket	      |1
 Keystone 9202	        |1
 Screws	              |2
 
-## 512K RAM / 32K ROM
+## 512K RAM / 32K ROM Card
 Description           | Quantity
 --------------------- | ------------------------
 PCB	                  |1
