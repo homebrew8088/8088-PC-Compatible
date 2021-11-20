@@ -1,4 +1,4 @@
-## This BIOS is for 80188 with a CGA card
+## This BIOS is for the 80188 with a CGA card
 
 This is my basic BIOS adjusted for the 80188.\
 For my project the only setup code needed for the 80188 processor is.
