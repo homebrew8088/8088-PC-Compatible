@@ -9,7 +9,7 @@ MOV AX, 0X40FF     ;Set AX to the new value\
 OUT DX, AX         ;OUT to port 0XFFFE
 </pre>
 
-This sets the internal interrupt controller as the slave making the external interrupt controller as the master.
+This sets the internal interrupt controller as the slave making the external interrupt controller the master.
 
 IO PORT 0XFFFE
 Bit 15 |Bit 14       |Bit 13 |Bit 12       |Bit 11 - Bit 0 
