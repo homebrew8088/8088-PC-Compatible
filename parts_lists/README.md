@@ -23,7 +23,7 @@ PC Speaker                	|1
 10K ohm Resistor	          |7
 4 Pin Resistor Network    	|2
 9 Pin Resistor Network	    |1
-1.0uF Capacitor             |26
+0.1uF Capacitor             |26
 14.31818 Crystal            |1
 14 Pin DIP Socket         	|3
 16 Pin DIP Socket         	|5
@@ -57,7 +57,7 @@ PCB	                  |1
 P8285               	|1
 8259                	|1
 8253                	|1
-1.0uF Capacitor     	|8
+0.1uF Capacitor     	|8
 510 ohm Resistor	    |3
 27 ohm Resistor	      |1
 10k ohm Resistor    	|2
@@ -74,7 +74,7 @@ PLCC 68 Socket	      |1
 70208 V40	            |1
 74LS573	              |2
 74LS245	              |1
-1.0uF Capacitor	      |4
+0.1uF Capacitor	      |4
 10k ohm Resistor	    |2
 16 MHz Crystal	      |1
 Keystone 9202	        |1
@@ -93,7 +93,7 @@ PCB	                  |1
 62256	                |1
 AS6C4008	            |1
 28C256	              |1
-1.0uF Capacitor     	|5
+0.1uF Capacitor     	|5
 Keystone 9202       	|1
 Screws              	|2
 
