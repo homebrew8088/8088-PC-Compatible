@@ -11,7 +11,7 @@ OUT DX, AX         ;OUT to port 0XFFFE
 
 This sets the internal interrupt controller as the slave making the external interrupt controller the master.
 
-IO PORT 0XFFFE
+IO PORT 0XFFFE (Default value = 0X20FF)
 Bit 15 |Bit 14       |Bit 13 |Bit 12       |Bit 11 - Bit 0 
 -------|-------------|-------|-------------|-------
 X 	   |Slave/Master |X      |M/IO         |Relocation Address 
