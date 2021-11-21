@@ -21,10 +21,10 @@ PC Speaker                	|1
 27 ohm Resistor           	|4
 33 ohm Resistor           	|1
 10K ohm Resistor	          |7
-4 Pin Resistor Network    	|2
-9 Pin Resistor Network	    |1
+10k ohm 4 Pin Resistor Network  |2
+10k ohm 9 Pin Resistor Network  |1
 0.1uF Capacitor             |26
-14.31818 Crystal            |1
+14.31818 MHz Crystal        |1
 14 Pin DIP Socket         	|3
 16 Pin DIP Socket         	|5
 18 Pin DIP Socket           |1
@@ -33,12 +33,12 @@ PC Speaker                	|1
 74LS139	                    |2
 74LS04                     	|1
 74LS07                     	|1
-74LS573	|1
-74LS74	|1
-P8284	|1
-VT82C42V	|1
-CH376	|1
-USB Drive	|1
+74LS573	                    |1
+74LS74	                    |1
+P8284	                      |1
+VT82C42V                  	|1
+CH376	                      |1
+USB Drive	                  |1
 
 ## 8088 / V20 Card
 Description           | Quantity
@@ -58,10 +58,10 @@ P8285               	|1
 8259                	|1
 8253                	|1
 0.1uF Capacitor     	|8
-510 ohm Resistor	    |3
+510 ohm Resistor	    |2
 27 ohm Resistor	      |1
 10k ohm Resistor    	|2
-24 MHz Crystal      	|1
+~24 MHz Crystal      	|1
 Keystone 9202	        |1
 Screws              	|2
 
