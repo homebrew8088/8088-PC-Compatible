@@ -8,6 +8,8 @@ This is a repository for my 8088 PC Compatible project developed in 2021. The Mo
 
 https://www.homebrew8088.com/
 
+http://www.ebay.com/sch/emil6190/m.html
+
 **Features:**\
 -8088, NEC V20, OR NEC V40 Processor\
 -512k RAM (This can be changed)\
