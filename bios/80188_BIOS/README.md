@@ -7,6 +7,12 @@ For my project the only setup code needed for the 80188 processor is.
 MOV DX, 0XFFFE     ;Set DX to the Relocation Register
 MOV AX, 0X40FF     ;Set AX to the new value
 OUT DX, AX         ;OUT to port 0XFFFE
+
+or 
+
+MOV DX, 0XFFFE     ;Set DX to the Relocation Register
+MOV AX, 0X60FF     ;Set AX to the new value
+OUT DX, AX         ;OUT to port 0XFFFE
 </pre>
 
 This sets the internal interrupt controller as the slave making the external interrupt controller the master.
