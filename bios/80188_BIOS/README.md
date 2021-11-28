@@ -4,8 +4,8 @@ This is my basic BIOS adjusted for the 80188.\
 For my project the only setup code needed for the 80188 processor is.
 
 <pre>
-MOV DX, 0XFFFE     ;Set DX to the Relocation Register\
-MOV AX, 0X40FF     ;Set AX to the new value\
+MOV DX, 0XFFFE     ;Set DX to the Relocation Register
+MOV AX, 0X40FF     ;Set AX to the new value
 OUT DX, AX         ;OUT to port 0XFFFE
 </pre>
 
