@@ -97,3 +97,21 @@ AS6C4008	            |1
 Keystone 9202       	|1
 Screws              	|2
 
+## 8237 DMA Controller Card
+Description           | Quantity
+--------------------- | ------------------------
+PCB	                  |1
+40 Pin DIP Socket     |1
+20 Pin DIP Socket     |1
+16 Pin DIP Socket     |2
+15 Pin DIP Socket     |1
+74LS573		            |1
+74LS670		            |1
+74LS139		            |1
+74LS04		            |1
+8237-5		            |1
+0.1uF Capacitor		    |5
+10k ohm Resistor		  |2
+16 MHz Crystal		    |1
+Keystone 9202		      |1
+Screws		            |2
