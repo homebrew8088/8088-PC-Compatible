@@ -6,8 +6,13 @@
 \
 This is a repository for my 8088 PC Compatible project developed in 2021. The Motherboard is built to be generally PC XT compatible.
 
+**Homepage**\
 https://www.homebrew8088.com/
 
+**Join the discussion group on Discord**\
+https://discord.gg/AswNqwpRGP
+
+**eBay store**\
 http://www.ebay.com/sch/emil6190/m.html
 
 **Features:**\
@@ -27,4 +32,7 @@ The best BIOS to use is located at https://gitlab.com/hakfoo1/v40-bios. This wor
 -note this BIOS will not boot without a video card.
 
 You will find the [Keyboard Fix](https://github.com/homebrew8088/8088-PC-Compatible/tree/main/asm/keyboard%20fix) under asm. Add this to your autoexec.bat if your keyboard is not working after DOS boots up.
+
+
+
 
