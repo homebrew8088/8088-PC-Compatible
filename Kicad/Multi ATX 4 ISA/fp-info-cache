@@ -1,0 +1,141 @@
+32081695800939
+Connector
+Banana_Jack_1Pin
+Single banana socket, footprint - 6mm drill
+banana socket
+0
+1
+1
+Connector
+Banana_Jack_2Pin
+Dual banana socket, footprint - 2 x 6mm drills
+banana socket
+0
+2
+2
+Connector
+Banana_Jack_3Pin
+Triple banana socket, footprint - 3 x 6mm drills
+banana socket
+0
+3
+3
+Connector
+CUI_PD-30
+3 pin connector, PD-30, http://www.cui.com/product/resource/pd-30.pdf
+connector 3-pin PD-30 power DIN
+0
+4
+4
+Connector
+CalTest_CT3151
+Right-angle standard banana jack, http://www.caltestelectronics.com/images/attachments/P315100rH_drawing.pdf
+banana jack horizontal
+0
+4
+1
+Connector
+Connector_SFP_and_Cage
+https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2227302&DocType=Customer+Drawing&DocLang=English
+SFP+ SFP
+0
+40
+21
+Connector
+DTF13-12Px
+http://www.te.com/usa-en/product-DTF13-12PA-G003.html
+DEUTSCH DT header 12 pin 
+0
+12
+12
+Connector
+FanPinHeader_1x03_P2.54mm_Vertical
+3-pin CPU fan Through hole pin header, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 3-pin CPU fan
+0
+3
+3
+Connector
+FanPinHeader_1x04_P2.54mm_Vertical
+4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 4-pin CPU fan
+0
+4
+4
+Connector
+GB042-34S-H10
+http://www.lsmtron.com/pdf/Connector&Antenna_catalog.PDF
+34pin SMD connector 
+0
+34
+34
+Connector
+IHI_B6A-PCB-45_Vertical
+https://lugsdirect.com/PDF_Webprint/B6A-PCB-45-XX(-X).pdf
+connector IHI B6A-PCB-45
+0
+49
+1
+Connector
+JWT_A3963_1x02_P3.96mm_Vertical
+JWT A3963, 3.96mm pitch Pin head connector (http://www.jwt.com.tw/pro_pdf/A3963.pdf)
+connector JWT A3963 pinhead
+0
+2
+2
+Connector
+NS-Tech_Grove_1x04_P2mm_Vertical
+https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
+Grove-1x04
+0
+4
+4
+Connector
+SpringContact_Harwin_S1941-46R
+7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
+spring contact emi emc shield
+0
+1
+1
+Connector
+Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf
+tag connect programming header pogo pins
+0
+6
+6
+Connector
+Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
+tag connect programming header pogo pins
+0
+6
+6
+Connector
+Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-430%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_with_bottom_clip
+Tag-Connect programming header with bottom courtyard for TC2050-NL Clip board ; https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-CLIP_Datasheet_25.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2070-IDC-FP_2x07_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2070-IDC%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+14
+14
