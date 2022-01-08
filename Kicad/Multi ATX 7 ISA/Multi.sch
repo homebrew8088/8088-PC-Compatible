@@ -2587,4 +2587,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10250 7350 50  0001 C CNN
 	4    10250 7350
 	1    0    0    -1  
 $EndComp
+Text Label 9850 13950 0    50   ~ 0
+5+
 $EndSCHEMATC

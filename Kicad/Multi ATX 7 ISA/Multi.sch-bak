@@ -528,17 +528,6 @@ Text Label 8850 12850 2    50   ~ 0
 GND
 Text Label 9850 12850 0    50   ~ 0
 PORT_0X61_EN
-$Comp
-L 74xx:74LS04 U16
-U 4 1 602C2470
-P 10250 7350
-F 0 "U16" H 10250 7667 50  0000 C CNN
-F 1 "74LS04" H 10250 7576 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 10250 7350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10250 7350 50  0001 C CNN
-	4    10250 7350
-	1    0    0    -1  
-$EndComp
 Text Label 9950 7350 2    50   ~ 0
 PORT_0X61_EN
 Text Label 10550 7350 0    50   ~ 0
@@ -553,8 +542,6 @@ Text Label 13725 9750 0    50   ~ 0
 IO_00EX
 Text Label 13725 9850 0    50   ~ 0
 A2
-Text Label 11450 7625 2    50   ~ 0
-IRQ6
 Text Label 13725 10050 0    50   ~ 0
 5+
 Text Label 13725 10150 0    50   ~ 0
@@ -563,21 +550,6 @@ Text Label 13725 10250 0    50   ~ 0
 GND
 Text Label 3650 14050 0    50   ~ 0
 IO_00EX
-$Comp
-L 74xx:74LS04 U16
-U 6 1 6028B501
-P 10250 7675
-F 0 "U16" H 10250 7992 50  0001 C CNN
-F 1 "74LS04" H 10250 7900 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 10250 7675 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10250 7675 50  0001 C CNN
-	6    10250 7675
-	1    0    0    -1  
-$EndComp
-Text Label 13725 9950 0    50   ~ 0
-IN_IRQ6
-Text Label 9950 7675 2    50   ~ 0
-IN_IRQ6
 $Comp
 L Connector:Bus_ISA_8bit J7
 U 1 1 60827AD0
@@ -1896,21 +1868,6 @@ DRQ0
 Text Label 9425 4825 0    50   ~ 0
 DRQ0
 $Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 6104ACCB
-P 11650 7625
-F 0 "J5" H 11730 7617 50  0001 L CNN
-F 1 "IRQ6 EN" H 11730 7571 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11650 7625 50  0001 C CNN
-F 3 "~" H 11650 7625 50  0001 C CNN
-	1    11650 7625
-	1    0    0    -1  
-$EndComp
-Text Label 11450 7725 2    50   ~ 0
-IRQ6_JMP
-Text Label 10550 7675 0    50   ~ 0
-IRQ6_JMP
-$Comp
 L Device:R_Network03 RN1
 U 1 1 610AC981
 P 1425 9650
@@ -2608,4 +2565,26 @@ Text Label 16325 9100 0    50   ~ 0
 GND
 Text Label 15825 9100 2    50   ~ 0
 5+
+$Comp
+L 74xx:74LS04 U16
+U 6 1 6028B501
+P 10250 7675
+F 0 "U16" H 10250 7992 50  0001 C CNN
+F 1 "74LS04" H 10250 7900 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10250 7675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10250 7675 50  0001 C CNN
+	6    10250 7675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U16
+U 4 1 602C2470
+P 10250 7350
+F 0 "U16" H 10250 7667 50  0000 C CNN
+F 1 "74LS04" H 10250 7576 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10250 7350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10250 7350 50  0001 C CNN
+	4    10250 7350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
