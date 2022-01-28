@@ -5249,7 +5249,7 @@
   )
   (gr_line (start 141.986 18.542) (end 141.986 191.262) (layer Edge.Cuts) (width 0.05) (tstamp 61B2A9B7))
   (gr_line (start -40.894 18.542) (end -40.894 191.262) (layer Edge.Cuts) (width 0.05))
-  (gr_text "EMM COMPUTERS\n8-BIT MAIN BOARD\nCopyright (C) 2021 EMM\nwww.homebrew8088.com\n" (at -18.796 24.892) (layer F.SilkS) (tstamp 5FCDB577)
+  (gr_text "EMM COMPUTERS\n8-BIT MAIN BOARD\nCopyright (C) 2022 EMM\nwww.homebrew8088.com\n" (at -18.796 24.892) (layer F.SilkS) (tstamp 5FCDB577)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 48.768 183.642) (end 54.864 183.642) (layer Dwgs.User) (width 0.15))
