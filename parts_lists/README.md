@@ -23,17 +23,18 @@ PC Speaker                	|1
 10K ohm Resistor	          |7
 10k ohm 4 Pin Resistor Network  |2
 10k ohm 9 Pin Resistor Network  |1
-0.1uF Capacitor             |26
+0.1uF Capacitor             |28
 14.31818 MHz Crystal        |1
 14 Pin DIP Socket         	|3
 16 Pin DIP Socket         	|5
 18 Pin DIP Socket           |1
 20 Pin DIP Socket         	|1
 74LS138                   	|3
-74LS139	                    |2
+74LS139	                    |3
 74LS04                     	|1
 74LS07                     	|1
 74LS573	                    |1
+74LS245                     |1
 74LS74	                    |1
 P8284	                      |1
 VT82C42V                  	|1
