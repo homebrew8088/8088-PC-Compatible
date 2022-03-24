@@ -413,9 +413,9 @@ Text Label 4625 5500 2    50   ~ 0
 READY
 Text Label 4625 5400 2    50   ~ 0
 IO_000X
-Text Label 2250 5575 2    50   ~ 0
+Text Label 3875 4875 2    50   ~ 0
 CLK88
-Text Label 2850 5575 0    50   ~ 0
+Text Label 3875 5175 0    50   ~ 0
 CLK88_1
 Text Label 4625 5600 2    50   ~ 0
 CLK88_1
@@ -573,4 +573,15 @@ Text Label 3800 6350 0    50   ~ 0
 GND
 Text Label 3800 6050 2    50   ~ 0
 DRQ0_
+$Comp
+L Device:R R3
+U 1 1 623CE352
+P 3875 5025
+F 0 "R3" H 3945 5071 50  0000 L CNN
+F 1 "27 ohm" H 3945 4980 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3805 5025 50  0001 C CNN
+F 3 "~" H 3875 5025 50  0001 C CNN
+	1    3875 5025
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
