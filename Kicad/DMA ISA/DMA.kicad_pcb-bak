@@ -1220,7 +1220,7 @@
   (gr_text "NO DACK0/REF CON" (at 68.82638 83.2866 270) (layer F.SilkS)
     (effects (font (size 0.254 0.254) (thickness 0.0635)))
   )
-  (gr_text "EMM COMPUTERS\n8237 DMA CONTROLLER\nCopyright (C) 2021 EMM\nwww.homebrew8088.com" (at 55.11038 63.2206) (layer F.SilkS) (tstamp 61465561)
+  (gr_text "EMM COMPUTERS\n8237 DMA CONTROLLER\nCopyright (C) 2022 EMM\nwww.homebrew8088.com" (at 55.11038 63.2206) (layer F.SilkS) (tstamp 61465561)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_line (start 163.94938 133.5786) (end 163.94938 125.9586) (layer Edge.Cuts) (width 0.05) (tstamp 61463983))
