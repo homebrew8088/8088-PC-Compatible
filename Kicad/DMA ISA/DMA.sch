@@ -164,8 +164,8 @@ L 74xx:74LS670 U4
 U 1 1 610632BC
 P 10425 6350
 F 0 "U4" H 10425 7331 50  0000 C CNN
-F 1 "74LS04" H 10425 7240 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 10425 6350 50  0001 C CNN
+F 1 "74LS670" H 10425 7240 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 10425 6350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10425 6350 50  0001 C CNN
 	1    10425 6350
 	1    0    0    -1  
@@ -186,8 +186,6 @@ Text Label 4625 5000 2    50   ~ 0
 A1
 Text Label 4625 4900 2    50   ~ 0
 A0
-Text Label 10450 8425 0    50   ~ 0
-5+
 Text Label 10450 10025 0    50   ~ 0
 GND
 Text Label 10575 8125 0    50   ~ 0
@@ -295,10 +293,10 @@ RESET
 Text Label 3150 5025 0    50   ~ 0
 GND
 $Comp
-L pspice:CAP C8
+L pspice:CAP C5
 U 1 1 61169660
 P 2900 5025
-F 0 "C8" V 2585 5025 50  0000 C CNN
+F 0 "C5" V 2585 5025 50  0000 C CNN
 F 1 "0.1uF" V 2676 5025 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2900 5025 50  0001 C CNN
 F 3 "~" H 2900 5025 50  0001 C CNN
@@ -466,21 +464,6 @@ Text Label 10950 9025 0    50   ~ 0
 A12
 Text Label 10950 8925 0    50   ~ 0
 A13
-Text Label 10950 8825 0    50   ~ 0
-A14
-Text Label 10950 8725 0    50   ~ 0
-A15
-$Comp
-L 74xx:74LS573 U5
-U 1 1 610661C4
-P 10450 9225
-F 0 "U5" H 10450 10206 50  0000 C CNN
-F 1 "74LS139" H 10450 10115 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 10450 9225 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 10450 9225 50  0001 C CNN
-	1    10450 9225
-	1    0    0    -1  
-$EndComp
 Text Label 10950 9225 0    50   ~ 0
 A10
 Text Label 10950 9325 0    50   ~ 0
@@ -584,4 +567,21 @@ F 3 "~" H 3875 5025 50  0001 C CNN
 	1    3875 5025
 	-1   0    0    1   
 $EndComp
+$Comp
+L 74xx:74LS573 U5
+U 1 1 610661C4
+P 10450 9225
+F 0 "U5" H 10450 10206 50  0000 C CNN
+F 1 "74LS573" H 10450 10115 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 10450 9225 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 10450 9225 50  0001 C CNN
+	1    10450 9225
+	1    0    0    -1  
+$EndComp
+Text Label 10950 8725 0    50   ~ 0
+A15
+Text Label 10950 8825 0    50   ~ 0
+A14
+Text Label 10450 8425 0    50   ~ 0
+5+
 $EndSCHEMATC
