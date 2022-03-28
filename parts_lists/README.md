@@ -8,14 +8,13 @@ PCB	                        |1
 62 Pin Edge Card Connector 	|7
 16 Pin Edge Card Connector 	|2
 PLCC 44                    	|1
-PS/2                      	|1
+PS/2 Connector             	|1
 24 Pin ATX Power Connector	|1
 16 Right Angle Pin Header	  |1
 6x6x4mm Button	            |1
 8x8mm Push Pull Button	    |1
 PC Speaker                	|1
 1x2 Pin Header            	|2
-2 Pin Jumper              	|1
 3mm Led	                    |1
 510 ohm Resistor	          |3
 27 ohm Resistor           	|4
