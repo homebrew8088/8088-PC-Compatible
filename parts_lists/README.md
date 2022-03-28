@@ -1,7 +1,7 @@
 # Parts List
 This list was last updated 17 Nov 21
 
-## Main Board
+## Main Board 7 Slot
 Description                 | Quantity
 --------------------------- | ------------------------
 PCB	                        |1
@@ -26,9 +26,9 @@ PC Speaker                	|1
 0.1uF Capacitor             |28
 14.31818 MHz Crystal        |1
 14 Pin DIP Socket         	|3
-16 Pin DIP Socket         	|5
+16 Pin DIP Socket         	|6
 18 Pin DIP Socket           |1
-20 Pin DIP Socket         	|1
+20 Pin DIP Socket         	|2
 74LS138                   	|3
 74LS139	                    |3
 74LS04                     	|1
@@ -98,6 +98,23 @@ AS6C4008	            |1
 Keystone 9202       	|1
 Screws              	|2
 
+## 640K RAM / 32K ROM Card
+Description           | Quantity
+--------------------- | ------------------------
+PCB	                  |1
+16 Pin DIP Socket     |2
+28 Pin DIP Socket	    |2
+32 Pin DIP Socket	    |2
+74LS138	              |1
+74LS139	              |1
+AS6C4008	            |1
+AS6C1008	            |1
+62256	                |1
+28C256	              |1
+0.1uF Capacitor     	|6
+Keystone 9202       	|1
+Screws              	|2
+
 ## 8237 DMA Controller Card
 Description           | Quantity
 --------------------- | ------------------------
@@ -105,7 +122,7 @@ PCB	                  |1
 40 Pin DIP Socket     |1
 20 Pin DIP Socket     |1
 16 Pin DIP Socket     |2
-15 Pin DIP Socket     |1
+14 Pin DIP Socket     |1
 74LS573		            |1
 74LS670		            |1
 74LS139		            |1
@@ -113,6 +130,5 @@ PCB	                  |1
 8237-5		            |1
 0.1uF Capacitor		    |5
 10k ohm Resistor		  |2
-16 MHz Crystal		    |1
 Keystone 9202		      |1
 Screws		            |2
