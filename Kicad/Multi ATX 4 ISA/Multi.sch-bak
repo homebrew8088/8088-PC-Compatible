@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L 74xx:74LS139 U117
 U 2 1 5FEFF66E
-P 7075 13325
-F 0 "U117" H 7075 13692 50  0000 C CNN
-F 1 "74LS139" H 7075 13601 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 7075 13325 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7075 13325 50  0001 C CNN
-	2    7075 13325
+P 5525 13250
+F 0 "U117" H 5525 13617 50  0000 C CNN
+F 1 "74LS139" H 5525 13526 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5525 13250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 5525 13250 50  0001 C CNN
+	2    5525 13250
 	1    0    0    -1  
 $EndComp
 Text Label 8925 4425 2    50   ~ 0
@@ -138,29 +138,29 @@ Text Label 3300 4000 0    50   ~ 0
 A0
 Text Label 3300 1000 0    50   ~ 0
 CH_CK
-Text Label 6575 13225 2    50   ~ 0
+Text Label 5025 13150 2    50   ~ 0
 GND
-Text Label 6575 13525 2    50   ~ 0
+Text Label 5025 13450 2    50   ~ 0
 SPK_EN_
-Text Label 6575 13325 2    50   ~ 0
+Text Label 5025 13250 2    50   ~ 0
 SPK_OUT
-Text Label 7575 13225 0    50   ~ 0
+Text Label 6025 13150 0    50   ~ 0
 SPK_PIN
-Text Label 11400 13525 2    50   ~ 0
+Text Label 13025 13425 2    50   ~ 0
 D0
-Text Label 11400 13425 2    50   ~ 0
+Text Label 13025 13325 2    50   ~ 0
 D1
-Text Label 11400 13325 2    50   ~ 0
+Text Label 13025 13225 2    50   ~ 0
 D2
-Text Label 11400 13225 2    50   ~ 0
+Text Label 13025 13125 2    50   ~ 0
 D3
-Text Label 11400 13125 2    50   ~ 0
+Text Label 13025 13025 2    50   ~ 0
 D4
-Text Label 11400 13025 2    50   ~ 0
+Text Label 13025 12925 2    50   ~ 0
 D5
-Text Label 11400 12925 2    50   ~ 0
+Text Label 13025 12825 2    50   ~ 0
 D6
-Text Label 11400 12825 2    50   ~ 0
+Text Label 13025 12725 2    50   ~ 0
 D7
 $Comp
 L Switch:SW_Push SW1
@@ -224,54 +224,54 @@ Text Label 6400 8725 2    50   ~ 0
 GND
 Text Label 7200 8725 0    50   ~ 0
 5+
-Text Label 6775 11475 2    50   ~ 0
+Text Label 5225 11400 2    50   ~ 0
 SPK_PIN
 $Comp
 L 74xx:74LS138 U13
 U 1 1 5FF39086
-P 5200 13525
-F 0 "U13" H 5200 14306 50  0001 C CNN
-F 1 "74LS138" H 5200 14214 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 5200 13525 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 5200 13525 50  0001 C CNN
-	1    5200 13525
+P 3275 13375
+F 0 "U13" H 3275 14156 50  0001 C CNN
+F 1 "74LS138" H 3275 14064 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3275 13375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 3275 13375 50  0001 C CNN
+	1    3275 13375
 	1    0    0    -1  
 $EndComp
-Text Label 5200 12925 2    50   ~ 0
+Text Label 3275 12775 2    50   ~ 0
 5+
-Text Label 3500 12900 2    50   ~ 0
+Text Label 1575 12750 2    50   ~ 0
 5+
-Text Label 3000 13800 2    50   ~ 0
+Text Label 1075 13650 2    50   ~ 0
 IO_0XXX
-Text Label 3000 13900 2    50   ~ 0
+Text Label 1075 13750 2    50   ~ 0
 A11
-Text Label 3000 13700 2    50   ~ 0
+Text Label 1075 13550 2    50   ~ 0
 5+
-Text Label 3000 13400 2    50   ~ 0
+Text Label 1075 13250 2    50   ~ 0
 A10
-Text Label 3000 13300 2    50   ~ 0
+Text Label 1075 13150 2    50   ~ 0
 A9
-Text Label 3000 13200 2    50   ~ 0
+Text Label 1075 13050 2    50   ~ 0
 A8
-Text Label 3500 14200 2    50   ~ 0
+Text Label 1575 14050 2    50   ~ 0
 GND
-Text Label 4000 13200 0    50   ~ 0
+Text Label 2075 13050 0    50   ~ 0
 IO_00XX
-Text Label 4700 13825 2    50   ~ 0
+Text Label 2775 13675 2    50   ~ 0
 IO_00XX
-Text Label 4700 13925 2    50   ~ 0
+Text Label 2775 13775 2    50   ~ 0
 A4
-Text Label 4700 13725 2    50   ~ 0
+Text Label 2775 13575 2    50   ~ 0
 5+
-Text Label 4700 13425 2    50   ~ 0
+Text Label 2775 13275 2    50   ~ 0
 A7
-Text Label 4700 13325 2    50   ~ 0
+Text Label 2775 13175 2    50   ~ 0
 A6
-Text Label 4700 13225 2    50   ~ 0
+Text Label 2775 13075 2    50   ~ 0
 A5
-Text Label 5200 14225 2    50   ~ 0
+Text Label 3275 14075 2    50   ~ 0
 GND
-Text Label 5700 13525 0    50   ~ 0
+Text Label 3775 13375 0    50   ~ 0
 IO_006X
 $Comp
 L Device:R R1
@@ -306,21 +306,21 @@ Text Label 2025 4650 0    50   ~ 0
 $Comp
 L Device:R U3
 U 1 1 5FF4B88D
-P 6925 11475
-F 0 "U3" H 6995 11521 50  0001 L CNN
-F 1 "33 ohm" V 6810 11475 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6855 11475 50  0001 C CNN
-F 3 "~" H 6925 11475 50  0001 C CNN
-	1    6925 11475
+P 5375 11400
+F 0 "U3" H 5445 11446 50  0001 L CNN
+F 1 "33 ohm" V 5260 11400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5305 11400 50  0001 C CNN
+F 3 "~" H 5375 11400 50  0001 C CNN
+	1    5375 11400
 	0    1    1    0   
 $EndComp
-Text Label 7075 11475 0    50   ~ 0
+Text Label 5525 11400 0    50   ~ 0
 SPK_PIN_O
-Text Label 6975 11725 2    50   ~ 0
+Text Label 5425 11650 2    50   ~ 0
 SPK_PIN_O
-Text Label 6975 11925 2    50   ~ 0
+Text Label 5425 11850 2    50   ~ 0
 GND
-Text Label 6975 12025 2    50   ~ 0
+Text Label 5425 11950 2    50   ~ 0
 5+
 $Comp
 L 74xx:74LS04 U16
@@ -381,105 +381,105 @@ NMI_EN_139
 $Comp
 L 74xx:74LS139 U17
 U 1 1 5FF5A2F8
-P 9175 12725
-F 0 "U17" H 9175 13092 50  0001 C CNN
-F 1 "74LS139" H 9175 13000 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 9175 12725 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 9175 12725 50  0001 C CNN
-	1    9175 12725
+P 7850 12675
+F 0 "U17" H 7850 13042 50  0001 C CNN
+F 1 "74LS139" H 7850 12950 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 7850 12675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7850 12675 50  0001 C CNN
+	1    7850 12675
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS139 U17
 U 3 1 5FF5AFDE
-P 9125 13975
-F 0 "U17" V 8758 13975 50  0001 C CNN
-F 1 "74LS139" V 8850 13975 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 9125 13975 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 9125 13975 50  0001 C CNN
-	3    9125 13975
+P 7800 13925
+F 0 "U17" V 7433 13925 50  0001 C CNN
+F 1 "74LS139" V 7525 13925 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 7800 13925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7800 13925 50  0001 C CNN
+	3    7800 13925
 	0    1    1    0   
 $EndComp
-Text Label 8625 13975 2    50   ~ 0
+Text Label 7300 13925 2    50   ~ 0
 GND
-Text Label 9625 13975 0    50   ~ 0
+Text Label 8300 13925 0    50   ~ 0
 5+
-Text Label 9675 12625 0    50   ~ 0
+Text Label 8350 12575 0    50   ~ 0
 NMI_INPUT
-Text Label 8675 12625 2    50   ~ 0
+Text Label 7350 12575 2    50   ~ 0
 GND
-Text Label 8675 12925 2    50   ~ 0
+Text Label 7350 12875 2    50   ~ 0
 NMI_EN_139
-Text Label 8675 12725 2    50   ~ 0
+Text Label 7350 12675 2    50   ~ 0
 CH_CK
 Text Label 850  4775 2    50   ~ 0
 CH_CK
 $Comp
 L 74xx:74LS573 U15
 U 1 1 60133ADF
-P 11900 13325
-F 0 "U15" H 11900 14306 50  0000 C CNN
-F 1 "74LS573" H 11900 14215 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm" H 11900 13325 50  0001 C CNN
-F 3 "74xx/74hc573.pdf" H 11900 13325 50  0001 C CNN
-	1    11900 13325
+P 13525 13225
+F 0 "U15" H 13525 14206 50  0000 C CNN
+F 1 "74LS573" H 13525 14115 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 13525 13225 50  0001 C CNN
+F 3 "74xx/74hc573.pdf" H 13525 13225 50  0001 C CNN
+	1    13525 13225
 	1    0    0    -1  
 $EndComp
-Text Label 11400 13825 2    50   ~ 0
+Text Label 13025 13725 2    50   ~ 0
 GND
-Text Label 11900 14125 0    50   ~ 0
+Text Label 13525 14025 0    50   ~ 0
 GND
-Text Label 11900 12525 0    50   ~ 0
+Text Label 13525 12425 0    50   ~ 0
 5+
-Text Label 12400 13525 0    50   ~ 0
+Text Label 14025 13425 0    50   ~ 0
 SPK_GO
-Text Label 12400 13425 0    50   ~ 0
+Text Label 14025 13325 0    50   ~ 0
 SPK_EN
-Text Label 12400 13025 0    50   ~ 0
+Text Label 14025 12925 0    50   ~ 0
 NMI_EN
-Text Label 8675 13525 2    50   ~ 0
+Text Label 7350 13475 2    50   ~ 0
 IO_006X
-Text Label 8675 13325 2    50   ~ 0
+Text Label 7350 13275 2    50   ~ 0
 A0
-Text Label 8675 13225 2    50   ~ 0
+Text Label 7350 13175 2    50   ~ 0
 A1
-Text Label 9675 13225 0    50   ~ 0
+Text Label 8350 13175 0    50   ~ 0
 IO_0060
-Text Label 9675 13325 0    50   ~ 0
+Text Label 8350 13275 0    50   ~ 0
 IO_0061
 $Comp
 L 74xx:74LS139 U117
 U 1 1 60244EB2
-P 7075 12725
-F 0 "U117" H 7075 13092 50  0000 C CNN
-F 1 "74LS139" H 7075 13001 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 7075 12725 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7075 12725 50  0001 C CNN
-	1    7075 12725
+P 5525 12650
+F 0 "U117" H 5525 13017 50  0000 C CNN
+F 1 "74LS139" H 5525 12926 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5525 12650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 5525 12650 50  0001 C CNN
+	1    5525 12650
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS139 U117
 U 3 1 60245F47
-P 7075 14000
-F 0 "U117" V 6708 14000 50  0000 C CNN
-F 1 "74LS139" V 6799 14000 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 7075 14000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7075 14000 50  0001 C CNN
-	3    7075 14000
+P 5525 13925
+F 0 "U117" V 5158 13925 50  0000 C CNN
+F 1 "74LS139" V 5249 13925 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5525 13925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 5525 13925 50  0001 C CNN
+	3    5525 13925
 	0    1    1    0   
 $EndComp
-Text Label 6575 14000 2    50   ~ 0
+Text Label 5025 13925 2    50   ~ 0
 GND
-Text Label 7575 14000 0    50   ~ 0
+Text Label 6025 13925 0    50   ~ 0
 5+
-Text Label 6575 12925 2    50   ~ 0
+Text Label 9100 12900 2    50   ~ 0
 IO_0061
-Text Label 6575 12725 2    50   ~ 0
+Text Label 9100 12700 2    50   ~ 0
 IOWR
-Text Label 6575 12625 2    50   ~ 0
+Text Label 9100 12600 2    50   ~ 0
 GND
-Text Label 7575 12625 0    50   ~ 0
+Text Label 10100 12600 0    50   ~ 0
 PORT_0X61_EN
 $Comp
 L 74xx:74LS04 U16
@@ -496,7 +496,7 @@ Text Label 14550 7775 2    50   ~ 0
 PORT_0X61_EN
 Text Label 15150 7775 0    50   ~ 0
 PORT_0X61_CS
-Text Label 11400 13725 2    50   ~ 0
+Text Label 13025 13625 2    50   ~ 0
 PORT_0X61_CS
 Text Label 18325 9975 0    50   ~ 0
 IOWR
@@ -506,15 +506,13 @@ Text Label 18325 10175 0    50   ~ 0
 IO_00EX
 Text Label 18325 10275 0    50   ~ 0
 A2
-Text Label 16050 8050 2    50   ~ 0
-IRQ6
 Text Label 18325 10475 0    50   ~ 0
 5+
 Text Label 18325 10575 0    50   ~ 0
 GND
 Text Label 18325 10675 0    50   ~ 0
 GND
-Text Label 5700 13925 0    50   ~ 0
+Text Label 3775 13775 0    50   ~ 0
 IO_00EX
 $Comp
 L 74xx:74LS04 U16
@@ -528,8 +526,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 14850 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 18325 10375 0    50   ~ 0
-IN_IRQ6
-Text Label 14550 8100 2    50   ~ 0
 IN_IRQ6
 $Comp
 L Connector:Bus_ISA_8bit J7
@@ -998,55 +994,55 @@ Text Label 14725 10825 2    50   ~ 0
 5+
 Text Label 15325 10825 0    50   ~ 0
 GND
-Text Label 1900 14200 2    50   ~ 0
+Text Label 2300 11825 2    50   ~ 0
 GND
-Text Label 2400 13200 0    50   ~ 0
+Text Label 2800 10825 0    50   ~ 0
 IO_0XXX
-Text Label 1400 13200 2    50   ~ 0
+Text Label 1800 10825 2    50   ~ 0
 A12
-Text Label 1400 13300 2    50   ~ 0
+Text Label 1800 10925 2    50   ~ 0
 A13
-Text Label 1400 13400 2    50   ~ 0
+Text Label 1800 11025 2    50   ~ 0
 A14
-Text Label 1400 13700 2    50   ~ 0
+Text Label 1800 11325 2    50   ~ 0
 5+
-Text Label 1400 13800 2    50   ~ 0
+Text Label 1800 11425 2    50   ~ 0
 HOLDA
-Text Label 1400 13900 2    50   ~ 0
+Text Label 1800 11525 2    50   ~ 0
 A15
-Text Label 1900 12900 2    50   ~ 0
+Text Label 2300 10525 2    50   ~ 0
 5+
 $Comp
 L 74xx:74LS138 U12
 U 1 1 5FF38345
-P 3500 13500
-F 0 "U12" H 3500 14281 50  0001 C CNN
-F 1 "74LS138" H 3500 14189 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3500 13500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 3500 13500 50  0001 C CNN
-	1    3500 13500
+P 1575 13350
+F 0 "U12" H 1575 14131 50  0001 C CNN
+F 1 "74LS138" H 1575 14039 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 1575 13350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 1575 13350 50  0001 C CNN
+	1    1575 13350
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS138 U9
 U 1 1 5FF377FE
-P 1900 13500
-F 0 "U9" H 1900 14281 50  0001 C CNN
-F 1 "74LS138" H 1900 14189 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 1900 13500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 1900 13500 50  0001 C CNN
-	1    1900 13500
+P 2300 11125
+F 0 "U9" H 2300 11906 50  0001 C CNN
+F 1 "74LS138" H 2300 11814 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2300 11125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 2300 11125 50  0001 C CNN
+	1    2300 11125
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS139 U17
 U 2 1 60138DE8
-P 9175 13325
-F 0 "U17" H 9175 13692 50  0000 C CNN
-F 1 "74LS139" H 9175 13601 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 9175 13325 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 9175 13325 50  0001 C CNN
-	2    9175 13325
+P 7850 13275
+F 0 "U17" H 7850 13642 50  0000 C CNN
+F 1 "74LS139" H 7850 13551 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 7850 13275 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7850 13275 50  0001 C CNN
+	2    7850 13275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1263,10 +1259,10 @@ D1
 Text Label 17825 10675 2    50   ~ 0
 D0
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J4
+L Connector_Generic:Conn_02x08_Odd_Even CH376
 U 1 1 60303B9D
 P 18025 10275
-F 0 "J4" H 18075 10792 50  0000 C CNN
+F 0 "CH376" H 18075 10792 50  0000 C CNN
 F 1 "PORT 0XE0" H 18075 10701 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 18025 10275 50  0001 C CNN
 F 3 "~" H 18025 10275 50  0001 C CNN
@@ -1352,12 +1348,12 @@ GND
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5FF4D2DE
-P 7175 11825
-F 0 "J3" H 7255 11817 50  0001 L CNN
-F 1 "SPK" H 7255 11771 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7175 11825 50  0001 C CNN
-F 3 "~" H 7175 11825 50  0001 C CNN
-	1    7175 11825
+P 5625 11750
+F 0 "J3" H 5705 11742 50  0001 L CNN
+F 1 "SPK" H 5705 11696 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5625 11750 50  0001 C CNN
+F 3 "~" H 5625 11750 50  0001 C CNN
+	1    5625 11750
 	1    0    0    -1  
 $EndComp
 Text Label 6975 6725 2    50   ~ 0
@@ -1436,13 +1432,13 @@ Text Label 8925 4625 2    50   ~ 0
 IO_002X
 Text Label 8925 4525 2    50   ~ 0
 IO_000X
-Text Label 5700 13625 0    50   ~ 0
+Text Label 3775 13475 0    50   ~ 0
 IO_008X
-Text Label 5700 13425 0    50   ~ 0
+Text Label 3775 13275 0    50   ~ 0
 IO_004X
-Text Label 5700 13325 0    50   ~ 0
+Text Label 3775 13175 0    50   ~ 0
 IO_002X
-Text Label 5700 13225 0    50   ~ 0
+Text Label 3775 13075 0    50   ~ 0
 IO_000X
 Text Label 8925 4825 2    50   ~ 0
 IO_006X
@@ -1632,80 +1628,28 @@ F 3 "~" H 1000 4975 50  0001 C CNN
 	1    1000 4975
 	0    1    1    0   
 $EndComp
-Text Label 1175 5825 0    50   ~ 0
+Text Label 1150 6225 0    50   ~ 0
 GND
-$Comp
-L Device:R R10
-U 1 1 61051488
-P 1025 5825
-F 0 "R10" H 1095 5871 50  0001 L CNN
-F 1 "10k ohm" V 925 5675 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 955 5825 50  0001 C CNN
-F 3 "~" H 1025 5825 50  0001 C CNN
-	1    1025 5825
-	0    1    1    0   
-$EndComp
-Text Label 1175 5625 0    50   ~ 0
-GND
-$Comp
-L Device:R R11
-U 1 1 610200F2
-P 1025 5625
-F 0 "R11" H 1095 5671 50  0001 L CNN
-F 1 "10k ohm" V 925 5475 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 955 5625 50  0001 C CNN
-F 3 "~" H 1025 5625 50  0001 C CNN
-	1    1025 5625
-	0    1    1    0   
-$EndComp
 Text Label 850  5200 2    50   ~ 0
 TC
 Text Label 850  4975 2    50   ~ 0
 AEN
-Text Label 875  5825 2    50   ~ 0
+Text Label 750  6325 2    50   ~ 0
 HOLD
-Text Label 875  5625 2    50   ~ 0
+Text Label 750  6225 2    50   ~ 0
 NMI_EN
 Text Label 2200 5325 0    50   ~ 0
 GND
-Text Label 1150 5400 0    50   ~ 0
-GND
-$Comp
-L Device:R R15
-U 1 1 6102253E
-P 1000 5400
-F 0 "R15" H 1070 5446 50  0001 L CNN
-F 1 "10k ohm" V 900 5250 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 930 5400 50  0001 C CNN
-F 3 "~" H 1000 5400 50  0001 C CNN
-	1    1000 5400
-	0    1    1    0   
-$EndComp
 Text Label 1800 5325 2    50   ~ 0
 DRQ1
 Text Label 1800 5425 2    50   ~ 0
 DRQ3
 Text Label 1800 5525 2    50   ~ 0
 DRQ2
-Text Label 850  5400 2    50   ~ 0
+Text Label 750  6425 2    50   ~ 0
 DRQ0
 Text Label 9425 4825 0    50   ~ 0
 DRQ0
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 6104ACCB
-P 16250 8050
-F 0 "J5" H 16330 8042 50  0001 L CNN
-F 1 "IRQ6 EN" H 16330 7996 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 16250 8050 50  0001 C CNN
-F 3 "~" H 16250 8050 50  0001 C CNN
-	1    16250 8050
-	1    0    0    -1  
-$EndComp
-Text Label 16050 8150 2    50   ~ 0
-IRQ6_JMP
-Text Label 15150 8100 0    50   ~ 0
-IRQ6_JMP
 $Comp
 L Device:R_Network03 RN1
 U 1 1 610AC981
@@ -1960,4 +1904,121 @@ Text Label 17075 5100 2    50   ~ 0
 5+
 Text Label 17075 5000 2    50   ~ 0
 GND
+$Comp
+L 74xx:74LS245 U2
+U 1 1 6241FD68
+P 11400 13175
+F 0 "U2" H 11400 14156 50  0000 C CNN
+F 1 "74LS245" H 11400 14065 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 11400 13175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 11400 13175 50  0001 C CNN
+	1    11400 13175
+	1    0    0    -1  
+$EndComp
+Text Label 10900 13375 2    50   ~ 0
+D0
+Text Label 10900 13275 2    50   ~ 0
+D1
+Text Label 10900 13175 2    50   ~ 0
+D2
+Text Label 10900 13075 2    50   ~ 0
+D3
+Text Label 10900 12975 2    50   ~ 0
+D4
+Text Label 10900 12875 2    50   ~ 0
+D5
+Text Label 10900 12775 2    50   ~ 0
+D6
+Text Label 10900 12675 2    50   ~ 0
+D7
+Text Label 14025 12725 0    50   ~ 0
+PORT_61_7
+Text Label 14025 12825 0    50   ~ 0
+PORT_61_6
+Text Label 14025 13025 0    50   ~ 0
+PORT_61_4
+Text Label 14025 13125 0    50   ~ 0
+PORT_61_3
+Text Label 14025 13225 0    50   ~ 0
+PORT_61_2
+Text Label 11900 13375 0    50   ~ 0
+SPK_GO
+Text Label 11900 13275 0    50   ~ 0
+SPK_EN
+Text Label 11900 12875 0    50   ~ 0
+NMI_EN
+Text Label 11900 12675 0    50   ~ 0
+PORT_61_7
+Text Label 11900 12775 0    50   ~ 0
+PORT_61_6
+Text Label 11900 12975 0    50   ~ 0
+PORT_61_4
+Text Label 11900 13075 0    50   ~ 0
+PORT_61_3
+Text Label 11900 13175 0    50   ~ 0
+PORT_61_2
+Text Label 11400 12375 0    50   ~ 0
+5+
+Text Label 11400 13975 0    50   ~ 0
+GND
+Text Label 10900 13675 2    50   ~ 0
+PORT_61_RD
+Text Label 10900 13575 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS139 U1
+U 1 1 6242E5F1
+P 9600 12700
+F 0 "U1" H 9600 13067 50  0000 C CNN
+F 1 "74LS139" H 9600 12976 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9600 12700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 9600 12700 50  0001 C CNN
+	1    9600 12700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U1
+U 2 1 624308B9
+P 9600 13200
+F 0 "U1" H 9600 13567 50  0000 C CNN
+F 1 "74LS139" H 9600 13476 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9600 13200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 9600 13200 50  0001 C CNN
+	2    9600 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U1
+U 3 1 62430F1D
+P 9600 13700
+F 0 "U1" V 9233 13700 50  0000 C CNN
+F 1 "74LS139" V 9324 13700 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9600 13700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 9600 13700 50  0001 C CNN
+	3    9600 13700
+	0    1    1    0   
+$EndComp
+Text Label 9100 13100 2    50   ~ 0
+GND
+Text Label 9100 13200 2    50   ~ 0
+IORD
+Text Label 9100 13400 2    50   ~ 0
+IO_0061
+Text Label 9100 13700 2    50   ~ 0
+GND
+Text Label 10100 13700 0    50   ~ 0
+5+
+Text Label 10100 13100 0    50   ~ 0
+PORT_61_RD
+$Comp
+L Device:R_Network03 RN3
+U 1 1 62440244
+P 950 6325
+F 0 "RN3" V 633 6325 50  0000 C CNN
+F 1 "10k ohm" V 724 6325 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 1225 6325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 950 6325 50  0001 C CNN
+	1    950  6325
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
