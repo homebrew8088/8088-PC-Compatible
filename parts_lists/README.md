@@ -14,7 +14,7 @@ PS/2 Connector             	|1
 6x6x4mm Button	            |1
 8x8mm Push Pull Button	    |1
 PC Speaker                	|1
-1x2 Pin Header            	|2
+1x2 Pin Header            	|1
 3mm Led	                    |1
 510 ohm Resistor	          |3
 27 ohm Resistor           	|4
