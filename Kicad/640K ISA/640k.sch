@@ -153,14 +153,14 @@ F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 12500 10500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Memory_RAM:AS6C4008-55PCN U3
+L Memory_RAM:AS6C4008-55PCN U4
 U 1 1 6106DB5F
-P 14950 7375
-F 0 "U3" H 14950 8656 50  0000 C CNN
-F 1 "AS6C4008" H 14950 8565 50  0000 C CNN
-F 2 "Package_DIP:DIP-32_W15.24mm" H 14950 7475 50  0001 C CNN
-F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 14950 7475 50  0001 C CNN
-	1    14950 7375
+P 16725 7350
+F 0 "U4" H 16725 8631 50  0000 C CNN
+F 1 "AS6C4008" H 16725 8540 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 16725 7450 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 16725 7450 50  0001 C CNN
+	1    16725 7350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -181,23 +181,23 @@ Text Label 12325 5675 2    50   ~ 0
 $Comp
 L pspice:CAP C3
 U 1 1 61060B29
-P 15125 5750
-F 0 "C3" V 14810 5750 50  0000 C CNN
-F 1 "0.1uF" V 14901 5750 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 15125 5750 50  0001 C CNN
-F 3 "~" H 15125 5750 50  0001 C CNN
-	1    15125 5750
+P 14725 5725
+F 0 "C3" V 14410 5725 50  0000 C CNN
+F 1 "0.1uF" V 14501 5725 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 14725 5725 50  0001 C CNN
+F 3 "~" H 14725 5725 50  0001 C CNN
+	1    14725 5725
 	0    1    1    0   
 $EndComp
-Text Label 15375 5750 0    50   ~ 0
+Text Label 14975 5725 0    50   ~ 0
 GND
-Text Label 14875 5750 2    50   ~ 0
+Text Label 14475 5725 2    50   ~ 0
 5+
 $Comp
-L 74xx:74LS138 U5
+L 74xx:74LS138 U6
 U 1 1 61061086
 P 15000 3675
-F 0 "U5" H 15000 4456 50  0000 C CNN
+F 0 "U6" H 15000 4456 50  0000 C CNN
 F 1 "74LS138" H 15000 4365 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 15000 3675 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 15000 3675 50  0001 C CNN
@@ -205,10 +205,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 15000 3675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS139 U4
+L 74xx:74LS139 U5
 U 1 1 610617D6
 P 12075 3225
-F 0 "U4" H 12075 3592 50  0000 C CNN
+F 0 "U5" H 12075 3592 50  0000 C CNN
 F 1 "74LS139" H 12075 3501 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 12075 3225 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 12075 3225 50  0001 C CNN
@@ -216,10 +216,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 12075 3225 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS139 U4
+L 74xx:74LS139 U5
 U 3 1 61062281
 P 12075 4525
-F 0 "U4" V 11708 4525 50  0000 C CNN
+F 0 "U5" V 11708 4525 50  0000 C CNN
 F 1 "74LS139" V 11799 4525 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 12075 4525 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 12075 4525 50  0001 C CNN
@@ -229,88 +229,88 @@ $EndComp
 $Comp
 L pspice:CAP C4
 U 1 1 61063D21
-P 12000 2500
-F 0 "C4" V 11685 2500 50  0000 C CNN
-F 1 "0.1uF" V 11776 2500 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 12000 2500 50  0001 C CNN
-F 3 "~" H 12000 2500 50  0001 C CNN
-	1    12000 2500
+P 17025 5625
+F 0 "C4" V 16710 5625 50  0000 C CNN
+F 1 "0.1uF" V 16801 5625 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 17025 5625 50  0001 C CNN
+F 3 "~" H 17025 5625 50  0001 C CNN
+	1    17025 5625
 	0    1    1    0   
 $EndComp
-Text Label 12250 2500 0    50   ~ 0
+Text Label 17275 5625 0    50   ~ 0
 GND
-Text Label 11750 2500 2    50   ~ 0
+Text Label 16775 5625 2    50   ~ 0
 5+
 $Comp
 L pspice:CAP C5
 U 1 1 61063F07
-P 14925 2375
-F 0 "C5" V 14610 2375 50  0000 C CNN
-F 1 "0.1uF" V 14701 2375 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 14925 2375 50  0001 C CNN
-F 3 "~" H 14925 2375 50  0001 C CNN
-	1    14925 2375
+P 12475 2550
+F 0 "C5" V 12160 2550 50  0000 C CNN
+F 1 "0.1uF" V 12251 2550 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 12475 2550 50  0001 C CNN
+F 3 "~" H 12475 2550 50  0001 C CNN
+	1    12475 2550
 	0    1    1    0   
 $EndComp
-Text Label 15175 2375 0    50   ~ 0
+Text Label 12725 2550 0    50   ~ 0
 GND
-Text Label 14675 2375 2    50   ~ 0
+Text Label 12225 2550 2    50   ~ 0
 5+
-Text Label 15450 7175 0    50   ~ 0
+Text Label 17225 7150 0    50   ~ 0
 D7
-Text Label 15450 7075 0    50   ~ 0
+Text Label 17225 7050 0    50   ~ 0
 D6
-Text Label 15450 6975 0    50   ~ 0
+Text Label 17225 6950 0    50   ~ 0
 D5
-Text Label 15450 6875 0    50   ~ 0
+Text Label 17225 6850 0    50   ~ 0
 D4
-Text Label 15450 6775 0    50   ~ 0
+Text Label 17225 6750 0    50   ~ 0
 D3
-Text Label 15450 6675 0    50   ~ 0
+Text Label 17225 6650 0    50   ~ 0
 D2
-Text Label 15450 6575 0    50   ~ 0
+Text Label 17225 6550 0    50   ~ 0
 D1
-Text Label 15450 6475 0    50   ~ 0
+Text Label 17225 6450 0    50   ~ 0
 D0
-Text Label 14450 8275 2    50   ~ 0
+Text Label 16225 8250 2    50   ~ 0
 A18
-Text Label 14450 8175 2    50   ~ 0
+Text Label 16225 8150 2    50   ~ 0
 A17
-Text Label 14450 8075 2    50   ~ 0
+Text Label 16225 8050 2    50   ~ 0
 A16
-Text Label 14450 7975 2    50   ~ 0
+Text Label 16225 7950 2    50   ~ 0
 A15
-Text Label 14450 7875 2    50   ~ 0
+Text Label 16225 7850 2    50   ~ 0
 A14
-Text Label 14450 7775 2    50   ~ 0
+Text Label 16225 7750 2    50   ~ 0
 A13
-Text Label 14450 7675 2    50   ~ 0
+Text Label 16225 7650 2    50   ~ 0
 A12
-Text Label 14450 7575 2    50   ~ 0
+Text Label 16225 7550 2    50   ~ 0
 A11
-Text Label 14450 7475 2    50   ~ 0
+Text Label 16225 7450 2    50   ~ 0
 A10
-Text Label 14450 7375 2    50   ~ 0
+Text Label 16225 7350 2    50   ~ 0
 A9
-Text Label 14450 7275 2    50   ~ 0
+Text Label 16225 7250 2    50   ~ 0
 A8
-Text Label 14450 7175 2    50   ~ 0
+Text Label 16225 7150 2    50   ~ 0
 A7
-Text Label 14450 7075 2    50   ~ 0
+Text Label 16225 7050 2    50   ~ 0
 A6
-Text Label 14450 6975 2    50   ~ 0
+Text Label 16225 6950 2    50   ~ 0
 A5
-Text Label 14450 6875 2    50   ~ 0
+Text Label 16225 6850 2    50   ~ 0
 A4
-Text Label 14450 6775 2    50   ~ 0
+Text Label 16225 6750 2    50   ~ 0
 A3
-Text Label 14450 6675 2    50   ~ 0
+Text Label 16225 6650 2    50   ~ 0
 A2
-Text Label 14450 6575 2    50   ~ 0
+Text Label 16225 6550 2    50   ~ 0
 A1
-Text Label 14450 6475 2    50   ~ 0
+Text Label 16225 6450 2    50   ~ 0
 A0
-Text Label 14950 6275 0    50   ~ 0
+Text Label 16725 6250 0    50   ~ 0
 5+
 Text Label 12575 4525 0    50   ~ 0
 5+
@@ -320,11 +320,11 @@ Text Label 15000 4375 0    50   ~ 0
 GND
 Text Label 11575 4525 2    50   ~ 0
 GND
-Text Label 14950 8475 2    50   ~ 0
+Text Label 16725 8450 2    50   ~ 0
 GND
-Text Label 15450 7575 0    50   ~ 0
+Text Label 17225 7550 0    50   ~ 0
 MRD
-Text Label 15450 7675 0    50   ~ 0
+Text Label 17225 7650 0    50   ~ 0
 MWR
 Text Label 11575 3125 2    50   ~ 0
 GND
@@ -352,15 +352,15 @@ Text Label 15500 4075 0    50   ~ 0
 32K_ROM_CS
 Text Label 15500 3975 0    50   ~ 0
 32K_RAM_CS
-Text Label 15450 7475 0    50   ~ 0
+Text Label 17225 7450 0    50   ~ 0
 512K_CS
 Text Label 12125 8175 2    50   ~ 0
 32K_RAM_CS
 $Comp
-L Memory_EEPROM:28C256 U1
+L Memory_EEPROM:28C256 U2
 U 1 1 6106BCF7
 P 12525 7275
-F 0 "U1" H 12525 8556 50  0000 C CNN
+F 0 "U2" H 12525 8556 50  0000 C CNN
 F 1 "62256" H 12525 8465 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm" H 12525 7275 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf" H 12525 7275 50  0001 C CNN
@@ -476,10 +476,10 @@ D6
 Text Label 10875 7000 0    50   ~ 0
 D7
 $Comp
-L Memory_EEPROM:28C256 U2
+L Memory_EEPROM:28C256 U1
 U 1 1 6106CEED
 P 10475 7200
-F 0 "U2" H 10475 8481 50  0000 C CNN
+F 0 "U1" H 10475 8481 50  0000 C CNN
 F 1 "28C256" H 10475 8390 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm" H 10475 7200 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf" H 10475 7200 50  0001 C CNN
@@ -500,100 +500,100 @@ $EndComp
 Text Label 10075 8100 2    50   ~ 0
 32K_ROM_CS
 $Comp
-L Memory_RAM:628128_DIP32_SSOP32 U6
+L Memory_RAM:628128_DIP32_SSOP32 U3
 U 1 1 622F9A5A
-P 17525 7325
-F 0 "U6" H 17525 8506 50  0000 C CNN
-F 1 "AS6C1008" H 17525 8415 50  0000 C CNN
-F 2 "Package_DIP:DIP-32_W15.24mm" H 17525 7325 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 17525 7325 50  0001 C CNN
-	1    17525 7325
+P 14500 7250
+F 0 "U3" H 14500 8431 50  0000 C CNN
+F 1 "AS6C1008" H 14500 8340 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 14500 7250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 14500 7250 50  0001 C CNN
+	1    14500 7250
 	1    0    0    -1  
 $EndComp
-Text Label 17025 8125 2    50   ~ 0
+Text Label 14000 8050 2    50   ~ 0
 A16
-Text Label 17025 8025 2    50   ~ 0
+Text Label 14000 7950 2    50   ~ 0
 A15
-Text Label 17025 7925 2    50   ~ 0
+Text Label 14000 7850 2    50   ~ 0
 A14
-Text Label 17025 7825 2    50   ~ 0
+Text Label 14000 7750 2    50   ~ 0
 A13
-Text Label 17025 7725 2    50   ~ 0
+Text Label 14000 7650 2    50   ~ 0
 A12
-Text Label 17025 7625 2    50   ~ 0
+Text Label 14000 7550 2    50   ~ 0
 A11
-Text Label 17025 7525 2    50   ~ 0
+Text Label 14000 7450 2    50   ~ 0
 A10
-Text Label 17025 7425 2    50   ~ 0
+Text Label 14000 7350 2    50   ~ 0
 A9
-Text Label 17025 7325 2    50   ~ 0
+Text Label 14000 7250 2    50   ~ 0
 A8
-Text Label 17025 7225 2    50   ~ 0
+Text Label 14000 7150 2    50   ~ 0
 A7
-Text Label 17025 7125 2    50   ~ 0
+Text Label 14000 7050 2    50   ~ 0
 A6
-Text Label 17025 7025 2    50   ~ 0
+Text Label 14000 6950 2    50   ~ 0
 A5
-Text Label 17025 6925 2    50   ~ 0
+Text Label 14000 6850 2    50   ~ 0
 A4
-Text Label 17025 6825 2    50   ~ 0
+Text Label 14000 6750 2    50   ~ 0
 A3
-Text Label 17025 6725 2    50   ~ 0
+Text Label 14000 6650 2    50   ~ 0
 A2
-Text Label 17025 6625 2    50   ~ 0
+Text Label 14000 6550 2    50   ~ 0
 A1
-Text Label 17025 6525 2    50   ~ 0
+Text Label 14000 6450 2    50   ~ 0
 A0
-Text Label 17525 8325 2    50   ~ 0
+Text Label 14500 8250 2    50   ~ 0
 GND
-Text Label 17525 6325 0    50   ~ 0
+Text Label 14500 6250 0    50   ~ 0
 5+
-Text Label 18025 7525 0    50   ~ 0
+Text Label 15000 7450 0    50   ~ 0
 5+
-Text Label 18025 7225 0    50   ~ 0
+Text Label 15000 7150 0    50   ~ 0
 D7
-Text Label 18025 7125 0    50   ~ 0
+Text Label 15000 7050 0    50   ~ 0
 D6
-Text Label 18025 7025 0    50   ~ 0
+Text Label 15000 6950 0    50   ~ 0
 D5
-Text Label 18025 6925 0    50   ~ 0
+Text Label 15000 6850 0    50   ~ 0
 D4
-Text Label 18025 6825 0    50   ~ 0
+Text Label 15000 6750 0    50   ~ 0
 D3
-Text Label 18025 6725 0    50   ~ 0
+Text Label 15000 6650 0    50   ~ 0
 D2
-Text Label 18025 6625 0    50   ~ 0
+Text Label 15000 6550 0    50   ~ 0
 D1
-Text Label 18025 6525 0    50   ~ 0
+Text Label 15000 6450 0    50   ~ 0
 D0
-Text Label 18025 7625 0    50   ~ 0
+Text Label 15000 7550 0    50   ~ 0
 MRD
-Text Label 18025 7725 0    50   ~ 0
+Text Label 15000 7650 0    50   ~ 0
 MWR
 $Comp
 L pspice:CAP C6
 U 1 1 622FCCE5
-P 17625 5775
-F 0 "C6" V 17310 5775 50  0000 C CNN
-F 1 "0.1uF" V 17401 5775 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 17625 5775 50  0001 C CNN
-F 3 "~" H 17625 5775 50  0001 C CNN
-	1    17625 5775
+P 15200 2600
+F 0 "C6" V 14885 2600 50  0000 C CNN
+F 1 "0.1uF" V 14976 2600 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 15200 2600 50  0001 C CNN
+F 3 "~" H 15200 2600 50  0001 C CNN
+	1    15200 2600
 	0    1    1    0   
 $EndComp
-Text Label 17875 5775 0    50   ~ 0
+Text Label 15450 2600 0    50   ~ 0
 GND
-Text Label 17375 5775 2    50   ~ 0
+Text Label 14950 2600 2    50   ~ 0
 5+
-Text Label 18025 7425 0    50   ~ 0
+Text Label 15000 7350 0    50   ~ 0
 128K_CS
 Text Label 12550 3775 0    50   ~ 0
 128K_CS
 $Comp
-L 74xx:74LS139 U4
+L 74xx:74LS139 U5
 U 2 1 622FD818
 P 12050 3875
-F 0 "U4" H 12050 4242 50  0000 C CNN
+F 0 "U5" H 12050 4242 50  0000 C CNN
 F 1 "74LS139" H 12050 4151 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 12050 3875 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 12050 3875 50  0001 C CNN

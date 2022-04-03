@@ -500,12 +500,12 @@ $EndComp
 Text Label 10075 8100 2    50   ~ 0
 32K_ROM_CS
 $Comp
-L Memory_RAM:628128_DIP32_SSOP32 U?
+L Memory_RAM:628128_DIP32_SSOP32 U6
 U 1 1 622F9A5A
 P 17525 7325
-F 0 "U?" H 17525 8506 50  0000 C CNN
-F 1 "74LS139" H 17525 8415 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 17525 7325 50  0001 C CNN
+F 0 "U6" H 17525 8506 50  0000 C CNN
+F 1 "AS6C1008" H 17525 8415 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 17525 7325 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 17525 7325 50  0001 C CNN
 	1    17525 7325
 	1    0    0    -1  
@@ -571,10 +571,10 @@ MRD
 Text Label 18025 7725 0    50   ~ 0
 MWR
 $Comp
-L pspice:CAP C?
+L pspice:CAP C6
 U 1 1 622FCCE5
 P 17625 5775
-F 0 "C?" V 17310 5775 50  0000 C CNN
+F 0 "C6" V 17310 5775 50  0000 C CNN
 F 1 "0.1uF" V 17401 5775 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 17625 5775 50  0001 C CNN
 F 3 "~" H 17625 5775 50  0001 C CNN
@@ -600,10 +600,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 12050 3875 50  0001 C CN
 	2    12050 3875
 	1    0    0    -1  
 $EndComp
-Text Label 11550 4075 2    50   ~ 0
-GND
 Text Label 11550 3875 2    50   ~ 0
 A17
 Text Label 11550 3775 2    50   ~ 0
 A18
+Text Label 11550 4075 2    50   ~ 0
+UPPER_512K
 $EndSCHEMATC
