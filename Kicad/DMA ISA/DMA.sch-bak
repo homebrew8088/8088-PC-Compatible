@@ -164,8 +164,8 @@ L 74xx:74LS670 U4
 U 1 1 610632BC
 P 10425 6350
 F 0 "U4" H 10425 7331 50  0000 C CNN
-F 1 "74LS04" H 10425 7240 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 10425 6350 50  0001 C CNN
+F 1 "74LS670" H 10425 7240 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 10425 6350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10425 6350 50  0001 C CNN
 	1    10425 6350
 	1    0    0    -1  
@@ -186,8 +186,6 @@ Text Label 4625 5000 2    50   ~ 0
 A1
 Text Label 4625 4900 2    50   ~ 0
 A0
-Text Label 10450 8425 0    50   ~ 0
-5+
 Text Label 10450 10025 0    50   ~ 0
 GND
 Text Label 10575 8125 0    50   ~ 0
@@ -205,19 +203,19 @@ F 3 "~" H 10325 8125 50  0001 C CNN
 	1    10325 8125
 	0    1    1    0   
 $EndComp
-Text Label 5650 3875 0    50   ~ 0
+Text Label 6225 4200 0    50   ~ 0
 GND
-Text Label 5150 3875 2    50   ~ 0
+Text Label 5725 4200 2    50   ~ 0
 5+
 $Comp
 L pspice:CAP C4
 U 1 1 6106BA7C
-P 5400 3875
-F 0 "C4" V 5085 3875 50  0000 C CNN
-F 1 "0.1uF" V 5176 3875 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5400 3875 50  0001 C CNN
-F 3 "~" H 5400 3875 50  0001 C CNN
-	1    5400 3875
+P 5975 4200
+F 0 "C4" V 5660 4200 50  0000 C CNN
+F 1 "0.1uF" V 5751 4200 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5975 4200 50  0001 C CNN
+F 3 "~" H 5975 4200 50  0001 C CNN
+	1    5975 4200
 	0    1    1    0   
 $EndComp
 Text Label 10875 5225 0    50   ~ 0
@@ -365,10 +363,10 @@ MRD
 Text Label 6025 6300 0    50   ~ 0
 EOP
 $Comp
-L Device:R R1
+L Device:R R3
 U 1 1 6146BFF5
 P 6950 6250
-F 0 "R1" H 7020 6296 50  0000 L CNN
+F 0 "R3" H 7020 6296 50  0000 L CNN
 F 1 "10k ohm" H 7020 6205 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6880 6250 50  0001 C CNN
 F 3 "~" H 6950 6250 50  0001 C CNN
@@ -466,21 +464,6 @@ Text Label 10950 9025 0    50   ~ 0
 A12
 Text Label 10950 8925 0    50   ~ 0
 A13
-Text Label 10950 8825 0    50   ~ 0
-A14
-Text Label 10950 8725 0    50   ~ 0
-A15
-$Comp
-L 74xx:74LS573 U5
-U 1 1 610661C4
-P 10450 9225
-F 0 "U5" H 10450 10206 50  0000 C CNN
-F 1 "74LS139" H 10450 10115 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 10450 9225 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 10450 9225 50  0001 C CNN
-	1    10450 9225
-	1    0    0    -1  
-$EndComp
 Text Label 10950 9225 0    50   ~ 0
 A10
 Text Label 10950 9325 0    50   ~ 0
@@ -574,14 +557,31 @@ GND
 Text Label 3800 6050 2    50   ~ 0
 DRQ0_
 $Comp
-L Device:R R3
+L Device:R R1
 U 1 1 623CE352
 P 3875 5025
-F 0 "R3" H 3945 5071 50  0000 L CNN
+F 0 "R1" H 3945 5071 50  0000 L CNN
 F 1 "27 ohm" H 3945 4980 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3805 5025 50  0001 C CNN
 F 3 "~" H 3875 5025 50  0001 C CNN
 	1    3875 5025
 	-1   0    0    1   
 $EndComp
+$Comp
+L 74xx:74LS573 U5
+U 1 1 610661C4
+P 10450 9225
+F 0 "U5" H 10450 10206 50  0000 C CNN
+F 1 "74LS573" H 10450 10115 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 10450 9225 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 10450 9225 50  0001 C CNN
+	1    10450 9225
+	1    0    0    -1  
+$EndComp
+Text Label 10950 8725 0    50   ~ 0
+A15
+Text Label 10950 8825 0    50   ~ 0
+A14
+Text Label 10450 8425 0    50   ~ 0
+5+
 $EndSCHEMATC
