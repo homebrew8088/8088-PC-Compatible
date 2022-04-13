@@ -54,7 +54,7 @@ PCB	                  |1
 74LS573	              |2
 74LS245	              |1
 74LS257	              |1
-P8285               	|1
+P8284               	|1
 8259                	|1
 8253                	|1
 0.1uF Capacitor     	|8
@@ -129,5 +129,6 @@ PCB	                  |1
 8237-5		            |1
 0.1uF Capacitor		    |5
 10k ohm Resistor		  |2
+27 ohm Resistor |1
 Keystone 9202		      |1
 Screws		            |2
