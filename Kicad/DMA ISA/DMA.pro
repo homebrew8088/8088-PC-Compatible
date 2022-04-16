@@ -1,6 +1,6 @@
-update=11/4/2021 5:40:12 PM
+update=4/16/2022 10:04:18 AM
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=C:/Users/Elijah/Desktop/
+PlotDirectoryName=../../../../../Desktop/SDFFD/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
