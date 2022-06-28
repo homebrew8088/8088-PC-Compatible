@@ -1,0 +1,78 @@
+file_format	900716
+use_color	1
+use_graphics	1
+activity_log	4
+
+# Saved Batch Settings:
+	b_serial	1 1 0 0
+	b_comloop	0 0 0 0
+	b_parallel	1 0 0
+	b_lptloop	0 0 0
+	b_floppy	1 0 0 0
+	b_flopwrite	0 0 0 0
+	b_fixed	0 0
+	b_sysboard	1
+	b_rtclock	1
+	b_base	1 0x0000000 0x009FFFF
+	b_ext	0 0x0100000 0x013FFFF
+	b_ems	0 0x 0x
+	b_memquick	0
+	b_vidmem	1
+	b_vidtext	0
+	b_vidgraph	0
+	b_printer	0  
+	b_keyboard	0 
+	b_mouse	0
+	b_joystick	0
+	b_logtype	Display Only
+	b_passes	1
+	b_mem_passes	1
+	b_pause	0
+
+# Ram Boards:
+	ram_slot	0
+	ram_name	INCOMPLETE
+	ram_wdsize	8
+	ram_banktop	1
+	ram_parrt	0
+	ram_parbit0	0
+	ram_rowrev	0
+	ram_banktyp	64 64 64 64 64 64 64 64 64 
+	ram_chiptyp	1 1 1 1 1 1 1 1 1 
+	ram_basebeg	0x0000000
+	ram_baseend	0x009ffff
+
+# Tools List:
+	t_entry	Floppy Mechanics
+	t_cmds	CHECKFD
+	t_note1	This program (with a special disk from TouchStone Software) will
+	t_note2	test your floppy drive's alignment, RPM, and other parameters.
+
+	t_entry	Format AT Hard Disk
+	t_cmds	HDINIT
+	t_note1	Permanently low-level formats MFM Hard Disks on AT-Compatibles.
+	t_note2	This operation irrevokably destroys the information on the entire hard disk.
+
+	t_entry	SpeedTest
+	t_path	a:\
+	t_cmds	speed /b /q
+	t_note1	sebesseg teszt
+
+	t_entry	Virus Scan Drive A:
+	t_cmds	COMMAND /C VIR_SCAN A:
+	t_note1	Scan floppy drive A: for all known computer viruses.
+
+	t_entry	Virus Scan Drive C:
+	t_cmds	COMMAND /C VIR_SCAN C:
+	t_note1	Scan hard drive C: for all known computer viruses.
+
+# Benchmarks:
+	bm_dstones	   3854.27 1 Saved
+	bm_wstones	  74936.21 0 Saved
+	bm_bvideo	   4994.09 0 Saved
+	bm_dvideo	  46783.38 1 Saved
+	bm_transfer	   5602.10 2 Saved
+	bm_aveseek	     31.28 0 Saved
+	bm_trkseek	     15.09 0 Saved
+
+

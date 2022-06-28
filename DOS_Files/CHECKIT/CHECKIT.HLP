@@ -1,0 +1,1239 @@
+CONTENTS:00001463:none
+CONTENTS:00001561:main
+CONTENTS:00003467:batch
+CONTENTS:00006391:set_clock
+CONTENTS:00007190:memory_test
+CONTENTS:00009988:rpt_config
+CONTENTS:00010815:rpt_dev_drvrs
+CONTENTS:00012625:rpt_cmos_tbl
+CONTENTS:00013250:rpt_interrupts
+CONTENTS:00014839:bench_hdisk
+CONTENTS:00016730:bench_main
+CONTENTS:00018481:bench_video
+CONTENTS:00020174:bench_save
+CONTENTS:00020356:setup_activity_log
+CONTENTS:00022042:show_activity_log
+CONTENTS:00022473:test_sysbd
+CONTENTS:00023913:test_prn
+CONTENTS:00024669:test_ser
+CONTENTS:00025151:test_par
+CONTENTS:00025611:test_flop
+CONTENTS:00026964:test_hard
+CONTENTS:00028458:test_video
+CONTENTS:00030181:test_kbd
+CONTENTS:00031611:test_joy
+CONTENTS:00032313:test_mouse
+CONTENTS:00032747:test_clock
+CONTENTS:00034314:test_mem
+CONTENTS:00037124:log_printer
+CONTENTS:00037560:log_graphics
+CONTENTS:00037982:ram_locate
+CONTENTS:00040256:ram_summary
+CONTENTS:00041943:ram_find
+CONTENTS:00043704:ram_setup
+CONTENTS:00045134:register_user
+CONTENTS:00045390:memmap_base
+CONTENTS:00047305:memmap_int
+CONTENTS:00048570:memmap_tsr
+CONTENTS:00048920:memmap_nothing
+CONTENTS:00049549:memmap_hiram
+CONTENTS:00050010:memmap_ebios
+CONTENTS:00050382:memmap_vram
+CONTENTS:00050686:memmap_available
+CONTENTS:00051058:memmap_rom
+CONTENTS:00051365:memmap_ems
+CONTENTS:00051823:report_detail
+CONTENTS:00052326:custom_heading
+
+@(#)CheckIt checkit.hlp Date: 08/21/90, Release: 3.0.
+
+
+HELP:none:No Help Available
+Sorry, there is no help available for this part of CheckIt.
+END.
+
+HELP:main:Main Menu
+                             Welcome to CheckIt
+                             ------------------
+
+CheckIt is a Quality Assurance diagnostic program for your MS-DOS PC.  It
+can produce reports of your hardware configuration and the system resources
+being used, test the hardware components of your system, and display
+performance panels to measure key aspects of your PC's computing power.
+
+With CheckIt, PC users can assure that their computer meets the functional
+compatibility levels of a true PC-DOS machine and that all components are
+functioning properly.
+
+CheckIt's reports can also tell you what hardware and software is already
+installed on your PC.  Use this information when you get a new system, call
+for support, or are installing new hardware (so you can get it right the
+first time).
+
+As an added feature, you can see how your computer's speed measures against
+other PC's.
+
+                            CheckIt Organization
+                            --------------------
+
+CheckIt is organized into the following main pull-down menus:
+
+SysInfo:        Displays reports describing system hardware and software.
+
+Tests:          Used to select and run CheckIt's diagnostic tests.
+
+Benchmarks:     Shows how this PC's speed compares to other PC's.
+
+Tools:          Locates RAM chips on memory boards,
+                Sets the real time clock's date and time, or
+                any other program can be run from here.
+
+Setup:          Used to selects color or black & white operation and
+                Route the Activity Log to a disk file and/or a printer.
+
+Exit:           Quits CheckIt and returns to DOS.
+
+Use to arrow keys to browse through the menu system.  As each menu choice
+is highlighted, the Information Window near the bottom of the screen will
+change to describe the operation performed by that selection.
+END.
+
+
+HELP:batch:Select Batch
+This function gives you total control of CheckIt's testing facilities and is
+intended primarily for "expert" users with special testing needs such as
+service technicians.
+
+Some reasons to use this feature are:
+
+  *  Test components repeatedly until transient errors are finally caught.
+
+  *  Configure an abbreviated test suite that only checks specific
+     components.  This can be useful for people who test a lot of PC's
+     regularly.
+
+  *  Run burn-in tests on newly installed equipment.
+
+Every option for every test can be defined on this single screen, so the
+batch can run unattended.
+
+The screen is divided into three main sections:
+
+Unattended Tests   The top section of the screen includes all test that do
+                   not require direct user intervention.  The tests are:
+                   memory, hard disks, floppy disks, system board, real-time
+                   clock, serial ports, and parallel ports.
+
+Interactive Tests  The tests in the middle section of the screen require
+                   you to operate the selected device (like the keyboard)
+                   or confirm the results of a test (like the printer).
+                   Included in this category are the tests for: printers,
+                   video, keyboard, mouse, and joysticks.
+
+Batch Controls     These fields control the batch process.  You control the
+                   destination of the activity log, number of batch passes,
+                   and whether to pause whenever a test finds an error.
+
+                   NOTE:  If you are testing with multiple passes and
+                          logging the results to either a disk or printer,
+                          CheckIt will only save the detail log to these
+                          devices.  The in-memory log is disabled to avoid
+                          running out of memory during long batches.
+
+                            Saving a Batch Setup
+                            --------------------
+
+These batch settings can be saved in the configuration file so the next
+time you run CheckIt, these settings will be set up automatically.
+
+                             Running the Batch
+                             -----------------
+
+Once the batch is set up the way you want it, enter 'Y' at the "Run
+Batch?" prompt and press ENTER.  If any selected tests require external
+setup (such as loopback plugs or floppy disks), a message asking you to
+prepare the appropriate devices before the batch begins.
+
+If only unattended tests are selected, you can leave your PC alone and
+come back later to review the results.
+
+CheckIt will skip any tests of devices that don't exist.  This makes
+it easy to set up a single batch of tests that can be run on a wide
+variety of machines.
+
+For more information on setting up a batch of tests, see Chapter 9 in
+your manual.
+END.
+
+HELP:set_clock:Set Real-Time Clock
+This tool will allow you to set the date and time on your battery backed-up
+(CMOS) and DOS clock.  If the clock needs to be set often, you may need to
+replace the battery.
+
+                              Setting the Date
+                              ----------------
+
+Use the arrow keys to move the pointer to the date field and press ENTER.
+Enter the new date in MM/DD/YYYY format  and press ENTER again.  For
+example, January 21, 1990 is entered as 01/21/1990.
+
+                              Setting the Time
+                              ----------------
+
+Use the arrow keys to move the pointer to the time field and press ENTER.
+Enter the new time in 24 hour format and press ENTER again.  For example,
+8:05 P.M. is entered as 20:05.
+END.
+
+HELP:memory_test:Memory Test
+You are now editing the memory test parameters.  By default ALL memory
+is selected for a quick test.  The following information describes
+other ways to configure the memory test.
+
+                     Testing Only A Portion of Memory
+                     --------------------------------
+
+If you have narrowed down a memory problem to a specific address, you can
+configure CheckIt to test only that range and report on the problems.  This
+technique can be particularly useful for finding intermittent problems,
+by testing the range multiple times.
+
+NOTE:  To avoid testing a particular type of memory, configure the start
+       and end address with the same value.  Notice that the hex value on
+       the right disappear.
+
+                     Testing Memory That Doesn't Exist
+                     ---------------------------------
+
+If a portion of memory is bad, the POST (Power On Self Test) may decide
+the memory is not really installed.  When CheckIt investigates the system
+configuration, the higher part of memory will be left out.  By testing
+the memory that YOU know is there but the system doesn't, you can identify
+which memory chip is bad and replace it.
+
+                       Testing Expanded (EMS) Memory
+                       -----------------------------
+
+Because of the special nature of expanded memory, you should always test
+the entire range of EMS memory.  See the special notes on expanded memory
+in your manual (or addendum) for complete details.
+
+                       Quick Test vs. Thorough Test
+                       ----------------------------
+
+If the "Quick Memory Test Only" field is 'Y,' CheckIt will test each
+block of memory once, using a pseudo-random pattern.  This pattern will
+identify most common memory problems and should be sufficient in most
+cases.  Selecting 'N' in this field will more thoroughly test each block
+of memory with 8 additional patterns.
+
+                           Number of Test Passes
+                           ---------------------
+
+If you suspect you are having memory problems and a single pass does not
+produce an error, the problem may be intermittent.  The best way to find
+this type of problem is to change the "Number of Passes" field and run the
+test repeatedly.  To test memory continuously, enter a 'C' in this field.
+
+If the combination of multiple passes and a thorough test do not find an
+error, your problem is almost certainly not due to a bad memory chip.
+
+NOTE:  If you are testing with multiple passes and logging the results
+       to either a disk or printer,  CheckIt will only save the detail
+       log to these devices.  The in-memory log is disabled to avoid
+       running out of memory during long batches.
+END.
+
+HELP:rpt_config:Configuration
+This screen shows a list of the hardware and software installed in your
+PC.  This gives you a "peek" inside your machine without having to
+take off the cover.
+
+This information can be used to:
+
+    *  Ensure that your PC meets the minimum hardware and software
+       required to install a new device or software package.
+
+    *  Easily provide the right answers to questions asked while
+       calling for technical support.
+
+    *  Quickly familiarize yourself with important aspects of a
+       PC you haven't used before.
+
+The top few lines of the display show the current DOS version being
+used and BIOS information.  The rest of the report shows your PC's
+current hardware configuration.
+
+See Chapter 5 in your manual for an explanation of each display element.
+END.
+
+HELP:rpt_dev_drvrs:Device Drivers
+This screen shows a list of the DOS block and character device drivers
+currently installed in your PC.  This list is often longer than will
+fit on the screen so the arrow keys can be used to scroll the rest of
+the list into view.
+
+Block device drivers handle devices like hard disks and floppy disks.
+Character device drivers handle every thing else including the keyboard,
+serial ports, and even the display.
+
+The elements of the report are described below:
+
+  Seg:Off          This column shows where the device driver is in
+                   memory.  The values are the hexadecimal segment
+                   and offset respectively.
+
+  # Drive(s)       This column only applies to block devices and lists
+  (Block Devices)  the number and name of the disk drives handled by
+                   this single driver.
+
+  Name             This column only applies to character devices and shows
+  (Character       the name of the driver.  For example, a serial port
+   Devices)        driver might be called COM1.
+
+  Attr             This displays the "raw" attribute byte in hex.
+                   Meaningful information gleaned from this value is
+                   displayed under the next two columns.
+
+  DOS              The minimum version of DOS required for this driver to
+                   function properly is displayed.  Verify that the DOS
+                   version reported in the Configuration screen is at least
+                   that required by your device drivers.
+
+  Characteristics  This column lists other important features of the
+                   device driver.  For a complete list of the different
+                   characteristics and their meaning, see Chapter 8
+                   in your manual.
+END.
+
+HELP:rpt_cmos_tbl:CMOS Table
+This screen shows the current settings stored in the battery backed-up
+CMOS memory found on AT and 386 class PC's.
+
+This information can be used to:
+
+    *  Determine if an incorrect report on the Configuration screen is
+       actually due to the CMOS being set up wrong.
+
+    *  Print or save a copy for later reference.  If the CMOS ever
+       needs to be reconfigured, the values can be re-entered from the
+       copy.
+
+To change these settings, use the SETUP program provided with your PC.
+
+More information on this screen can be found in Chapter 7 of your manual.
+END.
+
+HELP:rpt_interrupts:Interrupts
+This screen shows the devices and programs using the hardware interrupts
+(IRQ's) of your PC.  A list of DMA channels is also displayed showing the
+standard assignments for the devices installed in your PC.
+
+This information can be used to:
+
+    *  Configure a new add-in card with the proper IRQ and DMA settings
+       without researching the current configuration of existing cards.
+       This avoids conflicts before they happen.
+
+    *  Resolve existing interrupt conflicts without the usual trial and
+       error method.
+
+NOTE:  Since CheckIt can only determine if an interrupt is in use when
+       the appropriate device driver is installed and activated, the
+       report may be inaccurate unless you install the drivers before
+       running this report.
+
+                          The [CASCADE] Interrupt
+                          -----------------------
+
+If you are using an AT or 386 class PC, IRQ will display "[CASCADE]."
+The reasons for this are explained in Chapter 6 of your manual.  You
+should be aware though, that any hardware or software configured to
+use IRQ 2 will transparently be re-routed to IRQ 9.  This is normal
+and does not indicate a problem.
+
+                                DMA Channels
+                                ------------
+
+Unlike the IRQ list, the DMA list only displays standard DOS
+usage of the available channels.  Third-party hardware and software
+will not be displayed.  Although the list may not be complete, it
+can be a useful reminder of pre-assigned channels.
+END.
+
+HELP:bench_hdisk:Hard Disk Benchmark
+This screen measures two important aspects of your hard disk's performance:
+
+                                 Seek Time
+                                 ---------
+
+Average         This is how long, on the average, your hard disk takes to
+Seek Time       move its read/write head ("seek") from one track to another.
+
+Track to Track  This is how long it takes to seek from one track to an
+Seek Time       immediately adjacent track.  Therefore, this test measures
+                the minimum time it would take for your hard disk to find
+                a particular piece of information.
+
+Seek time is a major factor in determining the total amount of time it
+takes to find data on a hard disk.
+
+                               Transfer Speed
+                               --------------
+
+This measurement determines the "raw" transfer speed of your hard disk.
+Factors that can affect this reading are:
+
+Interleave    If this is set incorrectly, you transfer speed may be
+              as much as 10 times slower than it could be.  On most PC's,
+              an interleave of 3 is common.
+
+Disk Cache    Adding disk caching software can dramatically improve your
+              your disk performance.
+
+For more information on interpreting and improving your disk's performance,
+see Chapter 21 in your manual.
+
+                           Compare/Save Results
+                           --------------------
+
+By default, CheckIt displays your machine's results compared against an
+IBM PC-XT.  If you would rather use your machine for the comparison,
+select "S-Save for Compare" and enter a descriptive name.  CheckIt will
+save this result in the configuration file for future use.
+
+Later, when you are running CheckIt on another machine, you can select
+"C-Compare to..." to see how it rates against yours.
+END.
+
+HELP:bench_main:Main System Benchmark
+This screen measures two important aspects of your system's overall
+performance.  This information can help when deciding how best to utilize
+a particular PC, depending on its strength or weakness.
+
+                           CPU Speed (DHRYSTONES)
+                           ----------------------
+
+This is your PC's "raw" computing speed.  It measures the speed of your
+PC's main processor, or CPU.  The upper window graphically shows this
+measurement against a 4.77 MHz original PC/XT machine.  Underneath this
+graph, the system's rating is shown along with processor type and its
+current clock speed.
+
+                          Math Speed (WHETSTONES)
+                          -----------------------
+
+This measurement, in the lower window, shows how fast your PC can
+compute a WHETSTONE (a measurement of floating point calculation speed).
+This number is important when using your PC for spreadsheet, CAD/CAM, and
+scientific applications.  If your PC has a math co-processor, these
+numbers will be 5 to 10 times faster than without one.  Underneath this
+graph, CheckIt will display the type of co-processor installed on your
+PC, if any, and a rating of its throughput.
+
+                           Compare/Save Results
+                           --------------------
+
+By default, CheckIt displays your machine's results compared against an
+IBM PC-XT.  If you would rather use your machine for the comparison,
+select "S-Save for Compare" and enter a descriptive name.  CheckIt will
+save this result in the configuration file for future use.
+
+Later, when you are running CheckIt on another machine, you can select
+"C-Compare to..." to see how it rates against yours.
+END.
+
+HELP:bench_video:Video Adapter Benchmark
+This screen measures the speed of your video adapter using two common 
+techniques.  Video speed is a major performance factor for screen
+intensive applications such as word processing or terminal emulation.
+
+                             BIOS Video Speed
+                             ----------------
+
+This benchmark measures how fast your computer can display data on the
+screen using the BIOS.  DOS, terminal emulation software, and many older
+programs use this method to display text on the screen.  Some video
+adapters provide special device drivers that can be loaded to speed up
+video performance.
+
+                            Direct Video Speed
+                            ------------------
+
+Here, Checkit measures how fast your computer can display data directly 
+on the screen.  This method is faster than using the BIOS and most newer
+applications (including word processors and DOS shells) display characters 
+this way.
+
+Although the measurement is taken in text mode, the relative speed also 
+applies to graphics.  Good scores here indicate your machine has an 
+aptitude for CAD programs and Windows.
+
+                           Compare/Save Results
+                           --------------------
+
+By default, CheckIt displays your machine's results compared against an
+IBM PC-XT.  If you would rather use your machine for the comparison,
+select "S-Save for Compare" and enter a descriptive name.  CheckIt will
+save this result in the configuration file for future use.
+
+Later, when you are running CheckIt on another machine, you can select
+"C-Compare to..." to see how it rates against yours.
+END.
+
+HELP:bench_save:Saving Benchmark Results
+Type in a 10 character name to describe the current results.  Later, 
+you can use 'C' to compare another set of results to these.
+END.
+
+HELP:setup_activity_log:Setup Activity Log
+CheckIt maintains a detailed log of exactly what components have been tested
+and the result.  This log is displayed on the screen at the end of any test
+that finds an error.  The entire log, both passes and failures, can also be
+stored in a disk file, sent to the printer, or both.
+
+Display Only  The error log will be saved only in memory and displayed
+              when appropriate.
+
+Disk          The file CHECKIT.LOG is created (or overwritten) in the
+              current directory the first time data is written to the
+              activity log.  Results from each test are added to the
+              end of the file for the duration of the CheckIt session.
+
+Printer       Results from each test are sent to the printer on LPT1.
+              The first time data is sent to the printer, a message
+              will appear advising you to prepare your printer.
+
+Disk and      Saves output to both disk and printer as described above.
+Printer
+
+                           Activity Log Title
+                           ------------------
+
+When logging to either the disk or printer (or both), CheckIt will prompt
+you to type in a title for the log just before it writes the first lines.
+You can use this space to keep track of what machine created the log, what
+errors you were trying to find, or anything else that you find useful.
+
+                       Saving SysInfo Reports (F2)
+                       ---------------------------
+
+If the activity log is being copied to a disk file or printer, the F2
+function key can be used to add a copy of any SysInfo menu report to
+the activity log.
+END.
+
+HELP:show_activity_log:Activity Log
+These are the results of the last test (or group of tests) run.  If
+the activity log is being saved to a disk file or printer, a copy of this
+report is also saved there.
+
+The box at the top shows the total number of errors found during this test run.
+
+Use the arrow keys to scroll the entire report into view.  When you are
+finished, press ENTER and the display will disappear.
+END.
+
+HELP:test_sysbd:Test System Board
+This test will check your PC's processor (CPU), math co-processor (NPU),
+DMA controller, and Interrupt controller.
+
+CPU         In addition to testing the general functions of your processor,
+            CheckIt also looks for CPU's with known bugs.  If CheckIt finds
+            a problem here, replace the CPU immediately.
+
+Protected   If you have a 80286 or 80386 CPU, CheckIt will make sure
+Mode        your CPU works properly in protected mode.  Operating systems
+            like OS/2 and Xenix use this mode extensively.  Also, any
+            time extended memory is accessed, the processor must go
+            into protected mode.
+
+NPU         If you have a math co-processor (like the 8087) installed
+            in your PC.  Both the simple and complex math functions are
+            tested.
+
+DMA         This test checks the DMA controller in your PC.  This chip is
+Controller  responsible for transferring data between memory and other
+            devices.  On AT and 386 class PC's, the second DMA controller
+            is also tested.
+
+Interrupt   This test checks the 8259A interrupt controller (2 on AT and
+Controller  386 class PC's) in your PC.  This chip is responsible for
+            "interrupting" your CPU when certain events occur.  For example,
+            the 8259A issues an interrupt every time you press a key on
+            the keyboard.
+END.
+
+HELP:test_prn:Test Printer
+This test will print a number of patterns on your printer.  This will help
+find cable and configuration problems on IBM, Epson, HP Laserjet, and
+"generic" printers.
+
+To configure this test for your environment, press 'C' at the
+"Run Printer Test?" prompt.  You can then change the printer type and
+port for the test.
+
+Once the test is properly configured, make sure the printer is ready and
+at the top of a new page.  Then, press 'Y' at the "Run Printer Test?" prompt.
+
+All the tests will be printed at once.  Next, CheckIt will display a
+sample of what the printout should look like and ask if it printed
+properly.  See Chapter 17 in your manual for an explanation of each
+test and how to find problems.
+END.
+
+HELP:test_ser:Test Serial Port
+This test checks your serial port.  Each register of the 8250 serial
+controller chip is tested and data transmission is tested at different
+baud rates.
+
+Although CheckIt can still conduct a reasonable test without a loopback
+plug, the test is best with one because data is actually sent and received
+by the port when an external loopback is used.
+
+For more information on loopback plugs and the test, see Chapter 15 of
+your manual.
+END.
+
+HELP:test_par:Test Parallel Port
+This test checks your parallel port.  This test can be run either with
+or without an external loopback plug.  Without a loopback plug, the
+internal registers of the parallel port are checked to make sure they
+respond properly.  When an external loopback plug is added, the external
+signals and data lines are tested as well.
+
+For more information on loopback plugs and the test, see Chapter 16 of
+your manual.
+END.
+
+HELP:test_flop:Test Floppy Disk
+This test can be used in two ways:
+
+  *  Test your floppy drive to make sure it is working properly.
+
+  *  Test a particular floppy disk for bad tracks.
+
+NOTE:  You must have a DOS formatted diskette for each drive being tested.
+
+To start the test, insert a floppy disk in the appropriate drive and
+press ENTER.  If the disk as not formatted at the maximum capacity for
+the drive (i.e. a 360K disk in a 1.2M drive), CheckIt will ask if this
+is the disk you want to use.  If there is data on the disk, you can
+insert a new disk, skip the write test, or run the write test anyway.
+
+                             Random Read Test
+                             ----------------
+
+This part of the test will test each track of a floppy disk to make sure
+it is readable.  Since the tracks are chosen in a random order, the
+drive's stepper motor is also tested.  Errors will be displayed in the
+"Errors" window.
+
+                             Random Write Test
+                             -----------------
+
+This part of the test determines whether your drive can accurately
+write data to a diskette.  This step can be skipped if you are using
+a disk with data on it.
+
+There are a number of different reasons for a disk or drive to report
+errors.  See Chapter 12 in your manual for details.
+END.
+
+HELP:test_hard:Test Hard Disk
+Use this test to check your hard disk.  This test is will preserve the
+data already on your drive.
+
+Three types of read tests are performed:
+
+                                Linear Read
+                                -----------
+
+Each cylinder is tested starting at cylinder 0 and continuing sequentially
+to the last cylinder on the disk.  This first pass is to make sure all
+data can be read under the simplest of tests.
+
+                              Butterfly Read
+                              --------------
+
+Again, each cylinder is tested.  But with this test, the outermost
+cylinders are read first, then the innermost cylinders.  This provides
+a worst case test of the hard disk's seeking mechanism.
+
+                                Random Read
+                                -----------
+
+Like the butterfly read, this test is good at finding head movement
+related problems.  However, unlike the orderly progression of the
+previous tests, the random read test more realistically simulates
+actual hard disk activity.
+
+                           Interpreting Errors
+                           --------------------
+
+Any time an error is found, it will appear in the "Errors" window with
+an explanation in the notes column.  There are a number of different
+types of errors that can be reported -- some are severe while others
+are purely informational.  See Chapter 11 in your manual for a complete
+list of errors.
+END.
+
+HELP:test_video:Test Video
+Use this test to check your video sub-system.  There are three main
+parts to this test:
+
+                                 Video RAM
+                                 ---------
+
+This part of the test checks your video display memory and paging hardware.
+Since garbage will display on your screen during this part of the test, a
+warning will appear just before this step begins.  The test will complete
+on its own.
+
+                                Text Modes
+                                ----------
+
+This part of the test checks all text modes available on your PC.  Since
+the success or failure of these tests depends on the screen "looking"
+right, YOU must decide if a particular screen passes or fails.
+
+Each phase of this part of the test consists of several screens.  On
+each screen, the title, screen number, and mode of the current test is
+displayed at the top left.  This will give you an idea of where you
+are in the test.
+
+REMEMBER:  You can skip individual steps or the whole test by pressing ESC.
+
+                              Graphics Modes
+                              --------------
+
+This part of the tests checks any graphics modes that are available on
+your PC.  The modes displayed depend on the type of video adapter you
+have on your machine.  Like the text modes tests, YOU must decide if a
+screen passes or fails.
+
+If the Screen Is Blank or Unreadable...
+
+It is possible that some modes will not be properly supported by your
+video adapter or monitor.  In these cases, press 'N' followed by
+ENTER and that screen will be marked as an error.  Later, you can
+review the activity log to see which video modes didn't work right.
+END.
+
+HELP:test_kbd:Test Keyboard
+Use this test to check the keys and lights on your keyboard.
+
+Three different keyboards are supported:  PC, AT, and Enhanced.  Use
+the arrow keys to select the keyboard you are using.  If you don't
+recognize the keyboard's name, look at the picture displayed on the
+screen and pick the one that best matches the layout of your keyboard.
+
+                              Press Each Key
+                              --------------
+
+This part of the test will let you test each key.  After each key
+has been pressed, CheckIt moves on to the next part of the test.
+If some keys don't work or you are only testing a few keys, press
+any key three (3) times.  You will then be given a chance to report
+any problems.
+
+                             Typematic Repeat
+                             ----------------
+
+This part of the test will check the "auto-repeat" feature of your
+keyboard.  Simply press and hold down any key until it begins to blink
+on the screen.  This is not the same as repeatedly pressing the same
+key.
+
+                             Keyboard Lights
+                             ---------------
+
+If you are using an AT or Enhanced keyboards, the lights will also be
+tested.  Watch the keyboard lights and make sure each light comes on
+at the same time as its on-screen counterpart.
+
+See Chapter 19 for more information on finding and fixing problems.
+END.
+
+HELP:test_joy:Test Joystick
+If you have a joystick on your system, this test will let you verify
+that the joystick is properly centered and that each of the buttons
+are working properly.
+
+                          Centering the Joystick
+                          ----------------------
+
+To adjust the joystick, first move the stick to the extreme top, bottom,
+left, and right.  This will establish the minimum and maximum values for
+the X and Y axes.
+
+Now center the joystick.  The cursor should be motionless in the center
+of the box.  If the cursor is slightly off center, adjust the joystick's
+fine trim until it is exactly centered.  Your joystick is now properly
+adjusted.
+END.
+
+HELP:test_mouse:Test Mouse
+If you have a mouse on your system, this test will let you verify
+that the it is working properly.  If you have not installed the device
+driver for your mouse, the test can not be run.
+
+With this test, you can check the button and movement of your mouse.
+
+If you find a problem, press ESC to cancel the test (or just a step).
+You will then be given a chance to record any errors you found.
+END.
+
+HELP:test_clock:Test Real Time Clock
+If your system has a real-time clock, CheckIt can be used to make sure
+it is set properly and keeping accurate time.  The following tests are
+performed:
+
+                    Compare Real-Time Time to DOS Time
+                    ----------------------------------
+
+Both times are compared to make sure they are about the same.  Since it
+is normal for many systems to have a difference of a few seconds, CheckIt
+will not report small differences as errors.
+
+                    Compare Real-Time Date to DOS Date
+                    ----------------------------------
+
+These two values must match exactly.
+
+                        Test Real-Time Clock Alarm
+                        --------------------------
+
+If your PC has a standard AT-style CMOS clock (most AT and 386 PC's do!),
+CheckIt will test the alarm feature found on these clocks.  If the alarm
+does not go off when scheduled, the test will fail.  Some PC compatibles
+do not support this feature.  In these cases, a failure indicates a
+minor incompatibility problem.
+
+                           Compare Elapsed Time
+                           --------------------
+
+Finally, CheckIt compares the amount of elapsed time on both clocks
+(regardless of there initial difference).  If there is more than a
+fraction of a second difference, CheckIt will report the problem.  A
+failure here usually indicates the real-time clock needs new batteries.
+
+More information on the real-time clock can be found in Chapter 14 of
+your manual.
+END.
+
+HELP:test_mem:Test Memory
+This is the memory test.  The boxes on the left of the screen show the
+base, extended, and EXPANDed memory for your machine.  The area selected
+for testing is shown in reverse video.
+
+                            Changing Defaults
+                            -----------------
+
+To the right of the boxes, the test parameters are displayed.  To change
+any element of the test, enter 'C' at the "Run memory test?" prompt and
+press ENTER.  Additional help will explain how to configure each field.
+
+                            Starting the Test
+                            -----------------
+
+When you are ready to run the test, enter 'Y' at the "Run memory test?"
+prompt and press return.
+
+                           Test Program Buffers
+                           --------------------
+
+Since the memory test is non-destructive, the original contents of any
+memory tested must be saved and restored.  CheckIt begins by testing the
+memory used for this purpose.
+
+                             Test Base Memory
+                             ----------------
+
+Any base memory selected will be tested next, including memory currently
+being used by DOS, CheckIt, or any other program.  If CheckIt finds any
+errors, "FAILED" will appear next to the check box and the errors will be
+listed in the activity log.
+
+                           Test Extended Memory
+                           --------------------
+
+Any extended memory selected will be tested at this stage.  Like the base
+memory test, errors found will result in a "FAILED" status on this part of
+the test and the specific memory locations will appear in the activity log.
+
+                           Test EXPANDed Memory
+                           --------------------
+
+Any expanded (EMS) memory selected will be tested at this stage.  Errors
+are reported in the same was as the base and extended memory tests.
+
+                         Test High Address Lines
+                         -----------------------
+
+Any selected memory will be checked for problems caused by wrong size
+chips, bent or broken pins, and other addressing problems where one byte
+can affect another distant byte.
+
+NOTE:  For best results with this step, test all installed memory.
+
+                             Fixing Problems
+                             ---------------
+
+If any errors are reported, the first thing to do is find the faulty chip.
+To do this, use the "Locate RAM Chips" function under the "Tools" menu.
+If the memory test was just run, the bad chip information will already be
+filled in.  See Chapter 22 for more information on locating RAM chips.
+
+Refer to Chapter 10 of your manual for a more detailed explanation
+of the screen elements, the test, and fixing problems.
+END.
+
+HELP:log_printer:Writing to Printer
+The activity log is currently configured to send test results and SysInfo
+reports to the printer.  Since this is the first time anything is being
+printed, CheckIt isn't sure the printer and paper are set up properly.
+
+Make sure the printer is plugged in, turned on and ready, at the top of a
+new page, and has plenty of paper.  Then, press a key and the activity
+log will be printed.
+END.
+
+HELP:log_graphics:Log Graphics
+CheckIt can send data to the activity log in one of two ways.  If you
+have a printer capable of printing IBM line-drawing characters, turn this
+option ON.  This will produce the best quality results most reports and 
+print-outs.
+
+If you have any other type of printer, turn this option OFF.  CheckIt will
+then translate any special character to its nearest ASCII equivalent.
+END.
+
+HELP:ram_locate:Locate RAM Chips
+This tool helps you find failing RAM chips.  First, run the Memory Test
+to identify the bad addresses.  Then, use this screen to identify which
+chips to replace.
+
+                   Entering Address and Bit Information
+                   ------------------------------------
+
+When CheckIt reports memory errors, it displays a 6 digit hexadecimal
+address followed by a list of bad bits.  This information must be filled
+in at the first screen for CheckIt to locate the bad memory chips.  If
+you've just run the memory test, this information will already be filled
+in.  Otherwise, press 'C' [ENTER] and enter the address information your-
+self.  Remember to put "EMS:" in front of any expanded memory addresses.
+Press ESC to exit the data entry form.
+
+Once the bad address information is entered, you can start locating the
+bad memory.  There are two methods you can use:  Simple and Advanced.
+
+                      Simple Method (Locate Boards)
+                      -----------------------------
+
+This method is for users who are uncomfortable answering questions like
+"Parity on Left?" and "Rows in Reverse Order" but still want to locate,
+as closely as possible, failing RAM chips.
+
+Selecting 'S' [ENTER] will lead you through a series of simple questions
+that ask for increasingly detailed information about the memory layout
+of your computer.  With each answer, the conclusions displayed are updated
+with as accurate information as possible.  If, at any time, you are unable
+to answer a question, you can stop and print (F2) a copy of the current 
+conclusions.
+
+NOTE:  You can use the simple method to fill in most of the details and then
+       proceed to the advanced method for the remaining questions.
+
+                      Advanced Method (Locate Chips)
+                      ------------------------------
+
+This method is for users who know all the details of how the memory boards
+on their computer are laid out and needs to find the exact chip that is 
+failing.
+
+Select 'A' [ENTER] to proceed to the board summary screen to define the 
+memory boards in your system.  When you are satisfied with your definitions,
+you can print a copy of the boards with failing chips (F2).
+END.
+
+HELP:ram_summary:Locate RAM Chips Board Summary
+This screen allows you to review and modify the definition for each memory
+board before attemping to locate the bad chips.  Once you are satisfied
+with the board definitions, press 'F' [ENTER] to find the faulty chips.
+
+                           Board Summary Screen
+                           --------------------
+
+The first screen is the board summary screen.  It displays a summary of
+all defined boards.  From here you can easily view and modify each board.
+
+View        This option displays an exploded view of the currently selected
+Board       board.  If the word "MORE" appears at the top or bottom of
+            the board, the up and down arrow keys can be used to scroll
+            the rest of the board into view.  Use the left and right arrow
+            keys to view adjacent boards.
+
+Change      This option allows you to create or modify a board.  There
+Board       is separate help for each field.  More information can also
+            be found in Chapter 4, pages 27 through 29.  Also, Chapter 4,
+            pages 30 and 31 describe how to handle a number of "special
+            cases" when defining boards.
+
+            NOTE:  Some of the information needed to define a board is
+                   technical in nature.  If possible, have the manual or
+                   memory board itself available while setting it up.
+
+Delete      Selecting this option will delete the configuration information
+Board       for the currently selected board.
+
+Find        Selecting this option will display the boards and highlight the
+Bad Chips   bad chips according to your definitions.
+END.
+
+HELP:ram_find:Find Bad Chips
+This screen shows which chips on a board need to be replaced.
+
+                           Displaying Bad Chips
+                           --------------------
+
+Two types of "bad" chips can be displayed:
+
+BAD CHIPS    These chips have been uniquely identified by CheckIt as bad
+             and should be replaced.  On the screen, they will blink in
+             red and are marked like this:  "=>".
+
+QUESTIONABLE These chips could not be uniquely identified but at least one
+CHIPS        of them is bad.  This type of indicator is used for expanded
+             memory.  On the screen, they will blink in yellow and are
+             marked like this:  "?>".
+
+             To find the specific chip, you should replace one at a time
+             and retest memory until the problem goes away.  Or, to save
+             time (instead of money), simply replace all of the ques-
+             tionable chips.
+
+If the board is too big to fit on the screen, the word "MORE" will
+appear on the top or bottom.  Use the up and down arrow keys to display
+the rest of the board.
+
+If more than one board has memory problems, "Next Board" will appear
+near the top of the screen.  Use the left and right arrow keys to
+view these boards.
+
+The F2 function key can be used to send a copy of the currently displayed
+board to the activity log.
+
+                         Invalid Memory Addresses
+                         ------------------------
+
+If you have specified an address that is not defined on any board, a
+message will be displayed explaining that the chips can not be located
+for that address.  Return to the board summary screen and modify the board
+layouts until this message doesn't appear.
+END.
+
+HELP:ram_setup:Define RAM Layout
+This function allows you to define the physical layout of each memory board
+installed in your PC.  This step must be completed before attempting to
+find a bad RAM chip.
+
+NOTE:  Some of the information needed to define a board is technical in
+       nature.  If possible, have the manual or memory board itself
+       available while setting it up.
+
+                           Board Summary Screen
+                           --------------------
+
+The first screen is the board summary screen.  It displays a summary of
+all defined boards.  From here you can easily view and modify each board.
+
+View        This option displays an exploded view of the currently selected
+Board       board.  If the word "MORE" appears at the top or bottom of
+            the board, the up and down arrow keys can be used to scroll
+            the rest of the board into view.  Use the left and right arrow
+            keys to view adjacent boards.
+
+Change      This option allows you to create or modify a board.  There
+Board       is separate help for each field.  More information can also
+            be found in Chapter 4, pages 27 through 29.
+
+Delete      Selecting this option will delete the configuration information
+Board       for the currently selected board.
+
+Also, Chapter 4, pages 30 and 31 describe how to handle a number of
+"special cases" when defining boards.
+END.
+
+HELP:register_user:Register User
+Before using CheckIt, you must customize it by entering your name and
+company on the lines provided.
+
+This information is displayed every time CheckIt is loaded and will be
+printed on the top of every report.
+END.
+
+HELP:memmap_base:Base Memory Map
+This is a map of the first 1Mb of real address space.  This includes base
+memory (0K to 640K) and the reserved area (640K to 1Mb).  The top half of
+the screen shows a graphical map of this area and the bottom half shows
+the same information in list form.
+
+Each type of object on the screen is identified by a different symbol. 
+Below is a list of each symbol and its meaning.  A complete discussion
+of each object can be found in your manual.
+
+I  Interrupt Vectors.  This area contains information about the 256
+   hardware and software interrupts.
+P  Programs.  This area contains DOS, CheckIt, TSR's, and device drivers
+   that are also resident.
+A  Available.  This is DOS memory that is currently not being used.
+B  Extended BIOS Data Area.  This region (usually at the top of DOS memory)
+   is setup by the BIOS and is used by OS/2.
+V  Video RAM.  This is the address range used by your video adapter.
+R  ROM.  This can be either adapter ROM or System ROM.
+-  Nothing.  This address space is currently not used by any RAM, ROM, or
+   for any other purpose.
+E  EMS Page Frame.  This is where the EMS page frame is located.  It is 
+   usually 64K large.
+H  Hi RAM.  CheckIt has identified RAM in the reserved address space but
+   can't identify how it is being used.
+  Mappable RAM.  A diamond above a letter indicates EMS mappable memory.
+   The EMS page frame is always mappable.  Some EMS implementations also
+   allow DOS memory to be mapped by programs like DESQview and Windows.
+
+                           Showing More Detail
+                           -------------------
+
+Use your arrow keys to select an item then press [ENTER].  A window will
+pop-up and show more detail about the selected item.  The actual information 
+displayed depends on the item selected.  Pressing F2 will send the entire
+detail to the activity log.
+END.
+
+HELP:memmap_int:Interrupt Vectors
+This screen lets you examine how each software interrupt is being used.
+This is helpful when tracking down software conflicts particularly those
+caused by TSR's and other resident programs.
+
+The following describes the elements of the display:
+
+INT       This column lists the interrupt being described.
+
+Usual     This column describes what the interrupt is normally used for.
+Function  You will notice that several have very specific purposes while
+          others are either marked "reserved" or are used by one or more
+          common applications.  NOTE:  This column describes the inter-
+          rupts typical use and NOT how it is currently being used.
+
+Address   This column shows the address the vector is pointing to.  The
+          values are the hexadecimal segment and offset respectively.
+
+Points    This column displays where the vector is now pointing.  In many
+To        cases the vector will be pointing to an operating system
+          component like the System ROM, DOS kernel, or COMMAND.COM. Some-
+          times, the vector will be pointing to a TSR or device driver.
+
+Consult your manual for more information on interpreting this information
+and interrupts in general.
+END.
+
+HELP:memmap_tsr:Programs
+This list shows how much memory each resident program is using (including
+CheckIt).  Note that some programs also allocate data and environment
+blocks.  Make sure you include these blocks when determining how much
+memory a program uses.
+
+Look in your manual for ideas on how to make more DOS memory available.
+END.
+
+HELP:memmap_nothing:<nothing>
+Addresses marked this way are currently not used for any purpose.  Depend-
+ing on the system, these areas can be used by add-in ROM modules, EMS hard-
+ware, or hi RAM.
+
+                              Relocating RAM
+                              --------------
+
+If your system has hardware mapping capabilities (like the 80386 or 80486), 
+you can use programs like 386Max or QEMM to put RAM in these areas.  You 
+can then move some of your resident programs to this area and leave more 
+DOS memory for applications.
+
+Look in you manual for more information on using these areas.
+END.
+
+HELP:memmap_hiram:Hi RAM
+This area contains RAM this is not allocated in a way CheckIt can
+recognize.  This can happen for a number of reasons:
+
+1.  Some non-standard video adapters provide more video RAM than CheckIt
+    otherwise expects.
+
+2.  Some add-on cards have special purpose RAM that is used for buffering
+    data and other specific tasks.  This is common with LAN cards.
+
+Look in you manual for more other ways Hi RAM can appear.
+END.
+
+HELP:memmap_ebios:Extended BIOS Data Area
+The extended BIOS (EBIOS) data area is set-up by the BIOS when the system
+is booting and is provided for OS/2 and other multi-tasking operating
+systems.  This memory (usually about 1K) is allocated from the top of RAM
+and is not available to DOS.  This is why some programs report 639K total
+memory instead of 640K.
+END.
+
+HELP:memmap_vram:Video RAM
+This address space is used by the video adapter to display text and
+graphics.
+
+Some adapters use different ranges of memory for different display modes.
+The summary shows the entire range and the detail shows what ranges are 
+used for each type of display mode.
+END.
+
+HELP:memmap_available:Available RAM
+This is DOS memory that is currently not used by any program.  It is
+available for applications and TSR's.
+
+REMEMBER:  CheckIt counts itself as one of the programs in memory.  So,
+           to determine the total DOS memory available without CheckIt
+           installed, add CheckIt's RAM usage to the available total.
+END.
+
+HELP:memmap_rom:ROM
+This area contains a ROM.  ROM modules are used for the main system BIOS,
+hard disk BIOS, video BIOS, etc.  If CheckIt has found a copyright string,
+it  will display it.  Otherwise, the first few bytes of this area are
+displayed to help you decide what the ROM is used for.
+END.
+
+HELP:memmap_ems:EMS Page Frame
+This area is where expanded memory meets the real world.  Normally, this
+memory lives in a separate address space and cannot be accessed by 
+applications.  The page frame provides a window into that address space
+so applications can save and retrieve data.  This works much like a
+book --  you must turn to the proper page to read (or write) what you 
+want and there are always several pages "hidden" from view.
+END.
+
+HELP:report_detail:Report Detail
+You can select either a full detail report, certification report or both.
+Full detail is the normal setting and generates complete test results in 
+the activity log.  The certification report fits on one page and contains
+a copy of the configuration report and a summary of the results for each
+test.
+
+NOTE:  To save the results to disk or printer, be sure to select the proper
+       activity log setting under the setup menu before starting the test.
+END.
+
+HELP:custom_heading:Custom Heading
+At this point, you can type a line to appear as a heading on the top of 
+the activity log.  You can use this space to keep track of what machine 
+created the log, what errors you were trying to find, or anything else
+that you find useful.
+END.
+
+
