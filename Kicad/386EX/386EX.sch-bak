@@ -156,11 +156,9 @@ Text Label 6525 7000 0    50   ~ 0
 WR
 Text Label 3925 7100 2    50   ~ 0
 PIPELINE_EN
-Text Label 3925 5700 2    50   ~ 0
-RESET
-Text Label 1400 7050 0    50   ~ 0
+Text Label 1400 7150 0    50   ~ 0
 PIPELINE_EN
-Text Label 1400 5225 0    50   ~ 0
+Text Label 1400 5725 0    50   ~ 0
 8_BIT_EN
 Text Label 1000 5925 2    50   ~ 0
 GND
@@ -465,7 +463,7 @@ Text Label 6525 5600 0    50   ~ 0
 HF_PCLK
 Text Label 3925 6900 2    50   ~ 0
 FLT
-Text Label 1400 6950 0    50   ~ 0
+Text Label 1400 6850 0    50   ~ 0
 FLT
 Text Label 3925 6600 2    50   ~ 0
 SMI
@@ -473,7 +471,7 @@ Text Label 3925 6700 2    50   ~ 0
 SMIACT
 Text Label 1400 6750 0    50   ~ 0
 SMI
-Text Label 1400 6850 0    50   ~ 0
+Text Label 1400 7350 0    50   ~ 0
 SMIACT
 $Comp
 L 74xx:74LS04 U4
@@ -535,7 +533,7 @@ Text Label 8325 4575 0    50   ~ 0
 ALE
 Text Label 3925 6400 2    50   ~ 0
 TRST
-Text Label 1400 6650 0    50   ~ 0
+Text Label 1400 7250 0    50   ~ 0
 TRST
 $Comp
 L Device:R_Network08 R7
@@ -553,11 +551,11 @@ Text Label 1000 7350 2    50   ~ 0
 Text Label 7775 4075 2    50   ~ 0
 RDY1
 $Comp
-L Connector_Generic:Conn_01x02 J3
+L Connector_Generic:Conn_01x02 READY_PIN_EN1
 U 1 1 62BA5362
 P 8850 4225
-F 0 "J3" H 8930 4217 50  0000 L CNN
-F 1 "Conn_01x02" H 8930 4126 50  0000 L CNN
+F 0 "READY_PIN_EN1" H 8930 4217 50  0000 L CNN
+F 1 "READY PIN EN " H 8930 4126 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8850 4225 50  0001 C CNN
 F 3 "~" H 8850 4225 50  0001 C CNN
 	1    8850 4225
@@ -569,27 +567,16 @@ Text Label 8650 4325 2    50   ~ 0
 READY_JMP
 Text Label 6525 6500 0    50   ~ 0
 READY_JMP
-Text Label 1400 7350 0    50   ~ 0
+Text Label 1400 6650 0    50   ~ 0
 PU_257
-$Comp
-L Device:R_Network08 R1
-U 1 1 62BB3E99
-P 1200 5525
-F 0 "R1" V 1407 5525 50  0000 C CNN
-F 1 "4.7K ohm" H 1175 5800 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 1130 5525 50  0001 C CNN
-F 3 "~" H 1200 5525 50  0001 C CNN
-	1    1200 5525
-	0    -1   -1   0   
-$EndComp
 Text Label 1400 5925 0    50   ~ 0
 READY_JMP
 $Comp
-L Connector_Generic:Conn_01x02 J5
+L Connector_Generic:Conn_01x02 HOLDA_EN1
 U 1 1 62BB9970
 P 7725 2550
-F 0 "J5" H 7805 2542 50  0000 L CNN
-F 1 "Conn_01x02" H 7805 2451 50  0000 L CNN
+F 0 "HOLDA_EN1" H 7805 2542 50  0000 L CNN
+F 1 "HOLDA EN" H 7805 2451 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7725 2550 50  0001 C CNN
 F 3 "~" H 7725 2550 50  0001 C CNN
 	1    7725 2550
@@ -599,14 +586,14 @@ Text Label 7525 2550 2    50   ~ 0
 HOLDA
 Text Label 7525 2650 2    50   ~ 0
 HOLDA_JMP
-Text Label 1400 5825 0    50   ~ 0
+Text Label 1400 5525 0    50   ~ 0
 HOLDA_JMP
 $Comp
 L Oscillator:CXO_DIP8 X1
 U 1 1 62BBAB1B
 P 1600 4075
-F 0 "X1" H 1944 4121 50  0000 L CNN
-F 1 "CXO_DIP8" H 1944 4030 50  0000 L CNN
+F 0 "X1" H 1944 4121 50  0001 L CNN
+F 1 "33MHz" H 1944 4030 50  0000 L CNN
 F 2 "Oscillator:Oscillator_DIP-8" H 2050 3725 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 1500 4075 50  0001 C CNN
 	1    1600 4075
@@ -619,11 +606,11 @@ GND
 Text Label 3925 5800 2    50   ~ 0
 CLK2
 $Comp
-L Connector_Generic:Conn_01x03 J4
+L Connector_Generic:Conn_01x03 CLK2_SEL1
 U 1 1 62BBC9F6
 P 2875 3625
-F 0 "J4" H 2955 3667 50  0000 L CNN
-F 1 "Conn_01x03" H 2955 3576 50  0000 L CNN
+F 0 "CLK2_SEL1" H 2955 3667 50  0000 L CNN
+F 1 "CLK2 SEL" H 2955 3576 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2875 3625 50  0001 C CNN
 F 3 "~" H 2875 3625 50  0001 C CNN
 	1    2875 3625
@@ -642,11 +629,11 @@ Text Label 2675 3525 2    50   ~ 0
 Text Label 1300 4075 2    50   ~ 0
 OSC_EN
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 OSC_EN1
 U 1 1 62B9F60C
 P 975 4425
-F 0 "J?" H 1055 4467 50  0000 L CNN
-F 1 "Conn_01x03" H 1055 4376 50  0000 L CNN
+F 0 "OSC_EN1" H 1055 4467 50  0000 L CNN
+F 1 "OSC EN" H 1055 4376 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 975 4425 50  0001 C CNN
 F 3 "~" H 975 4425 50  0001 C CNN
 	1    975  4425
@@ -658,17 +645,6 @@ Text Label 775  4525 2    50   ~ 0
 GND
 Text Label 775  4325 2    50   ~ 0
 5+
-$Comp
-L Connector_Generic:Conn_01x08 J?
-U 1 1 62BA29A2
-P 3350 5100
-F 0 "J?" H 3430 5142 50  0000 L CNN
-F 1 "Conn_01x08" H 3430 5051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3350 5100 50  0001 C CNN
-F 3 "~" H 3350 5100 50  0001 C CNN
-	1    3350 5100
-	1    0    0    -1  
-$EndComp
 Text Label 3925 4800 2    50   ~ 0
 D8
 Text Label 3925 4900 2    50   ~ 0
@@ -685,28 +661,28 @@ Text Label 3925 5400 2    50   ~ 0
 D14
 Text Label 3925 5500 2    50   ~ 0
 D15
-Text Label 3150 4800 2    50   ~ 0
+Text Label 3150 4700 2    50   ~ 0
 D8
-Text Label 3150 4900 2    50   ~ 0
+Text Label 3150 4800 2    50   ~ 0
 D9
-Text Label 3150 5000 2    50   ~ 0
+Text Label 3150 4900 2    50   ~ 0
 D10
-Text Label 3150 5100 2    50   ~ 0
+Text Label 3150 5000 2    50   ~ 0
 D11
-Text Label 3150 5200 2    50   ~ 0
+Text Label 3150 5100 2    50   ~ 0
 D12
-Text Label 3150 5300 2    50   ~ 0
+Text Label 3150 5200 2    50   ~ 0
 D13
-Text Label 3150 5400 2    50   ~ 0
+Text Label 3150 5300 2    50   ~ 0
 D14
-Text Label 3150 5500 2    50   ~ 0
+Text Label 3150 5400 2    50   ~ 0
 D15
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 8_BIT_BUS_EN1
 U 1 1 62BA6F16
 P 3000 925
-F 0 "J?" H 3080 917 50  0000 L CNN
-F 1 "Conn_01x02" H 3080 826 50  0000 L CNN
+F 0 "8_BIT_BUS_EN1" H 3080 917 50  0000 L CNN
+F 1 "8 BIT BUS EN" H 3080 826 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3000 925 50  0001 C CNN
 F 3 "~" H 3000 925 50  0001 C CNN
 	1    3000 925 
@@ -716,4 +692,49 @@ Text Label 2800 925  2    50   ~ 0
 8_BIT_EN_JMP
 Text Label 3925 900  2    50   ~ 0
 8_BIT_EN_JMP
+Text Label 3150 5500 2    50   ~ 0
+BHE
+Text Label 3925 1100 2    50   ~ 0
+BHE
+Text Label 8250 2550 0    50   ~ 0
+GND
+$Comp
+L 74xx:74LS04 U4
+U 3 1 62C1902F
+P 8025 5125
+F 0 "U4" H 8025 5442 50  0000 C CNN
+F 1 "74LS04" H 8025 5351 50  0000 C CNN
+F 2 "" H 8025 5125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 8025 5125 50  0001 C CNN
+	3    8025 5125
+	1    0    0    -1  
+$EndComp
+Text Label 7725 5125 2    50   ~ 0
+RESET
+Text Label 8325 5125 0    50   ~ 0
+RESET_
+Text Label 3925 5700 2    50   ~ 0
+RESET_
+$Comp
+L Connector_Generic:Conn_01x09 J8
+U 1 1 62BA29A2
+P 3350 5100
+F 0 "J8" H 3430 5142 50  0000 L CNN
+F 1 "Conn_01x09" H 3430 5051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 3350 5100 50  0001 C CNN
+F 3 "~" H 3350 5100 50  0001 C CNN
+	1    3350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network08 R1
+U 1 1 62BB3E99
+P 1200 5525
+F 0 "R1" V 1407 5525 50  0000 C CNN
+F 1 "4.7K ohm" H 1175 5800 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 1130 5525 50  0001 C CNN
+F 3 "~" H 1200 5525 50  0001 C CNN
+	1    1200 5525
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

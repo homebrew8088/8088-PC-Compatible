@@ -95,8 +95,6 @@ F 3 "~" H 6325 1875 50  0001 C CNN
 	1    6325 1875
 	1    0    0    -1  
 $EndComp
-Text Label 4525 1900 3    50   ~ 0
-GND
 Text Label 4950 1925 3    50   ~ 0
 GND
 Text Label 6325 1975 3    50   ~ 0
@@ -121,8 +119,6 @@ Text Label 6325 1775 0    50   ~ 0
 Text Label 5350 1700 2    50   ~ 0
 5+
 Text Label 4950 1725 1    50   ~ 0
-5+
-Text Label 4525 1700 1    50   ~ 0
 5+
 $Comp
 L Connector_Generic:Conn_01x04 USB1
