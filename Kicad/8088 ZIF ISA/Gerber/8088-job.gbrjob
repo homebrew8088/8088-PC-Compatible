@@ -7,20 +7,20 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2022-07-22T12:23:09-06:00"
+    "CreationDate":  "2022-07-22T12:19:48-06:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "CH376S Module",
-      "GUID": "43483337-3653-4204-9d6f-64756c652e6b",
+      "Name": "8088",
+      "GUID": "38303838-2e6b-4696-9361-645f70636258",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 52.120,
-      "Y": 29.006
+      "X": 132.003,
+      "Y": 73.964
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -38,47 +38,42 @@
   "FilesAttributes":
   [
     {
-      "Path":  "CH376S Module-F_Cu.gbr",
+      "Path":  "8088-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-B_Cu.gbr",
+      "Path":  "8088-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-F_Paste.gbr",
+      "Path":  "8088-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-B_Paste.gbr",
+      "Path":  "8088-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-F_SilkS.gbr",
+      "Path":  "8088-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CH376S Module-B_SilkS.gbr",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "CH376S Module-F_Mask.gbr",
+      "Path":  "8088-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "CH376S Module-B_Mask.gbr",
+      "Path":  "8088-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "CH376S Module-Edge_Cuts.gbr",
+      "Path":  "8088-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
@@ -117,10 +112,6 @@
     {
       "Type":  "SolderPaste",
       "Notes":  "Layer B.Paste"
-    },
-    {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
     }
   ]
 }
