@@ -377,20 +377,16 @@ Text Label 4625 7350 2    50   ~ 0
 HOLDA
 Text Label 4625 7250 2    50   ~ 0
 HOLD
-Text Label 8825 6900 0    50   ~ 0
-IORD
-Text Label 8825 7000 0    50   ~ 0
-MRD
-Text Label 8825 7300 0    50   ~ 0
-MWR
 Text Label 8825 7400 0    50   ~ 0
-IOWR
+IORD_
+Text Label 8825 7300 0    50   ~ 0
+MRD_
+Text Label 8825 7200 0    50   ~ 0
+MWR_
+Text Label 8825 7100 0    50   ~ 0
+IOWR_
 Text Label 8825 7800 0    50   ~ 0
 DTR
-Text Label 8825 8100 0    50   ~ 0
-DEN
-Text Label 11575 8750 2    50   ~ 0
-DEN
 Text Label 11575 8650 2    50   ~ 0
 DTR
 Text Label 11550 6425 2    50   ~ 0
@@ -405,32 +401,6 @@ Text Label 2800 4100 0    50   ~ 0
 X2
 Text Label 8825 7900 0    50   ~ 0
 ALE
-Text Label 11200 9100 2    50   ~ 0
-5+
-Text Label 11500 9100 0    50   ~ 0
-DEN
-$Comp
-L Device:R R5
-U 1 1 61072939
-P 11350 9100
-F 0 "R5" V 11143 9100 50  0000 C CNN
-F 1 "10K ohm" V 11234 9100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 11280 9100 50  0001 C CNN
-F 3 "~" H 11350 9100 50  0001 C CNN
-	1    11350 9100
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS245 U4
-U 1 1 61063CD3
-P 12075 8250
-F 0 "U4" H 12075 9231 50  0000 C CNN
-F 1 "74LS245" H 12075 9140 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm" H 12075 8250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 12075 8250 50  0001 C CNN
-	1    12075 8250
-	1    0    0    -1  
-$EndComp
 Text Label 7975 13575 0    50   ~ 0
 SPK_GO
 Text Label 7975 13475 0    50   ~ 0
@@ -529,7 +499,7 @@ F 3 "http://www.cpu-galaxy.at/cpu/ram%20rom%20eprom/other_intel_chips/other_inte
 	1    2100 3500
 	1    0    0    -1  
 $EndComp
-Text Label 7425 7700 2    50   ~ 0
+Text Label 9375 8425 2    50   ~ 0
 HOLDA
 Text Label 8050 5800 0    50   ~ 0
 GND
@@ -806,14 +776,6 @@ F 3 "http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf" H
 	1    7950 4000
 	1    0    0    -1  
 $EndComp
-Text Label 7425 7900 2    50   ~ 0
-GND
-Text Label 7425 6900 2    50   ~ 0
-S0
-Text Label 7425 7000 2    50   ~ 0
-S1
-Text Label 7425 7100 2    50   ~ 0
-S2
 Text Label 8650 5100 0    50   ~ 0
 S0
 Text Label 8650 5200 0    50   ~ 0
@@ -993,20 +955,9 @@ Text Label 2900 6475 0    50   ~ 0
 8088_NMI
 Text Label 5950 5400 0    50   ~ 0
 8087_INT
-$Comp
-L Device:R R4
-U 1 1 6325BF49
-P 2400 8025
-F 0 "R4" V 2193 8025 50  0000 C CNN
-F 1 "10K ohm" V 2284 8025 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2330 8025 50  0001 C CNN
-F 3 "~" H 2400 8025 50  0001 C CNN
-	1    2400 8025
-	0    1    1    0   
-$EndComp
-Text Label 2250 8025 2    50   ~ 0
+Text Label 1075 7650 2    50   ~ 0
 GND
-Text Label 2550 8025 0    50   ~ 0
+Text Label 1475 7650 0    50   ~ 0
 8088_NMI
 Text Label 3250 6075 0    50   ~ 0
 GND
@@ -1025,23 +976,119 @@ F 3 "~" H 3000 6075 50  0001 C CNN
 $EndComp
 Text Label 7250 3200 2    50   ~ 0
 8088_NMI
-$Comp
-L Device:R R?
-U 1 1 632AB08C
-P 6725 3650
-F 0 "R?" V 6518 3650 50  0000 C CNN
-F 1 "10K ohm" V 6609 3650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6655 3650 50  0001 C CNN
-F 3 "~" H 6725 3650 50  0001 C CNN
-	1    6725 3650
-	0    1    1    0   
-$EndComp
-Text Label 6575 3650 2    50   ~ 0
-5+
-Text Label 6875 3650 0    50   ~ 0
-TEST
 Text Label 5950 5300 0    50   ~ 0
 TEST
 Text Label 7250 3700 2    50   ~ 0
 TEST
+Text Label 7425 7700 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS245 U12
+U 1 1 6321515B
+P 9875 7925
+F 0 "U12" H 9875 8906 50  0000 C CNN
+F 1 "74LS245" H 9875 8815 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 9875 7925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 9875 7925 50  0001 C CNN
+	1    9875 7925
+	1    0    0    -1  
+$EndComp
+Text Label 10350 6900 0    50   ~ 0
+GND
+Text Label 9850 6900 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C12
+U 1 1 632168B6
+P 10100 6900
+F 0 "C12" V 9785 6900 50  0000 C CNN
+F 1 "0.1uF" V 9876 6900 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10100 6900 50  0001 C CNN
+F 3 "~" H 10100 6900 50  0001 C CNN
+	1    10100 6900
+	0    1    1    0   
+$EndComp
+Text Label 9875 7125 2    50   ~ 0
+5+
+Text Label 9875 8725 0    50   ~ 0
+GND
+Text Label 9375 8325 2    50   ~ 0
+5+
+Text Label 10375 7625 0    50   ~ 0
+IOWR
+Text Label 10375 7425 0    50   ~ 0
+MWR
+Text Label 10375 7525 0    50   ~ 0
+MRD
+Text Label 10375 7725 0    50   ~ 0
+IORD
+Text Label 9375 7425 2    50   ~ 0
+MWR_
+Text Label 9375 7625 2    50   ~ 0
+IOWR_
+Text Label 9375 7725 2    50   ~ 0
+IORD_
+Text Label 9375 7525 2    50   ~ 0
+MRD_
+Text Label 6400 7250 2    50   ~ 0
+5+
+Text Label 7425 7100 2    50   ~ 0
+S2
+Text Label 7425 7000 2    50   ~ 0
+S1
+Text Label 7425 6900 2    50   ~ 0
+S0
+Text Label 6800 7250 0    50   ~ 0
+S2
+Text Label 6800 7150 0    50   ~ 0
+S1
+Text Label 6800 7050 0    50   ~ 0
+S0
+Text Label 7425 7900 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS245 U4
+U 1 1 61063CD3
+P 12075 8250
+F 0 "U4" H 12075 9231 50  0000 C CNN
+F 1 "74LS245" H 12075 9140 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 12075 8250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 12075 8250 50  0001 C CNN
+	1    12075 8250
+	1    0    0    -1  
+$EndComp
+Text Label 11575 8750 2    50   ~ 0
+HOLDA
+Text Label 6800 6850 0    50   ~ 0
+RQ_8087
+Text Label 6800 6750 0    50   ~ 0
+RQ_82188
+Text Label 6800 6950 0    50   ~ 0
+TEST
+$Comp
+L Device:R_Network08 RN1
+U 1 1 633537E3
+P 6600 6850
+F 0 "RN1" V 6925 6850 50  0000 C CNN
+F 1 "10K ohm" V 6834 6850 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 7175 6850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6600 6850 50  0001 C CNN
+	1    6600 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Network03 RN2
+U 1 1 6325F6F1
+P 1275 7550
+F 0 "RN2" V 1600 7550 50  0000 C CNN
+F 1 "10K ohm" V 1509 7550 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 1850 7550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1275 7550 50  0001 C CNN
+	1    1275 7550
+	0    -1   -1   0   
+$EndComp
+Text Label 1475 7550 0    50   ~ 0
+8087_INT
+Text Label 1475 7450 0    50   ~ 0
+NMI
 $EndSCHEMATC
