@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2022-04-03T17:30:12-06:00"
+    "CreationDate":  "2022-10-19T08:29:44-06:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "640k",
-      "GUID": "3634306b-2e6b-4696-9361-645f70636258",
+      "Name": "64k 640k",
+      "GUID": "36346b20-3634-4306-9b2e-6b696361645f",
       "Revision": "rev?"
     },
     "Size":
@@ -38,42 +38,42 @@
   "FilesAttributes":
   [
     {
-      "Path":  "640k-F_Cu.gbr",
+      "Path":  "64k 640k-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "640k-B_Cu.gbr",
+      "Path":  "64k 640k-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "640k-F_Paste.gbr",
+      "Path":  "64k 640k-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "640k-B_Paste.gbr",
+      "Path":  "64k 640k-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "640k-F_SilkS.gbr",
+      "Path":  "64k 640k-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "640k-F_Mask.gbr",
+      "Path":  "64k 640k-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "640k-B_Mask.gbr",
+      "Path":  "64k 640k-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "640k-Edge_Cuts.gbr",
+      "Path":  "64k 640k-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
