@@ -7,20 +7,20 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2022-11-03T13:19:36-06:00"
+    "CreationDate":  "2022-11-03T13:18:07-06:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "V40 64K 640K ISA",
-      "GUID": "56343020-3634-44b2-9036-34304b204953",
+      "Name": "Breadboard Adapter",
+      "GUID": "42726561-6462-46f6-9172-642041646170",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 165.150,
-      "Y": 73.964
+      "X": 20.624,
+      "Y": 137.210
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -38,42 +38,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "V40 64K 640K ISA-F_Cu.gbr",
+      "Path":  "Breadboard Adapter-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "V40 64K 640K ISA-B_Cu.gbr",
+      "Path":  "Breadboard Adapter-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "V40 64K 640K ISA-F_Paste.gbr",
+      "Path":  "Breadboard Adapter-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "V40 64K 640K ISA-B_Paste.gbr",
+      "Path":  "Breadboard Adapter-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "V40 64K 640K ISA-F_SilkS.gbr",
+      "Path":  "Breadboard Adapter-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "V40 64K 640K ISA-F_Mask.gbr",
+      "Path":  "Breadboard Adapter-B_SilkS.gbr",
+      "FileFunction":  "Legend,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "Breadboard Adapter-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "V40 64K 640K ISA-B_Mask.gbr",
+      "Path":  "Breadboard Adapter-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "V40 64K 640K ISA-Edge_Cuts.gbr",
+      "Path":  "Breadboard Adapter-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
@@ -112,6 +117,10 @@
     {
       "Type":  "SolderPaste",
       "Notes":  "Layer B.Paste"
+    },
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer B.SilkS"
     }
   ]
 }
