@@ -145,7 +145,7 @@ F 1 "4.7uF" V 5874 4425 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5650 4425 50  0001 C CNN
 F 3 "~" H 5650 4425 50  0001 C CNN
 	1    5650 4425
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text Label 5400 4425 2    50   ~ 0
 GND
@@ -478,4 +478,146 @@ Text Label 9825 8025 2    50   ~ 0
 PIN7
 Text Label 8675 8025 2    50   ~ 0
 PIN7
+$Comp
+L 74xx:74LS138 U2
+U 1 1 63650858
+P 5325 8875
+F 0 "U2" H 5325 9656 50  0000 C CNN
+F 1 "74LS138" H 5325 9565 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5325 8875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 5325 8875 50  0001 C CNN
+	1    5325 8875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS138 U1
+U 1 1 63650D77
+P 3900 10100
+F 0 "U1" H 3900 10881 50  0000 C CNN
+F 1 "74LS138" H 3900 10790 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3900 10100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 3900 10100 50  0001 C CNN
+	1    3900 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS138 U3
+U 1 1 636518F3
+P 5925 10325
+F 0 "U3" H 5925 11106 50  0000 C CNN
+F 1 "74LS138" H 5925 11015 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 5925 10325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 5925 10325 50  0001 C CNN
+	1    5925 10325
+	1    0    0    -1  
+$EndComp
+Text Label 4825 9175 2    50   ~ 0
+HOLDA
+Text Label 4825 9075 2    50   ~ 0
+5+
+Text Label 4825 9275 2    50   ~ 0
+A15
+Text Label 5325 8275 0    50   ~ 0
+5+
+Text Label 4825 8575 2    50   ~ 0
+A12
+Text Label 4825 8675 2    50   ~ 0
+A13
+Text Label 4825 8775 2    50   ~ 0
+A14
+Text Label 5825 8575 0    50   ~ 0
+IO_0XXX
+Text Label 5325 9575 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C3
+U 1 1 63654344
+P 5300 7775
+F 0 "C3" V 5615 7775 50  0000 C CNN
+F 1 "4.7uF" V 5524 7775 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5300 7775 50  0001 C CNN
+F 3 "~" H 5300 7775 50  0001 C CNN
+	1    5300 7775
+	0    1    1    0   
+$EndComp
+Text Label 5050 7775 2    50   ~ 0
+5+
+Text Label 5550 7775 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C2
+U 1 1 63654CD3
+P 3800 9150
+F 0 "C2" V 4115 9150 50  0000 C CNN
+F 1 "4.7uF" V 4024 9150 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 3800 9150 50  0001 C CNN
+F 3 "~" H 3800 9150 50  0001 C CNN
+	1    3800 9150
+	0    1    1    0   
+$EndComp
+Text Label 3550 9150 2    50   ~ 0
+5+
+Text Label 4050 9150 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C4
+U 1 1 63654F9A
+P 6450 9400
+F 0 "C4" V 6765 9400 50  0000 C CNN
+F 1 "4.7uF" V 6674 9400 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6450 9400 50  0001 C CNN
+F 3 "~" H 6450 9400 50  0001 C CNN
+	1    6450 9400
+	0    1    1    0   
+$EndComp
+Text Label 6200 9400 2    50   ~ 0
+5+
+Text Label 6700 9400 0    50   ~ 0
+GND
+Text Label 3400 10400 2    50   ~ 0
+IO_0XXX
+Text Label 3900 9500 2    50   ~ 0
+5+
+Text Label 3400 10300 2    50   ~ 0
+5+
+Text Label 3900 10800 0    50   ~ 0
+GND
+Text Label 3400 10500 2    50   ~ 0
+A11
+Text Label 3400 9800 2    50   ~ 0
+A8
+Text Label 3400 9900 2    50   ~ 0
+A9
+Text Label 3400 10000 2    50   ~ 0
+A10
+Text Label 4400 9800 0    50   ~ 0
+IO_00XX
+Text Label 5425 10625 2    50   ~ 0
+IO_00XX
+Text Label 5425 10525 2    50   ~ 0
+5+
+Text Label 5425 10725 2    50   ~ 0
+A4
+Text Label 5425 10025 2    50   ~ 0
+A5
+Text Label 5425 10125 2    50   ~ 0
+A6
+Text Label 5425 10225 2    50   ~ 0
+A7
+Text Label 5925 9725 2    50   ~ 0
+5+
+Text Label 5925 11025 0    50   ~ 0
+GND
+Text Label 6425 10025 0    50   ~ 0
+IO_000X
+Text Label 6425 10125 0    50   ~ 0
+IO_002X
+Text Label 6425 10225 0    50   ~ 0
+IO_004X
+Text Label 6425 10325 0    50   ~ 0
+IO_006X
+Text Label 6425 10425 0    50   ~ 0
+IO_008X
+Text Label 6425 10725 0    50   ~ 0
+IO_00EX
 $EndSCHEMATC
