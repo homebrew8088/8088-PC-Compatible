@@ -1,0 +1,27 @@
+a 3ac
+cs:	mov	ss,[02a8]
+cs:	mov	sp,[02a6]
+
+a cd1
+cs:	mov	ss,[02d3]
+cs:	mov	sp,[02d1]
+
+a 1522
+cs:	mov	ss,[02d3]
+cs:	mov	sp,[02d1]
+
+a 311d
+mov	ss,[02d3]
+mov	sp,[02d1]
+
+a 325f
+mov	bp,es
+mov	ss,bp
+
+a 409b
+mov	ax,cs
+mov	ss,ax
+mov	sp,4235
+
+w
+q

@@ -1,0 +1,92 @@
+
+
+                  Instructions for Willy the Worm Screen Editor
+                            by Alan Farmer, June 1985
+
+
+          -------------------------------------------------------------
+
+          Willy  the  Worm  is  a user-supported program.  Feel free to 
+          make copies and pass them out,  but please do not sell  them.  
+          Donations  of about $10 would be greatly appreciated.  Please 
+          send your questions,  comments,  high scores,  improved  game 
+          screens, and DONATIONS to: 
+
+                            Alan Farmer
+                            2743 McElroy Drive
+                            Charlottesville, Va  22903
+
+          -------------------------------------------------------------
+
+          
+          Uses of the editor:
+
+          The screen editor for Willy the Worm can be  used  to  modify 
+          the  eight  screens  used  in  the  game  and  to preview and 
+          practice on the higher ones.  If a screen is too hard or  you 
+          want to design your own screens entirely, read on.  
+
+
+          Getting Started:
+
+          To  enter  the  screen  editor,  enter  'EDWILLY'  at the DOS 
+          prompt.  Press Enter when asked to do so.  Next you are asked 
+          which screen you want to edit.  Answer wth a number from 1 to 
+          8.  The screen you choose will then be displayed.
+
+
+          Editing keys:
+
+          'A' is the help key.  Pressing this key will display a window 
+          with a summary of the following instructions.  
+
+          The  arrow  keys  move the cursor (the blinking pixel) around 
+          the screen.  Any changes you make will occur at the  location 
+          of this cursor.  
+
+          'K'  brings up the prompt for which screen to edit.  Use this 
+          to go to another screen.  
+
+          'L' saves all screens on disk for use with the main  program.  
+          DO NOT forget to save your work before you leave the program!  
+
+          ';'  copies any screen to any other.  WARNING:  this destroys 
+          the screen that is copied over.  
+
+          '.' plays the screen you are currently editing.  The score is 
+          included for reference and does not  go  on  the  high  score 
+          list.  
+
+          '/'  changes  the starting position to the cursor position on 
+          the current screen.  The starting position is represented  by 
+          Willy the Worm facing left.  
+
+          ',' enters the small square that produces or  removes  balls.  
+          The  topmost  small  square  on  the  screen is automatically 
+          chosen to produce balls and all other remove them.  
+
+          'U'  enters  a  vertical  spring at the cursor position.  'I' 
+          enters a tack.  'O' enters a section of ladder.  'P' enters a 
+          bell.  'J' enters a horizontal spring.  'M' enters a present. 
+          
+          Various other keys enter sections of wall and floor.  See the 
+          help window ('A') for a complete list.  You may want to do a 
+          screen dump of the help window if you have a dot matrix 
+          printer and the DOS program GRAPHICS. 
+
+          
+          Making DONATIONS:
+
+          You've heard it all before: "The development of this software 
+          has taken much time and effort.  If we are  to  continue  our 
+          production of user-supported software, your contributions are 
+          vital."  Well,  I can tell you first-hand that it's true.  If 
+          enough people send ten dollars,  maybe I'll  find  it  in  my 
+          heart to write "Willy The Worm II" or "Pete the Pigeon".  
+
+          Hint: If you like this game a LOT, you can send more than ten 
+          dollars!
+          
+          Have gobs of fun and don't forget to pass copies on to all of
+          your friends!          
+

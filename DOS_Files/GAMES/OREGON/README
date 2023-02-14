@@ -1,0 +1,43 @@
+Dear Oregon Trail User,
+
+Thank you for purchasing The Oregon Trail!  The following information was too
+late to be included in the User's Guide.  Please take the time to read it
+so that you can receive maximum enjoyment from your software package.
+
+
+Computer Display
+================
+Oregon Trail will automatically detect the graphic capability of your
+computer (CGA, EGA, or VGA).  On some computers, this automatic
+detection may fail.  If this happens, you may correct the situation by
+specifying a graphic mode when starting the program.  Simply type
+
+	OREGON CGA
+
+if your computer uses CGA or EGA graphics, or
+
+	OREGON VGA
+
+if your computer uses VGA or MCGA graphics or better.
+
+
+
+Register Now
+============
+A REGISTRATION CARD is included in the package.  Please complete it and
+return it to us so that we can notify you of new, exciting MS-DOS products
+as they become available.
+
+
+Make a Backup Copy
+==================
+Before you begin playing The Oregon Trail, be sure to make yourself a copy
+and put the original disks in a safe place.
+
+We hope you enjoy The Oregon Trail as much as we enjoyed creating it!
+
+Sincerely,
+
+MECC
+
+

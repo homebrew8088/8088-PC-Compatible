@@ -1,0 +1,26 @@
+# mTCP FTPSrv user/password sample file
+#
+# User file format
+#
+# user password sandboxdir uploaddir permissions
+#
+# Commands with permissions: dele, mkd, rmd, rnfr, stor, appe, stou
+# "all" is an alias for everything
+#
+# DOS paths are in /drive_X/path form where X is the drive letter.
+# For example, e:/ftpdata is written as /drive_e/ftpdata .
+#
+# For sandboxdir, enter [none] or a full path name (drive letter included)
+# For uploaddir, enter [any] or a full path name (relative if using sandbox,
+#   or absolute if not using the sandbox).
+#
+brutman   password  [none]            [any]             all
+ftp       [email]   /drive_e/ftpdata  /testdir/incoming stor stou
+anonymous [email]   /drive_e/ftpdata  /testdir/incoming stor stou
+#
+#
+# The next line defines a readonly user - notice there are not
+# permissions defined.  Don't worry about the [any] in the
+# uploaddir field - it is just taking up space.
+#
+readonly  [email]   /drive_e/ftpdata  [any]

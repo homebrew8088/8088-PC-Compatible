@@ -1,0 +1,94 @@
+
+
+                         Instructions for Willy the Worm
+                            by Alan Farmer, June 1985
+
+
+          -------------------------------------------------------------
+
+          Willy  the  Worm  is  a user-supported program.  Feel free to 
+          make copies and pass them out,  but please do not sell  them.  
+          Donations  of about $10 would be greatly appreciated.  Please 
+          send your questions,  comments,  high scores,  improved  game 
+          screens, and DONATIONS to: 
+
+                            Alan Farmer
+                            2743 McElroy Drive
+                            Charlottesville, Va  22903
+
+          -------------------------------------------------------------
+
+
+          Interesting features:
+
+          Willy the Worm is a fast,  challenging arcade style game with 
+          the following special features: 
+
+               *  Fully compatible with IBM PC and PCjr 
+               *  Color and sound effects are supported but optional
+               *  Not one or two but EIGHT game screens
+               *  Editor included for customizing the game screens 
+               *  Top ten high scores and names are saved on disk
+
+
+          Starting the game:
+
+          To start the game,  just enter 'WILLY'  at  the  DOS  prompt.  
+          Answer the two questions (color and sound used) with 'Y'  for 
+          'Yes' or 'N' for 'No'.  After that,  the title screen will be 
+          displayed with some basic instructions.
+
+
+          Playing the game:
+
+          The object of the game is to reach  the  bell  without  being 
+          squashed  by  a  cannonball  or  running  out of time.  Extra 
+          points may be earned by getting presents along the way and by 
+          jumping over the balls.  After you reach the bell you will be 
+          awarded points for the remaining time and you will advance to 
+          the next screen.
+
+          The game is played with the four arrow keys to make Willy the 
+          Worm run left and right and climb ladders up  and  down,  and 
+          the spacebar to make him jump. (Note that when jumping, Willy 
+          can change directions  in  mid-air.  This  can  be  extremely 
+          useful!)  Any  other  key  makes  him  stop.  On  the  PC,  a 
+          convenient stop key is the '5' on the numeric keypad  and  on 
+          the  PCjr  DEL  works  well.  To exit to DOS during the game, 
+          please use ESC rather than  CTRL-C  because  this  will  save 
+          changes to the high score list before leaving.  
+
+          If  you  find  this  game  too  hard (or too easy),  read the 
+          EDWILLY.DOC file and use the screen editor to  make  it  suit 
+          your fancy.  You can also use the editor to get a preview and 
+          practice on the higher levels.  
+
+
+          Scoring:
+
+          The  bonus  counter is displayed at the bottom of the screen.  
+          It starts at 1000 and counts down by tens.  When you finish a 
+          level,  the remaining bonus is added to your  score.  If  the 
+          bonus  gets  to 0,  you lose a worm and start the level over.  
+          Jumping over one or more balls earns  20  points.  Getting  a 
+          present  is 100 points.  After the game,  the high scores are 
+          displayed in two lists.  The  'Daily  Pinworms'  list  resets 
+          each  time  you  enter  the  program,   while  the  'All-Time 
+          Nightcrawlers' list is saved on disk.  
+
+
+          Making DONATIONS:
+
+          You've heard it all before: "The development of this software 
+          has taken much time and effort.  If we are  to  continue  our 
+          production of user-supported software, your contributions are 
+          vital."  Well,  I can tell you first-hand that it's true.  If 
+          enough people send ten dollars,  maybe I'll  find  it  in  my 
+          heart to write "Willy The Worm II" or "Pete the Pigeon".  
+
+          Hint: If you like this game a LOT, you can send more than ten 
+          dollars!
+          
+          Have gobs of fun and don't forget to pass copies on to all of
+          your friends!          
+
