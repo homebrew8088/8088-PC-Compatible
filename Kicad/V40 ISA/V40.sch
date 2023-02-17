@@ -416,8 +416,6 @@ Text Label 17925 7375 0    50   ~ 0
 READY
 Text Label 17925 7275 0    50   ~ 0
 RESET
-Text Label 7625 3575 1    50   ~ 0
-REFRQ
 Text Label 7825 3575 1    50   ~ 0
 HOLDA
 Text Label 7725 3575 1    50   ~ 0
@@ -540,4 +538,6 @@ Text Label 6825 4775 2    50   ~ 0
 GND
 Text Label 8225 3575 1    50   ~ 0
 RDY1
+Text Label 8125 5975 3    50   ~ 0
+DRQ0
 $EndSCHEMATC

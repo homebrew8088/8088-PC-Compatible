@@ -540,4 +540,6 @@ Text Label 6825 4775 2    50   ~ 0
 GND
 Text Label 8225 3575 1    50   ~ 0
 RDY1
+Text Label 8125 5975 3    50   ~ 0
+DRQ0
 $EndSCHEMATC

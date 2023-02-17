@@ -2224,7 +2224,7 @@ READY
 Text Label 16775 6900 2    50   ~ 0
 IO_000X
 Text Label 16025 6375 2    50   ~ 0
-CLK88
+CLK
 Text Label 16025 6675 0    50   ~ 0
 CLK88_1
 Text Label 16775 7100 2    50   ~ 0
@@ -2885,4 +2885,23 @@ Text Label 17950 2850 0    50   ~ 0
 GND
 Text Label 17450 2850 2    50   ~ 0
 5+
+$Comp
+L Switch:SW_DIP_x02 SW?
+U 1 1 63F01F95
+P 15850 9200
+F 0 "SW?" H 15850 9567 50  0000 C CNN
+F 1 "REF EN ON" H 15850 9476 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 15850 9200 50  0001 C CNN
+F 3 "~" H 15850 9200 50  0001 C CNN
+	1    15850 9200
+	1    0    0    -1  
+$EndComp
+Text Label 15550 9100 2    50   ~ 0
+DRQ0_
+Text Label 15550 9200 2    50   ~ 0
+DACK0
+Text Label 16150 9200 0    50   ~ 0
+REFRQ
+Text Label 16150 9100 0    50   ~ 0
+DRQ0
 $EndSCHEMATC

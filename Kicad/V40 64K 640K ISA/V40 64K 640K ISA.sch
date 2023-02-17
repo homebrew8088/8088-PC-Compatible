@@ -974,8 +974,6 @@ Text Label 2625 5975 1    50   ~ 0
 A17_
 Text Label 2525 5975 1    50   ~ 0
 A16_
-Text Label 2925 5975 1    50   ~ 0
-REFRQ
 Text Label 3325 5975 1    50   ~ 0
 5+
 Text Label 3625 5975 1    50   ~ 0
@@ -1004,4 +1002,6 @@ Text Label 6625 8575 2    50   ~ 0
 5+
 Text Label 6625 10175 0    50   ~ 0
 GND
+Text Label 3425 8375 3    50   ~ 0
+DRQ0
 $EndSCHEMATC

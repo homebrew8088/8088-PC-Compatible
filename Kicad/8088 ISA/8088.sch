@@ -827,4 +827,6 @@ Text Label 1400 3100 2    50   ~ 0
 RDY1
 Text Label 7050 2525 2    50   ~ 0
 READY1
+Text Label 8375 10800 0    50   ~ 0
+DRQ0
 $EndSCHEMATC
