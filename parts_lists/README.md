@@ -80,6 +80,21 @@ PLCC 68 Socket	      |1
 Keystone 9202	        |1
 Screws	              |2
 
+## 640K RAM / 64K ROM Card
+Description           | Quantity
+--------------------- | ------------------------
+PCB	                  |1
+16 Pin DIP Socket     |2
+32 Pin DIP Socket	    |4
+74LS138	              |1
+74LS139	              |1
+AS6C4008	            |1
+AS6C1008	            |1
+W29C020	              |1
+0.1uF Capacitor     	|6
+Keystone 9202       	|1
+Screws              	|2
+
 ## 512K RAM / 32K ROM Card
 Description           | Quantity
 --------------------- | ------------------------
