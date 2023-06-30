@@ -1,0 +1,3226 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 30000 30000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS139 U117
+U 2 1 5FEFF66E
+P 7100 23450
+F 0 "U117" H 7100 23817 50  0000 C CNN
+F 1 "74LS139" H 7100 23726 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 7100 23450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7100 23450 50  0001 C CNN
+	2    7100 23450
+	1    0    0    -1  
+$EndComp
+Text Label -3850 12200 2    50   ~ 0
+IRQ1
+Text Label -3850 12900 2    50   ~ 0
+NMI
+Text Label 6600 23350 2    50   ~ 0
+GND
+Text Label 6600 23650 2    50   ~ 0
+SPK_EN_
+Text Label 6600 23450 2    50   ~ 0
+SPK_OUT
+Text Label 7600 23350 0    50   ~ 0
+SPK_PIN
+Text Label 14600 23625 2    50   ~ 0
+D0
+Text Label 14600 23525 2    50   ~ 0
+D1
+Text Label 14600 23425 2    50   ~ 0
+D2
+Text Label 14600 23325 2    50   ~ 0
+D3
+Text Label 14600 23225 2    50   ~ 0
+D4
+Text Label 14600 23125 2    50   ~ 0
+D5
+Text Label 14600 23025 2    50   ~ 0
+D6
+Text Label 14600 22925 2    50   ~ 0
+D7
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FF2F753
+P 3475 16575
+F 0 "SW1" H 3475 16860 50  0001 C CNN
+F 1 "RESET" H 3475 16768 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3475 16775 50  0001 C CNN
+F 3 "~" H 3475 16775 50  0001 C CNN
+	1    3475 16575
+	-1   0    0    1   
+$EndComp
+Text Label 3675 16575 0    50   ~ 0
+RESET
+$Comp
+L 74xx:74LS74 U14
+U 1 1 5FF31A0C
+P 8375 17475
+F 0 "U14" H 8375 17956 50  0001 C CNN
+F 1 "74LS74" H 8375 17864 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8375 17475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 8375 17475 50  0001 C CNN
+	1    8375 17475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS74 U14
+U 2 1 5FF327F5
+P 8375 18175
+F 0 "U14" H 8375 18656 50  0001 C CNN
+F 1 "74LS74" H 8375 18564 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8375 18175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 8375 18175 50  0001 C CNN
+	2    8375 18175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS74 U14
+U 3 1 5FF335DC
+P 8375 18925
+F 0 "U14" H 8605 18971 50  0001 L CNN
+F 1 "74LS74" V 8100 18925 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8375 18925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 8375 18925 50  0001 C CNN
+	3    8375 18925
+	0    1    1    0   
+$EndComp
+Text Label 8075 17475 2    50   ~ 0
+PCLK88
+Text Label 8075 17375 2    50   ~ 0
+FB2
+Text Label 8375 17175 2    50   ~ 0
+5+
+Text Label 8375 17775 2    50   ~ 0
+5+
+Text Label 8675 17375 0    50   ~ 0
+HF_PCLK
+Text Label 8675 17575 0    50   ~ 0
+FB2
+Text Label 7975 18925 2    50   ~ 0
+GND
+Text Label 8775 18925 0    50   ~ 0
+5+
+Text Label 6800 21600 2    50   ~ 0
+SPK_PIN
+$Comp
+L 74xx:74LS138 U13
+U 1 1 5FF39086
+P 4850 23575
+F 0 "U13" H 4850 24356 50  0001 C CNN
+F 1 "74LS138" H 4850 24264 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4850 23575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 4850 23575 50  0001 C CNN
+	1    4850 23575
+	1    0    0    -1  
+$EndComp
+Text Label 4850 22975 2    50   ~ 0
+5+
+Text Label 3150 22950 2    50   ~ 0
+5+
+Text Label 2650 23850 2    50   ~ 0
+IO_0XXX
+Text Label 2650 23950 2    50   ~ 0
+A11
+Text Label 2650 23750 2    50   ~ 0
+5+
+Text Label 2650 23450 2    50   ~ 0
+A10
+Text Label 2650 23350 2    50   ~ 0
+A9
+Text Label 2650 23250 2    50   ~ 0
+A8
+Text Label 3150 24250 2    50   ~ 0
+GND
+Text Label 3650 23250 0    50   ~ 0
+IO_00XX
+Text Label 4350 23875 2    50   ~ 0
+IO_00XX
+Text Label 4350 23975 2    50   ~ 0
+A4
+Text Label 4350 23775 2    50   ~ 0
+5+
+Text Label 4350 23475 2    50   ~ 0
+A7
+Text Label 4350 23375 2    50   ~ 0
+A6
+Text Label 4350 23275 2    50   ~ 0
+A5
+Text Label 4850 24275 2    50   ~ 0
+GND
+Text Label 5350 23575 0    50   ~ 0
+IO_006X
+$Comp
+L Device:R R1
+U 1 1 5FF4869F
+P 2550 14775
+F 0 "R1" H 2620 14821 50  0001 L CNN
+F 1 "510 ohm" V 2435 14775 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2480 14775 50  0001 C CNN
+F 3 "~" H 2550 14775 50  0001 C CNN
+	1    2550 14775
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5FF48A61
+P 3450 14850
+F 0 "D1" H 3443 15067 50  0001 C CNN
+F 1 "POWER" H 3443 14975 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3450 14850 50  0001 C CNN
+F 3 "~" H 3450 14850 50  0001 C CNN
+	1    3450 14850
+	1    0    0    -1  
+$EndComp
+Text Label 2400 14775 2    50   ~ 0
+GND
+Text Label 2700 14775 0    50   ~ 0
+LED_GND
+Text Label 3300 14850 2    50   ~ 0
+LED_GND
+Text Label 3600 14850 0    50   ~ 0
+5+
+$Comp
+L Device:R U3
+U 1 1 5FF4B88D
+P 6950 21600
+F 0 "U3" H 7020 21646 50  0001 L CNN
+F 1 "33 ohm" V 6835 21600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6880 21600 50  0001 C CNN
+F 3 "~" H 6950 21600 50  0001 C CNN
+	1    6950 21600
+	0    1    1    0   
+$EndComp
+Text Label 7100 21600 0    50   ~ 0
+SPK_PIN_O
+Text Label 7000 21850 2    50   ~ 0
+SPK_PIN_O
+Text Label 7000 22050 2    50   ~ 0
+GND
+Text Label 7000 22150 2    50   ~ 0
+5+
+$Comp
+L 74xx:74LS04 U16
+U 1 1 5FF518D3
+P 10900 17125
+F 0 "U16" H 10900 17442 50  0001 C CNN
+F 1 "74LS04" H 10900 17350 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10900 17125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10900 17125 50  0001 C CNN
+	1    10900 17125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U16
+U 2 1 5FF5211D
+P 10900 17450
+F 0 "U16" H 10900 17767 50  0001 C CNN
+F 1 "74LS04" H 10900 17675 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10900 17450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10900 17450 50  0001 C CNN
+	2    10900 17450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U16
+U 3 1 5FF5313C
+P 10900 17775
+F 0 "U16" H 10900 18092 50  0001 C CNN
+F 1 "74LS04" H 10900 18000 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10900 17775 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10900 17775 50  0001 C CNN
+	3    10900 17775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U16
+U 7 1 5FF55544
+P 10825 19150
+F 0 "U16" V 10458 19150 50  0001 C CNN
+F 1 "74LS04" V 10550 19150 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10825 19150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10825 19150 50  0001 C CNN
+	7    10825 19150
+	0    1    1    0   
+$EndComp
+Text Label 10325 19150 2    50   ~ 0
+GND
+Text Label 11325 19150 0    50   ~ 0
+5+
+Text Label 11200 17450 0    50   ~ 0
+NMI
+Text Label 10600 17450 2    50   ~ 0
+NMI_INPUT
+Text Label 10600 17125 2    50   ~ 0
+NMI_EN
+Text Label 11200 17125 0    50   ~ 0
+NMI_EN_139
+$Comp
+L 74xx:74LS139 U17
+U 1 1 5FF5A2F8
+P 9425 22875
+F 0 "U17" H 9425 23242 50  0001 C CNN
+F 1 "74LS139" H 9425 23150 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9425 22875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 9425 22875 50  0001 C CNN
+	1    9425 22875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U17
+U 3 1 5FF5AFDE
+P 9375 24125
+F 0 "U17" V 9008 24125 50  0001 C CNN
+F 1 "74LS139" V 9100 24125 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9375 24125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 9375 24125 50  0001 C CNN
+	3    9375 24125
+	0    1    1    0   
+$EndComp
+Text Label 8875 24125 2    50   ~ 0
+GND
+Text Label 9875 24125 0    50   ~ 0
+5+
+Text Label 9925 22775 0    50   ~ 0
+NMI_INPUT
+Text Label 8925 22775 2    50   ~ 0
+GND
+Text Label 8925 23075 2    50   ~ 0
+NMI_EN_139
+Text Label 8925 22875 2    50   ~ 0
+CH_CK
+Text Label 2425 14975 2    50   ~ 0
+CH_CK
+$Comp
+L 74xx:74LS573 U15
+U 1 1 60133ADF
+P 15100 23425
+F 0 "U15" H 15100 24406 50  0000 C CNN
+F 1 "74LS573" H 15100 24315 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 15100 23425 50  0001 C CNN
+F 3 "74xx/74hc573.pdf" H 15100 23425 50  0001 C CNN
+	1    15100 23425
+	1    0    0    -1  
+$EndComp
+Text Label 14600 23925 2    50   ~ 0
+GND
+Text Label 15100 24225 0    50   ~ 0
+GND
+Text Label 15100 22625 0    50   ~ 0
+5+
+Text Label 15600 23625 0    50   ~ 0
+SPK_GO
+Text Label 15600 23525 0    50   ~ 0
+SPK_EN
+Text Label 15600 23125 0    50   ~ 0
+NMI_EN
+Text Label 8925 23675 2    50   ~ 0
+IO_006X
+Text Label 8925 23475 2    50   ~ 0
+A0
+Text Label 8925 23375 2    50   ~ 0
+A1
+Text Label 9925 23375 0    50   ~ 0
+IO_0060
+Text Label 9925 23475 0    50   ~ 0
+IO_0061
+$Comp
+L 74xx:74LS139 U117
+U 1 1 60244EB2
+P 7100 22850
+F 0 "U117" H 7100 23217 50  0000 C CNN
+F 1 "74LS139" H 7100 23126 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 7100 22850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7100 22850 50  0001 C CNN
+	1    7100 22850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U117
+U 3 1 60245F47
+P 7100 24125
+F 0 "U117" V 6733 24125 50  0000 C CNN
+F 1 "74LS139" V 6824 24125 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 7100 24125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 7100 24125 50  0001 C CNN
+	3    7100 24125
+	0    1    1    0   
+$EndComp
+Text Label 6600 24125 2    50   ~ 0
+GND
+Text Label 7600 24125 0    50   ~ 0
+5+
+Text Label 10675 23100 2    50   ~ 0
+IO_0061
+Text Label 10675 22900 2    50   ~ 0
+IOWR
+Text Label 10675 22800 2    50   ~ 0
+GND
+Text Label 11675 22800 0    50   ~ 0
+PORT_0X61_EN
+$Comp
+L 74xx:74LS04 U16
+U 4 1 602C2470
+P 10900 18425
+F 0 "U16" H 10900 18742 50  0000 C CNN
+F 1 "74LS04" H 10900 18651 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10900 18425 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10900 18425 50  0001 C CNN
+	4    10900 18425
+	1    0    0    -1  
+$EndComp
+Text Label 10600 18425 2    50   ~ 0
+PORT_0X61_EN
+Text Label 11200 18425 0    50   ~ 0
+PORT_0X61_CS
+Text Label 14600 23825 2    50   ~ 0
+PORT_0X61_CS
+Text Label 14375 20625 0    50   ~ 0
+IOWR
+Text Label 14375 20725 0    50   ~ 0
+IORD
+Text Label 14375 20825 0    50   ~ 0
+IO_00EX
+Text Label 14375 20925 0    50   ~ 0
+A2
+Text Label 14375 21125 0    50   ~ 0
+5+
+Text Label 14375 21225 0    50   ~ 0
+GND
+Text Label 14375 21325 0    50   ~ 0
+GND
+Text Label 5350 23975 0    50   ~ 0
+IO_00EX
+$Comp
+L 74xx:74LS04 U16
+U 6 1 6028B501
+P 10900 18750
+F 0 "U16" H 10900 19067 50  0001 C CNN
+F 1 "74LS04" H 10900 18975 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10900 18750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10900 18750 50  0001 C CNN
+	6    10900 18750
+	1    0    0    -1  
+$EndComp
+Text Label 14375 21025 0    50   ~ 0
+IN_IRQ6
+$Comp
+L W83C42P:W83C42P U19
+U 1 1 60848F25
+P 9700 19950
+F 0 "U19" H 9700 20015 50  0000 C CNN
+F 1 "82C42" H 9700 19924 50  0000 C CNN
+F 2 "Package_LCC:PLCC-44_THT-Socket" H 9700 19950 50  0001 C CNN
+F 3 "" H 9700 19950 50  0001 C CNN
+	1    9700 19950
+	1    0    0    -1  
+$EndComp
+Text Label 9350 21100 2    50   ~ 0
+D0
+Text Label 9350 21175 2    50   ~ 0
+D1
+Text Label 9350 21325 2    50   ~ 0
+D3
+Text Label 9350 21400 2    50   ~ 0
+D4
+Text Label 9350 21475 2    50   ~ 0
+D5
+Text Label 9350 21550 2    50   ~ 0
+D6
+Text Label 9350 21625 2    50   ~ 0
+D7
+Text Label 9350 21250 2    50   ~ 0
+D2
+Text Label 9350 20200 2    50   ~ 0
+T0
+Text Label 9350 20425 2    50   ~ 0
+RESET
+Text Label 9350 20725 2    50   ~ 0
+IORD
+Text Label 9350 20800 2    50   ~ 0
+A2
+Text Label 9350 20875 2    50   ~ 0
+IOWR
+Text Label 9350 21700 2    50   ~ 0
+GND
+Text Label 10050 20125 0    50   ~ 0
+5+
+Text Label 10050 20275 0    50   ~ 0
+KBD_DATA
+Text Label 10050 20350 0    50   ~ 0
+KBD_CLK
+Text Label 10050 20500 0    50   ~ 0
+IRQ1
+Text Label 10050 20575 0    50   ~ 0
+5+
+Text Label 10800 20375 2    50   ~ 0
+T0
+Text Label 10050 20200 0    50   ~ 0
+T1
+Text Label 10775 20600 2    50   ~ 0
+T1
+$Comp
+L Connector:Mini-DIN-6 J2
+U 1 1 60887EA5
+P 11075 21475
+F 0 "J2" H 11075 21842 50  0000 C CNN
+F 1 "Mini-DIN-6" H 11075 21751 50  0000 C CNN
+F 2 "My:6_PIN_DIN" H 11075 21475 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 11075 21475 50  0001 C CNN
+	1    11075 21475
+	1    0    0    -1  
+$EndComp
+Text Label 11375 21375 0    50   ~ 0
+T0
+Text Label 11375 21575 0    50   ~ 0
+T1
+Text Label 10775 21475 2    50   ~ 0
+5+
+Text Label 11375 21475 0    50   ~ 0
+GND
+Text Label 3875 22025 2    50   ~ 0
+GND
+Text Label 4375 21025 0    50   ~ 0
+IO_0XXX
+Text Label 3375 21025 2    50   ~ 0
+A12
+Text Label 3375 21125 2    50   ~ 0
+A13
+Text Label 3375 21225 2    50   ~ 0
+A14
+Text Label 3375 21525 2    50   ~ 0
+5+
+Text Label 3375 21625 2    50   ~ 0
+HOLDA
+Text Label 3375 21725 2    50   ~ 0
+A15
+Text Label 3875 20725 2    50   ~ 0
+5+
+$Comp
+L 74xx:74LS138 U12
+U 1 1 5FF38345
+P 3150 23550
+F 0 "U12" H 3150 24331 50  0001 C CNN
+F 1 "74LS138" H 3150 24239 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3150 23550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 3150 23550 50  0001 C CNN
+	1    3150 23550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS138 U9
+U 1 1 5FF377FE
+P 3875 21325
+F 0 "U9" H 3875 22106 50  0001 C CNN
+F 1 "74LS138" H 3875 22014 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3875 21325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 3875 21325 50  0001 C CNN
+	1    3875 21325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U17
+U 2 1 60138DE8
+P 9425 23475
+F 0 "U17" H 9425 23842 50  0000 C CNN
+F 1 "74LS139" H 9425 23751 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9425 23475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 9425 23475 50  0001 C CNN
+	2    9425 23475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS07 U20
+U 7 1 6088CF4D
+P 12325 21425
+F 0 "U20" V 11958 21425 50  0000 C CNN
+F 1 "74LS07" V 12049 21425 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 12325 21425 50  0001 C CNN
+F 3 "www.ti.com/lit/ds/symlink/sn74ls07.pdf" H 12325 21425 50  0001 C CNN
+	7    12325 21425
+	0    1    1    0   
+$EndComp
+Text Label 11825 21425 2    50   ~ 0
+GND
+Text Label 12825 21425 0    50   ~ 0
+5+
+Text Label 12425 20800 0    50   ~ 0
+T1
+Text Label 12775 20325 0    50   ~ 0
+T0
+Text Label 11825 20800 2    50   ~ 0
+KBD_DATA
+Text Label 12175 20325 2    50   ~ 0
+KBD_CLK_INVERTED
+$Comp
+L 74xx:74LS04 U16
+U 5 1 60896907
+P 10900 18100
+F 0 "U16" H 10900 18417 50  0000 C CNN
+F 1 "74LS04" H 10900 18326 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10900 18100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10900 18100 50  0001 C CNN
+	5    10900 18100
+	1    0    0    -1  
+$EndComp
+Text Label 10600 18100 2    50   ~ 0
+KBD_CLK
+Text Label 11200 18100 0    50   ~ 0
+KBD_CLK_INVERTED
+Text Label 3300 17325 0    50   ~ 0
+RDY1
+$Comp
+L pspice:CAP C2
+U 1 1 6090F6BD
+P 24775 21600
+F 0 "C2" V 24460 21600 50  0000 C CNN
+F 1 "0.1uF" V 24551 21600 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 24775 21600 50  0001 C CNN
+F 3 "~" H 24775 21600 50  0001 C CNN
+	1    24775 21600
+	0    1    1    0   
+$EndComp
+Text Label 25025 21600 0    50   ~ 0
+GND
+Text Label 24525 21600 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C3
+U 1 1 6090F6C5
+P 24775 22075
+F 0 "C3" V 24460 22075 50  0000 C CNN
+F 1 "0.1uF" V 24551 22075 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 24775 22075 50  0001 C CNN
+F 3 "~" H 24775 22075 50  0001 C CNN
+	1    24775 22075
+	0    1    1    0   
+$EndComp
+Text Label 25025 22075 0    50   ~ 0
+GND
+Text Label 24525 22075 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C4
+U 1 1 6090F6CD
+P 24775 22550
+F 0 "C4" V 24460 22550 50  0000 C CNN
+F 1 "0.1uF" V 24551 22550 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 24775 22550 50  0001 C CNN
+F 3 "~" H 24775 22550 50  0001 C CNN
+	1    24775 22550
+	0    1    1    0   
+$EndComp
+Text Label 25025 22550 0    50   ~ 0
+GND
+Text Label 24525 22550 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C6
+U 1 1 6090F6D5
+P 24800 22950
+F 0 "C6" V 24485 22950 50  0000 C CNN
+F 1 "0.1uF" V 24576 22950 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 24800 22950 50  0001 C CNN
+F 3 "~" H 24800 22950 50  0001 C CNN
+	1    24800 22950
+	0    1    1    0   
+$EndComp
+Text Label 25050 22950 0    50   ~ 0
+GND
+Text Label 24550 22950 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C5
+U 1 1 6090F6DD
+P 24900 23550
+F 0 "C5" V 24585 23550 50  0000 C CNN
+F 1 "0.1uF" V 24676 23550 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 24900 23550 50  0001 C CNN
+F 3 "~" H 24900 23550 50  0001 C CNN
+	1    24900 23550
+	0    1    1    0   
+$EndComp
+Text Label 25150 23550 0    50   ~ 0
+GND
+Text Label 24650 23550 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C7
+U 1 1 609109BD
+P 25775 21125
+F 0 "C7" V 25460 21125 50  0000 C CNN
+F 1 "0.1uF" V 25551 21125 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 25775 21125 50  0001 C CNN
+F 3 "~" H 25775 21125 50  0001 C CNN
+	1    25775 21125
+	0    1    1    0   
+$EndComp
+Text Label 26025 21125 0    50   ~ 0
+GND
+Text Label 25525 21125 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C8
+U 1 1 609109C5
+P 25800 21650
+F 0 "C8" V 25485 21650 50  0000 C CNN
+F 1 "0.1uF" V 25576 21650 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 25800 21650 50  0001 C CNN
+F 3 "~" H 25800 21650 50  0001 C CNN
+	1    25800 21650
+	0    1    1    0   
+$EndComp
+Text Label 26050 21650 0    50   ~ 0
+GND
+Text Label 25550 21650 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C12
+U 1 1 609109DD
+P 25825 23000
+F 0 "C12" V 25510 23000 50  0000 C CNN
+F 1 "0.1uF" V 25601 23000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 25825 23000 50  0001 C CNN
+F 3 "~" H 25825 23000 50  0001 C CNN
+	1    25825 23000
+	0    1    1    0   
+$EndComp
+Text Label 26075 23000 0    50   ~ 0
+GND
+Text Label 25575 23000 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C1
+U 1 1 639CB684
+P 24800 21050
+F 0 "C1" V 24485 21050 50  0000 C CNN
+F 1 "0.1uF" V 24576 21050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 24800 21050 50  0001 C CNN
+F 3 "~" H 24800 21050 50  0001 C CNN
+	1    24800 21050
+	0    1    1    0   
+$EndComp
+Text Label 25050 21050 0    50   ~ 0
+GND
+Text Label 24550 21050 2    50   ~ 0
+5+
+Text Label 13875 20625 2    50   ~ 0
+D7
+Text Label 13875 20725 2    50   ~ 0
+D6
+Text Label 13875 20825 2    50   ~ 0
+D5
+Text Label 13875 20925 2    50   ~ 0
+D4
+Text Label 13875 21025 2    50   ~ 0
+D3
+Text Label 13875 21125 2    50   ~ 0
+D2
+Text Label 13875 21225 2    50   ~ 0
+D1
+Text Label 13875 21325 2    50   ~ 0
+D0
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even CH376
+U 1 1 60303B9D
+P 14075 20925
+F 0 "CH376" H 14125 21442 50  0000 C CNN
+F 1 "PORT 0XE0" H 14125 21351 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 14075 20925 50  0001 C CNN
+F 3 "~" H 14075 20925 50  0001 C CNN
+	1    14075 20925
+	1    0    0    -1  
+$EndComp
+Text Label 9350 20575 2    50   ~ 0
+IO_0060
+$Comp
+L pspice:CAP C23
+U 1 1 60C27F20
+P 21725 21075
+F 0 "C23" V 21410 21075 50  0000 C CNN
+F 1 "0.1uF" V 21501 21075 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 21725 21075 50  0001 C CNN
+F 3 "~" H 21725 21075 50  0001 C CNN
+	1    21725 21075
+	0    1    1    0   
+$EndComp
+Text Label 21975 21075 0    50   ~ 0
+GND
+Text Label 21475 21075 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C27
+U 1 1 60C88A69
+P 23125 20975
+F 0 "C27" V 22810 20975 50  0000 C CNN
+F 1 "0.1uF" V 22901 20975 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 23125 20975 50  0001 C CNN
+F 3 "~" H 23125 20975 50  0001 C CNN
+	1    23125 20975
+	0    1    1    0   
+$EndComp
+Text Label 23375 20975 0    50   ~ 0
+GND
+Text Label 22875 20975 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C29
+U 1 1 60C88A71
+P 23150 21925
+F 0 "C29" V 22835 21925 50  0000 C CNN
+F 1 "0.1uF" V 22926 21925 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 23150 21925 50  0001 C CNN
+F 3 "~" H 23150 21925 50  0001 C CNN
+	1    23150 21925
+	0    1    1    0   
+$EndComp
+Text Label 23400 21925 0    50   ~ 0
+GND
+Text Label 22900 21925 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C28
+U 1 1 60C88A79
+P 23125 22825
+F 0 "C28" V 22810 22825 50  0000 C CNN
+F 1 "0.1uF" V 22901 22825 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 23125 22825 50  0001 C CNN
+F 3 "~" H 23125 22825 50  0001 C CNN
+	1    23125 22825
+	0    1    1    0   
+$EndComp
+Text Label 23375 22825 0    50   ~ 0
+GND
+Text Label 22875 22825 2    50   ~ 0
+5+
+Text Label 23350 23625 0    50   ~ 0
+GND
+Text Label 22850 23625 2    50   ~ 0
+5+
+Text Label 9350 20650 2    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5FF4D2DE
+P 7200 21950
+F 0 "J3" H 7280 21942 50  0001 L CNN
+F 1 "SPK" H 7280 21896 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7200 21950 50  0001 C CNN
+F 3 "~" H 7200 21950 50  0001 C CNN
+	1    7200 21950
+	1    0    0    -1  
+$EndComp
+Text Label 8550 16925 2    50   ~ 0
+5+
+Text Label 9050 16925 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C22
+U 1 1 60C284C4
+P 8800 16925
+F 0 "C22" V 8485 16925 50  0000 C CNN
+F 1 "0.1uF" V 8576 16925 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8800 16925 50  0001 C CNN
+F 3 "~" H 8800 16925 50  0001 C CNN
+	1    8800 16925
+	0    1    1    0   
+$EndComp
+Text Label 4950 16550 2    50   ~ 0
+5+
+Text Label 5450 16550 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C24
+U 1 1 60C27F30
+P 5200 16550
+F 0 "C24" V 4885 16550 50  0000 C CNN
+F 1 "0.1uF" V 4976 16550 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5200 16550 50  0001 C CNN
+F 3 "~" H 5200 16550 50  0001 C CNN
+	1    5200 16550
+	0    1    1    0   
+$EndComp
+Text Label 21500 22025 2    50   ~ 0
+5+
+Text Label 22000 22025 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C25
+U 1 1 60C27F28
+P 21750 22025
+F 0 "C25" V 21435 22025 50  0000 C CNN
+F 1 "0.1uF" V 21526 22025 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 21750 22025 50  0001 C CNN
+F 3 "~" H 21750 22025 50  0001 C CNN
+	1    21750 22025
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J10
+U 1 1 60FDE0BB
+P -3650 12500
+F 0 "J10" H -3600 13017 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H -3600 12926 50  0000 C CNN
+F 2 "My:2x08_PIN_EDGE_CARD" H -3650 12500 50  0001 C CNN
+F 3 "~" H -3650 12500 50  0001 C CNN
+	1    -3650 12500
+	1    0    0    -1  
+$EndComp
+Text Label -3350 12900 0    50   ~ 0
+SPK_OUT
+Text Label -3350 12800 0    50   ~ 0
+SPK_GO
+Text Label -3350 12700 0    50   ~ 0
+HF_PCLK
+Text Label -3350 12300 0    50   ~ 0
+READY
+Text Label -3350 12500 0    50   ~ 0
+HOLDA
+Text Label -3350 12200 0    50   ~ 0
+RESET
+Text Label -3850 12700 2    50   ~ 0
+IO_008X
+Text Label -3850 12500 2    50   ~ 0
+IO_004X
+Text Label -3850 12400 2    50   ~ 0
+IO_002X
+Text Label -3850 12300 2    50   ~ 0
+IO_000X
+Text Label 5350 23675 0    50   ~ 0
+IO_008X
+Text Label 5350 23475 0    50   ~ 0
+IO_004X
+Text Label 5350 23375 0    50   ~ 0
+IO_002X
+Text Label 5350 23275 0    50   ~ 0
+IO_000X
+Text Label -3850 12600 2    50   ~ 0
+IO_006X
+Text Label 8675 18275 0    50   ~ 0
+FB1
+Text Label 8075 18075 2    50   ~ 0
+FB1
+Text Label 8075 18175 2    50   ~ 0
+OSC88HF
+Text Label 8375 17875 2    50   ~ 0
+5+
+Text Label 8375 18475 2    50   ~ 0
+5+
+Text Label 8675 18075 0    50   ~ 0
+HF_OSC
+Text Label 9350 20275 2    50   ~ 0
+HF_OSC
+Text Label -3350 12400 0    50   ~ 0
+HOLD
+Text Label 10600 17775 2    50   ~ 0
+SPK_EN
+$Comp
+L pspice:CAP C9
+U 1 1 61121934
+P 25825 22325
+F 0 "C9" V 25510 22325 50  0000 C CNN
+F 1 "0.1uF" V 25601 22325 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 25825 22325 50  0001 C CNN
+F 3 "~" H 25825 22325 50  0001 C CNN
+	1    25825 22325
+	0    1    1    0   
+$EndComp
+Text Label 26075 22325 0    50   ~ 0
+GND
+Text Label 25575 22325 2    50   ~ 0
+5+
+Text Label 25500 23725 2    50   ~ 0
+5+
+Text Label 26000 23725 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C10
+U 1 1 61037BD9
+P 25750 23725
+F 0 "C10" V 25435 23725 50  0000 C CNN
+F 1 "0.1uF" V 25526 23725 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 25750 23725 50  0001 C CNN
+F 3 "~" H 25750 23725 50  0001 C CNN
+	1    25750 23725
+	0    1    1    0   
+$EndComp
+Text Label 11200 17775 0    50   ~ 0
+SPK_EN_
+$Comp
+L Device:R R6
+U 1 1 6101E0B3
+P 3150 17325
+F 0 "R6" H 3220 17371 50  0001 L CNN
+F 1 "10k ohm" V 3050 17175 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 17325 50  0001 C CNN
+F 3 "~" H 3150 17325 50  0001 C CNN
+	1    3150 17325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 6101EA33
+P 2575 14975
+F 0 "R7" H 2645 15021 50  0001 L CNN
+F 1 "10k ohm" V 2475 14825 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2505 14975 50  0001 C CNN
+F 3 "~" H 2575 14975 50  0001 C CNN
+	1    2575 14975
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 6101EC76
+P 10950 20375
+F 0 "R8" H 11020 20421 50  0001 L CNN
+F 1 "10k ohm" V 10850 20225 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10880 20375 50  0001 C CNN
+F 3 "~" H 10950 20375 50  0001 C CNN
+	1    10950 20375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6101EEA7
+P 10925 20600
+F 0 "R9" H 10995 20646 50  0001 L CNN
+F 1 "10k ohm" V 10825 20450 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10855 20600 50  0001 C CNN
+F 3 "~" H 10925 20600 50  0001 C CNN
+	1    10925 20600
+	0    1    1    0   
+$EndComp
+Text Label 3000 17325 2    50   ~ 0
+5+
+Text Label 2725 14975 0    50   ~ 0
+5+
+Text Label 11100 20375 0    50   ~ 0
+5+
+Text Label 11075 20600 0    50   ~ 0
+5+
+$Comp
+L Device:R_Network08 RN2
+U 1 1 61020D8E
+P 4750 15175
+F 0 "RN2" V 4133 15175 50  0000 C CNN
+F 1 "10K ohm" V 4224 15175 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 5225 15175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4750 15175 50  0001 C CNN
+	1    4750 15175
+	0    1    1    0   
+$EndComp
+Text Label 4550 15375 2    50   ~ 0
+DACK2
+Text Label 4550 15275 2    50   ~ 0
+DACK1
+Text Label 4550 15175 2    50   ~ 0
+REFRQ
+Text Label 4550 15475 2    50   ~ 0
+DACK3
+Text Label 4550 14775 2    50   ~ 0
+MWR
+Text Label 4550 14875 2    50   ~ 0
+MRD
+Text Label 4550 14975 2    50   ~ 0
+IOWR
+Text Label 4550 15075 2    50   ~ 0
+IORD
+Text Label 4950 14775 0    50   ~ 0
+5+
+Text Label 2725 15400 0    50   ~ 0
+GND
+$Comp
+L Device:R R13
+U 1 1 61051EF0
+P 2575 15400
+F 0 "R13" H 2645 15446 50  0001 L CNN
+F 1 "10k ohm" V 2475 15250 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2505 15400 50  0001 C CNN
+F 3 "~" H 2575 15400 50  0001 C CNN
+	1    2575 15400
+	0    1    1    0   
+$EndComp
+Text Label 2725 15175 0    50   ~ 0
+GND
+$Comp
+L Device:R R12
+U 1 1 61051C50
+P 2575 15175
+F 0 "R12" H 2645 15221 50  0001 L CNN
+F 1 "10k ohm" V 2475 15025 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2505 15175 50  0001 C CNN
+F 3 "~" H 2575 15175 50  0001 C CNN
+	1    2575 15175
+	0    1    1    0   
+$EndComp
+Text Label 2725 16425 0    50   ~ 0
+GND
+Text Label 2425 15400 2    50   ~ 0
+TC
+Text Label 2425 15175 2    50   ~ 0
+AEN
+Text Label 2325 16525 2    50   ~ 0
+HOLD
+Text Label 2325 16425 2    50   ~ 0
+NMI_EN
+Text Label 3775 15525 0    50   ~ 0
+GND
+Text Label 3375 15525 2    50   ~ 0
+DRQ1
+Text Label 3375 15625 2    50   ~ 0
+DRQ3
+Text Label 3375 15725 2    50   ~ 0
+DRQ2
+Text Label 2325 16625 2    50   ~ 0
+DRQ0
+Text Label -3350 12600 0    50   ~ 0
+DRQ0
+$Comp
+L Device:R_Network03 RN1
+U 1 1 610AC981
+P 3575 15625
+F 0 "RN1" V 3258 15625 50  0000 C CNN
+F 1 "10k ohm" V 3349 15625 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 3850 15625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3575 15625 50  0001 C CNN
+	1    3575 15625
+	0    1    1    0   
+$EndComp
+Text Label 5475 18925 2    50   ~ 0
+GND
+Text Label 5475 18700 2    50   ~ 0
+GND
+Text Label 5775 18700 0    50   ~ 0
+X2_8284
+Text Label 5775 18925 0    50   ~ 0
+X1_8284
+$Comp
+L Device:R R4
+U 1 1 61042BB1
+P 5625 18925
+F 0 "R4" H 5695 18971 50  0001 L CNN
+F 1 "510 ohm" V 5510 18925 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5555 18925 50  0001 C CNN
+F 3 "~" H 5625 18925 50  0001 C CNN
+	1    5625 18925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 61041F82
+P 5625 18700
+F 0 "R2" H 5695 18746 50  0001 L CNN
+F 1 "510 ohm" V 5510 18700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5555 18700 50  0001 C CNN
+F 3 "~" H 5625 18700 50  0001 C CNN
+	1    5625 18700
+	0    1    1    0   
+$EndComp
+Text Label 5900 17375 2    50   ~ 0
+PCLK
+$Comp
+L Device:R R18
+U 1 1 6101AF6C
+P 6050 17125
+F 0 "R18" H 6120 17171 50  0001 L CNN
+F 1 "27 ohm" V 5935 17125 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 17125 50  0001 C CNN
+F 3 "~" H 6050 17125 50  0001 C CNN
+	1    6050 17125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 6101D71B
+P 6050 17375
+F 0 "R17" H 6120 17421 50  0001 L CNN
+F 1 "27 ohm" V 5935 17375 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 17375 50  0001 C CNN
+F 3 "~" H 6050 17375 50  0001 C CNN
+	1    6050 17375
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6101DAFF
+P 6050 17600
+F 0 "R3" H 6120 17646 50  0001 L CNN
+F 1 "27 ohm" V 5935 17600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 17600 50  0001 C CNN
+F 3 "~" H 6050 17600 50  0001 C CNN
+	1    6050 17600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 6101E046
+P 6050 17825
+F 0 "R14" H 6120 17871 50  0001 L CNN
+F 1 "27 ohm" V 5935 17825 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 17825 50  0001 C CNN
+F 3 "~" H 6050 17825 50  0001 C CNN
+	1    6050 17825
+	0    1    1    0   
+$EndComp
+Text Label 5900 17600 2    50   ~ 0
+OSC
+Text Label 5900 17825 2    50   ~ 0
+OSC
+Text Label 5900 17125 2    50   ~ 0
+CLK
+Text Label 6200 17125 0    50   ~ 0
+CLK88
+Text Label 6200 17375 0    50   ~ 0
+PCLK88
+Text Label 6200 17600 0    50   ~ 0
+OSC88HF
+Text Label 6200 17825 0    50   ~ 0
+OSC88
+Text Label 5275 17725 0    50   ~ 0
+PCLK
+Text Label 6425 18425 2    50   ~ 0
+X2_8284
+Text Label 6425 18125 2    50   ~ 0
+X1_8284
+Text Label 5275 18325 0    50   ~ 0
+X2_8284
+Text Label 5275 18125 0    50   ~ 0
+X1_8284
+Text Label 5275 17825 0    50   ~ 0
+OSC
+Text Label 5275 17125 0    50   ~ 0
+CLK
+Text Label 4575 16825 2    50   ~ 0
+5+
+Text Label 3875 17125 2    50   ~ 0
+RESET
+Text Label 4575 18625 2    50   ~ 0
+GND
+Text Label 3875 18125 2    50   ~ 0
+GND
+Text Label 3875 17925 2    50   ~ 0
+GND
+Text Label 3875 17825 2    50   ~ 0
+GND
+Text Label 3875 17625 2    50   ~ 0
+5+
+Text Label 3875 17525 2    50   ~ 0
+GND
+Text Label 3875 17425 2    50   ~ 0
+GND
+Text Label 3875 17325 2    50   ~ 0
+RDY1
+Text Label 5275 17325 0    50   ~ 0
+READY
+Text Label 3350 17000 0    50   ~ 0
+RESET
+Text Label 3050 17000 2    50   ~ 0
+POWER_GOOD
+$Comp
+L Device:R R5
+U 1 1 5FF28804
+P 3200 17000
+F 0 "R5" H 3270 17046 50  0001 L CNN
+F 1 "10k ohm" V 3270 17000 50  0000 C TNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3130 17000 50  0001 C CNN
+F 3 "~" H 3200 17000 50  0001 C CNN
+	1    3200 17000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Timer:8284 U11
+U 1 1 5FF2451F
+P 4575 17725
+F 0 "U11" H 4575 18806 50  0000 C CNN
+F 1 "8284" H 4575 18715 50  0000 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 4575 17725 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 4575 17725 50  0001 C CNN
+	1    4575 17725
+	1    0    0    -1  
+$EndComp
+Text Label 3275 16575 2    50   ~ 0
+GND
+Text Label 5275 17525 0    50   ~ 0
+RESOUT
+$Comp
+L Device:Crystal Y2
+U 1 1 5FF2B16C
+P 6425 18275
+F 0 "Y2" H 6425 18543 50  0001 C CNN
+F 1 "14.31818 MHz" V 6425 18451 50  0000 L CNN
+F 2 "Crystal:Crystal_HC18-U_Vertical" H 6425 18275 50  0001 C CNN
+F 3 "~" H 6425 18275 50  0001 C CNN
+	1    6425 18275
+	0    -1   -1   0   
+$EndComp
+Text Label 14950 15575 0    50   ~ 0
+GND
+$Comp
+L Switch:SW_Push_DPDT 8x8mm1
+U 1 1 60F1C9B0
+P 14750 15675
+F 0 "8x8mm1" H 14750 16160 50  0000 C CNN
+F 1 "PWR SW" H 14750 16069 50  0000 C CNN
+F 2 "My:6 PIN DTDP" H 14750 15875 50  0001 C CNN
+F 3 "~" H 14750 15875 50  0001 C CNN
+	1    14750 15675
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C26
+U 1 1 60C88A81
+P 23100 23625
+F 0 "C26" V 22785 23625 50  0000 C CNN
+F 1 "0.1uF" V 22876 23625 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 23100 23625 50  0001 C CNN
+F 3 "~" H 23100 23625 50  0001 C CNN
+	1    23100 23625
+	0    1    1    0   
+$EndComp
+Text Label 14550 15475 2    50   ~ 0
+POWER_ON
+Text Label 14175 16600 2    50   ~ 0
+GND
+Text Label 14175 16500 2    50   ~ 0
+POWER_ON
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 60FF488D
+P 14375 16500
+F 0 "J6" H 14455 16492 50  0001 L CNN
+F 1 "PWR ON" H 14455 16446 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 14375 16500 50  0001 C CNN
+F 3 "~" H 14375 16500 50  0001 C CNN
+	1    14375 16500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x12_Top_Bottom ATXPOWER1
+U 1 1 60C3693A
+P 13325 15950
+F 0 "ATXPOWER1" H 13375 16575 50  0001 C CNN
+F 1 "Conn_02x12_Top_Bottom" H 13375 16576 50  0001 C CNN
+F 2 "My:24_PIN_ATX_POWER" H 13325 15950 50  0001 C CNN
+F 3 "~" H 13325 15950 50  0001 C CNN
+	1    13325 15950
+	1    0    0    -1  
+$EndComp
+Text Label 13625 15750 0    50   ~ 0
+POWER_ON
+Text Label 13625 15550 0    50   ~ 0
+12-
+Text Label 13625 15650 0    50   ~ 0
+GND
+Text Label 13625 15950 0    50   ~ 0
+GND
+Text Label 13625 16050 0    50   ~ 0
+GND
+Text Label 13625 16250 0    50   ~ 0
+5+
+Text Label 13125 16350 2    50   ~ 0
+12+
+Text Label 13125 16150 2    50   ~ 0
+POWER_GOOD
+Text Label 13125 15950 2    50   ~ 0
+5+
+Text Label 13125 15850 2    50   ~ 0
+GND
+Text Label 13125 15750 2    50   ~ 0
+5+
+Text Label 13125 15650 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS245 U2
+U 1 1 6241FD68
+P 12975 23375
+F 0 "U2" H 12975 24356 50  0000 C CNN
+F 1 "74LS245" H 12975 24265 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 12975 23375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 12975 23375 50  0001 C CNN
+	1    12975 23375
+	1    0    0    -1  
+$EndComp
+Text Label 12475 23575 2    50   ~ 0
+D0
+Text Label 12475 23475 2    50   ~ 0
+D1
+Text Label 12475 23375 2    50   ~ 0
+D2
+Text Label 12475 23275 2    50   ~ 0
+D3
+Text Label 12475 23175 2    50   ~ 0
+D4
+Text Label 12475 23075 2    50   ~ 0
+D5
+Text Label 12475 22975 2    50   ~ 0
+D6
+Text Label 12475 22875 2    50   ~ 0
+D7
+Text Label 15600 22925 0    50   ~ 0
+PORT_61_7
+Text Label 15600 23025 0    50   ~ 0
+PORT_61_6
+Text Label 15600 23225 0    50   ~ 0
+PORT_61_4
+Text Label 15600 23325 0    50   ~ 0
+PORT_61_3
+Text Label 15600 23425 0    50   ~ 0
+PORT_61_2
+Text Label 13475 23575 0    50   ~ 0
+SPK_GO
+Text Label 13475 23475 0    50   ~ 0
+SPK_EN
+Text Label 13475 23075 0    50   ~ 0
+NMI_EN
+Text Label 13475 22875 0    50   ~ 0
+PORT_61_7
+Text Label 13475 22975 0    50   ~ 0
+PORT_61_6
+Text Label 13475 23175 0    50   ~ 0
+PORT_61_4
+Text Label 13475 23275 0    50   ~ 0
+PORT_61_3
+Text Label 13475 23375 0    50   ~ 0
+PORT_61_2
+Text Label 12975 22575 0    50   ~ 0
+5+
+Text Label 12975 24175 0    50   ~ 0
+GND
+Text Label 12475 23875 2    50   ~ 0
+PORT_61_RD
+Text Label 12475 23775 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS139 U1
+U 1 1 6242E5F1
+P 11175 22900
+F 0 "U1" H 11175 23267 50  0000 C CNN
+F 1 "74LS139" H 11175 23176 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 11175 22900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 11175 22900 50  0001 C CNN
+	1    11175 22900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U1
+U 2 1 624308B9
+P 11175 23400
+F 0 "U1" H 11175 23767 50  0000 C CNN
+F 1 "74LS139" H 11175 23676 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 11175 23400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 11175 23400 50  0001 C CNN
+	2    11175 23400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U1
+U 3 1 62430F1D
+P 11175 23900
+F 0 "U1" V 10808 23900 50  0000 C CNN
+F 1 "74LS139" V 10899 23900 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 11175 23900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 11175 23900 50  0001 C CNN
+	3    11175 23900
+	0    1    1    0   
+$EndComp
+Text Label 10675 23300 2    50   ~ 0
+GND
+Text Label 10675 23400 2    50   ~ 0
+IORD
+Text Label 10675 23600 2    50   ~ 0
+IO_0061
+Text Label 10675 23900 2    50   ~ 0
+GND
+Text Label 11675 23900 0    50   ~ 0
+5+
+Text Label 11675 23300 0    50   ~ 0
+PORT_61_RD
+$Comp
+L Device:R_Network03 RN3
+U 1 1 62440244
+P 2525 16525
+F 0 "RN3" V 2208 16525 50  0000 C CNN
+F 1 "10k ohm" V 2299 16525 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 2800 16525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2525 16525 50  0001 C CNN
+	1    2525 16525
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:CAP C13
+U 1 1 6245F169
+P 21775 22775
+F 0 "C13" V 21460 22775 50  0000 C CNN
+F 1 "0.1uF" V 21551 22775 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 21775 22775 50  0001 C CNN
+F 3 "~" H 21775 22775 50  0001 C CNN
+	1    21775 22775
+	0    1    1    0   
+$EndComp
+Text Label 22025 22775 0    50   ~ 0
+GND
+Text Label 21525 22775 2    50   ~ 0
+5+
+Text Label 22000 23575 0    50   ~ 0
+GND
+Text Label 21500 23575 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C11
+U 1 1 6245F173
+P 21750 23575
+F 0 "C11" V 21435 23575 50  0000 C CNN
+F 1 "0.1uF" V 21526 23575 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 21750 23575 50  0001 C CNN
+F 3 "~" H 21750 23575 50  0001 C CNN
+	1    21750 23575
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS670 U64
+U 1 1 610632BC
+P 19975 20900
+F 0 "U64" H 19975 21881 50  0000 C CNN
+F 1 "74LS670" H 19975 21790 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 19975 20900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 19975 20900 50  0001 C CNN
+	1    19975 20900
+	1    0    0    -1  
+$EndComp
+Text Label 19575 16700 0    50   ~ 0
+A7
+Text Label 19575 16600 0    50   ~ 0
+A6
+Text Label 19575 16500 0    50   ~ 0
+A5
+Text Label 19575 16400 0    50   ~ 0
+A4
+Text Label 18175 16700 2    50   ~ 0
+A3
+Text Label 18175 16600 2    50   ~ 0
+A2
+Text Label 18175 16500 2    50   ~ 0
+A1
+Text Label 18175 16400 2    50   ~ 0
+A0
+Text Label 18225 23150 0    50   ~ 0
+GND
+Text Label 18350 21250 0    50   ~ 0
+GND
+Text Label 17850 21250 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C63
+U 1 1 6106B923
+P 18100 21250
+F 0 "C63" V 17785 21250 50  0000 C CNN
+F 1 "0.1uF" V 17876 21250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 18100 21250 50  0001 C CNN
+F 3 "~" H 18100 21250 50  0001 C CNN
+	1    18100 21250
+	0    1    1    0   
+$EndComp
+Text Label 19775 15700 0    50   ~ 0
+GND
+Text Label 19275 15700 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C64
+U 1 1 64980F28
+P 19525 15700
+F 0 "C64" V 19210 15700 50  0000 C CNN
+F 1 "0.1uF" V 19301 15700 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 19525 15700 50  0001 C CNN
+F 3 "~" H 19525 15700 50  0001 C CNN
+	1    19525 15700
+	0    1    1    0   
+$EndComp
+Text Label 18175 18300 2    50   ~ 0
+D0
+Text Label 18175 18400 2    50   ~ 0
+D1
+Text Label 18175 18500 2    50   ~ 0
+D2
+Text Label 18175 18600 2    50   ~ 0
+D3
+Text Label 18175 18700 2    50   ~ 0
+D4
+Text Label 18175 18800 2    50   ~ 0
+D5
+Text Label 18175 18900 2    50   ~ 0
+D6
+Text Label 18175 19000 2    50   ~ 0
+D7
+Text Label 16700 16525 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C65
+U 1 1 64980F29
+P 16450 16525
+F 0 "C65" V 16135 16525 50  0000 C CNN
+F 1 "0.1uF" V 16226 16525 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 16450 16525 50  0001 C CNN
+F 3 "~" H 16450 16525 50  0001 C CNN
+	1    16450 16525
+	0    1    1    0   
+$EndComp
+Text Label 16200 16525 2    50   ~ 0
+5+
+$Comp
+L Interface:8237 U61
+U 1 1 61463853
+P 18875 17700
+F 0 "U61" H 18875 16011 50  0000 C CNN
+F 1 "8237" H 18875 15920 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 18875 17900 50  0001 C CNN
+F 3 "https://pdos.csail.mit.edu/6.828/2012/readings/hardware/8237A.pdf" H 18875 18000 50  0001 C CNN
+	1    18875 17700
+	1    0    0    -1  
+$EndComp
+Text Label 19475 20400 2    50   ~ 0
+D0
+Text Label 19475 20500 2    50   ~ 0
+D1
+Text Label 19475 20600 2    50   ~ 0
+D2
+Text Label 19475 20700 2    50   ~ 0
+D3
+Text Label 19475 20900 2    50   ~ 0
+A0
+Text Label 19475 21000 2    50   ~ 0
+A1
+Text Label 19475 21100 2    50   ~ 0
+760_EN
+Text Label 19475 21300 2    50   ~ 0
+DACK3
+Text Label 19475 21400 2    50   ~ 0
+DACK2
+Text Label 19475 21500 2    50   ~ 0
+AEN_OE
+Text Label 19975 21800 0    50   ~ 0
+GND
+Text Label 19975 20100 0    50   ~ 0
+5+
+Text Label 20475 20400 0    50   ~ 0
+A16
+Text Label 20475 20500 0    50   ~ 0
+A17
+Text Label 20475 20600 0    50   ~ 0
+A18
+Text Label 20475 20700 0    50   ~ 0
+A19
+Text Label 18975 16100 0    50   ~ 0
+5+
+Text Label 18875 16100 2    50   ~ 0
+5+
+Text Label 19575 17000 0    50   ~ 0
+HOLD
+Text Label 19575 17400 0    50   ~ 0
+MWR
+Text Label 19575 17300 0    50   ~ 0
+MRD
+Text Label 19575 17800 0    50   ~ 0
+EOP
+$Comp
+L Device:R R62
+U 1 1 6146BFF5
+P 20500 17750
+F 0 "R62" H 20570 17796 50  0000 L CNN
+F 1 "10k ohm" H 20570 17705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 20430 17750 50  0001 C CNN
+F 3 "~" H 20500 17750 50  0001 C CNN
+	1    20500 17750
+	1    0    0    -1  
+$EndComp
+Text Label 20500 17600 0    50   ~ 0
+EOP
+Text Label 20500 17900 0    50   ~ 0
+5+
+Text Label 19575 18100 0    50   ~ 0
+DACK0
+Text Label 19575 18200 0    50   ~ 0
+DACK1
+Text Label 19575 18300 0    50   ~ 0
+DACK2
+Text Label 19575 18400 0    50   ~ 0
+DACK3
+Text Label 19575 18700 0    50   ~ 0
+ADSTB
+Text Label 19575 19000 0    50   ~ 0
+AEN
+Text Label 18875 19300 0    50   ~ 0
+GND
+Text Label 18175 18100 2    50   ~ 0
+RESOUT
+Text Label 18175 17700 2    50   ~ 0
+DRQ1
+Text Label 18175 17600 2    50   ~ 0
+DRQ0_
+Text Label 18175 17800 2    50   ~ 0
+DRQ2
+Text Label 18175 17900 2    50   ~ 0
+DRQ3
+Text Label 18175 17400 2    50   ~ 0
+IOWR
+Text Label 18175 17300 2    50   ~ 0
+IORD
+Text Label 18175 17200 2    50   ~ 0
+HOLDA
+Text Label 18175 17000 2    50   ~ 0
+READY
+Text Label 18175 16900 2    50   ~ 0
+IO_000X
+Text Label 17425 16375 2    50   ~ 0
+CLK
+Text Label 17425 16675 0    50   ~ 0
+CLK88_1
+Text Label 18175 17100 2    50   ~ 0
+CLK88_1
+$Comp
+L 74xx:74LS04 U63
+U 1 1 61470FF9
+P 16100 17075
+F 0 "U63" H 16100 17392 50  0000 C CNN
+F 1 "74LS04" H 16100 17301 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 16100 17075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 16100 17075 50  0001 C CNN
+	1    16100 17075
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U63
+U 7 1 61471E02
+P 16000 18700
+F 0 "U63" V 15633 18700 50  0000 C CNN
+F 1 "74LS04" V 15724 18700 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 16000 18700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 16000 18700 50  0001 C CNN
+	7    16000 18700
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS04 U63
+U 2 1 61472C9C
+P 16025 17625
+F 0 "U63" H 16025 17942 50  0000 C CNN
+F 1 "74LS04" H 16025 17851 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 16025 17625 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 16025 17625 50  0001 C CNN
+	2    16025 17625
+	1    0    0    -1  
+$EndComp
+Text Label 15725 17625 2    50   ~ 0
+AEN
+Text Label 16325 17625 0    50   ~ 0
+AEN_OE
+Text Label 16500 18700 0    50   ~ 0
+5+
+Text Label 15500 18700 2    50   ~ 0
+GND
+Text Label 18725 22250 0    50   ~ 0
+A11
+Text Label 18725 22150 0    50   ~ 0
+A12
+Text Label 18725 22050 0    50   ~ 0
+A13
+Text Label 18725 22350 0    50   ~ 0
+A10
+Text Label 18725 22450 0    50   ~ 0
+A9
+Text Label 18725 22550 0    50   ~ 0
+A8
+Text Label 17725 22550 2    50   ~ 0
+D0
+Text Label 17725 22450 2    50   ~ 0
+D1
+Text Label 17725 22350 2    50   ~ 0
+D2
+Text Label 17725 22250 2    50   ~ 0
+D3
+Text Label 17725 22150 2    50   ~ 0
+D4
+Text Label 17725 22050 2    50   ~ 0
+D5
+Text Label 17725 21950 2    50   ~ 0
+D6
+Text Label 17725 21850 2    50   ~ 0
+D7
+Text Label 17725 22750 2    50   ~ 0
+ADSTB
+Text Label 17725 22850 2    50   ~ 0
+AEN_OE
+Text Label 6600 22850 2    50   ~ 0
+IO_008X
+Text Label 6600 22750 2    50   ~ 0
+IOWR
+Text Label 6600 23050 2    50   ~ 0
+GND
+$Comp
+L 74xx:74LS04 U63
+U 3 1 614D3A02
+P 16025 18125
+F 0 "U63" H 16025 18442 50  0000 C CNN
+F 1 "74LS04" H 16025 18351 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 16025 18125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 16025 18125 50  0001 C CNN
+	3    16025 18125
+	1    0    0    -1  
+$EndComp
+Text Label 15725 18125 2    50   ~ 0
+EOP
+Text Label 16325 18125 0    50   ~ 0
+TC
+$Comp
+L Device:R R61
+U 1 1 6174F842
+P 17350 17700
+F 0 "R61" H 17420 17746 50  0000 L CNN
+F 1 "10k ohm" H 17420 17655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 17280 17700 50  0001 C CNN
+F 3 "~" H 17350 17700 50  0001 C CNN
+	1    17350 17700
+	1    0    0    -1  
+$EndComp
+Text Label 17350 17850 0    50   ~ 0
+GND
+Text Label 17350 17550 2    50   ~ 0
+DRQ0_
+$Comp
+L Device:R R63
+U 1 1 623CE352
+P 17425 16525
+F 0 "R63" H 17495 16571 50  0000 L CNN
+F 1 "27 ohm" H 17495 16480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 17355 16525 50  0001 C CNN
+F 3 "~" H 17425 16525 50  0001 C CNN
+	1    17425 16525
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS573 U65
+U 1 1 610661C4
+P 18225 22350
+F 0 "U65" H 18225 23331 50  0000 C CNN
+F 1 "74LS573" H 18225 23240 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 18225 22350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 18225 22350 50  0001 C CNN
+	1    18225 22350
+	1    0    0    -1  
+$EndComp
+Text Label 18725 21850 0    50   ~ 0
+A15
+Text Label 18725 21950 0    50   ~ 0
+A14
+Text Label 18225 21550 0    50   ~ 0
+5+
+Text Label 7600 22750 0    50   ~ 0
+760_EN
+$Comp
+L 74xx:74LS07 U20
+U 2 1 6088AC3C
+P 12125 20800
+F 0 "U20" H 12125 21117 50  0000 C CNN
+F 1 "74LS07" H 12125 21026 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 12125 20800 50  0001 C CNN
+F 3 "www.ti.com/lit/ds/symlink/sn74ls07.pdf" H 12125 20800 50  0001 C CNN
+	2    12125 20800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS07 U20
+U 1 1 6088A1DA
+P 12475 20325
+F 0 "U20" H 12475 20642 50  0000 C CNN
+F 1 "74LS07" H 12475 20551 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 12475 20325 50  0001 C CNN
+F 3 "www.ti.com/lit/ds/symlink/sn74ls07.pdf" H 12475 20325 50  0001 C CNN
+	1    12475 20325
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C14
+U 1 1 63970443
+P 26900 20775
+F 0 "C14" V 26585 20775 50  0000 C CNN
+F 1 "0.1uF" V 26676 20775 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 26900 20775 50  0001 C CNN
+F 3 "~" H 26900 20775 50  0001 C CNN
+	1    26900 20775
+	0    1    1    0   
+$EndComp
+Text Label 27150 20775 0    50   ~ 0
+GND
+Text Label 26650 20775 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C17
+U 1 1 6397044B
+P 28300 20675
+F 0 "C17" V 27985 20675 50  0000 C CNN
+F 1 "0.1uF" V 28076 20675 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 28300 20675 50  0001 C CNN
+F 3 "~" H 28300 20675 50  0001 C CNN
+	1    28300 20675
+	0    1    1    0   
+$EndComp
+Text Label 28550 20675 0    50   ~ 0
+GND
+Text Label 28050 20675 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C19
+U 1 1 63970453
+P 28325 21625
+F 0 "C19" V 28010 21625 50  0000 C CNN
+F 1 "0.1uF" V 28101 21625 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 28325 21625 50  0001 C CNN
+F 3 "~" H 28325 21625 50  0001 C CNN
+	1    28325 21625
+	0    1    1    0   
+$EndComp
+Text Label 28575 21625 0    50   ~ 0
+GND
+Text Label 28075 21625 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C18
+U 1 1 6397045B
+P 28300 22525
+F 0 "C18" V 27985 22525 50  0000 C CNN
+F 1 "0.1uF" V 28076 22525 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 28300 22525 50  0001 C CNN
+F 3 "~" H 28300 22525 50  0001 C CNN
+	1    28300 22525
+	0    1    1    0   
+$EndComp
+Text Label 28550 22525 0    50   ~ 0
+GND
+Text Label 28050 22525 2    50   ~ 0
+5+
+Text Label 26675 21725 2    50   ~ 0
+5+
+Text Label 27175 21725 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C15
+U 1 1 63970465
+P 26925 21725
+F 0 "C15" V 26610 21725 50  0000 C CNN
+F 1 "0.1uF" V 26701 21725 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 26925 21725 50  0001 C CNN
+F 3 "~" H 26925 21725 50  0001 C CNN
+	1    26925 21725
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:CAP C16
+U 1 1 6397046B
+P 26950 22475
+F 0 "C16" V 26635 22475 50  0000 C CNN
+F 1 "0.1uF" V 26726 22475 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 26950 22475 50  0001 C CNN
+F 3 "~" H 26950 22475 50  0001 C CNN
+	1    26950 22475
+	0    1    1    0   
+$EndComp
+Text Label 27200 22475 0    50   ~ 0
+GND
+Text Label 26700 22475 2    50   ~ 0
+5+
+$Comp
+L Switch:SW_DIP_x02 SW2
+U 1 1 63F01F95
+P 17250 19200
+F 0 "SW2" H 17250 19567 50  0000 C CNN
+F 1 "DRQ0/DACK0 EN" H 17250 19476 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm" H 17250 19200 50  0001 C CNN
+F 3 "~" H 17250 19200 50  0001 C CNN
+	1    17250 19200
+	1    0    0    -1  
+$EndComp
+Text Label 16950 19100 2    50   ~ 0
+DRQ0_
+Text Label 16950 19200 2    50   ~ 0
+DACK0
+Text Label 17550 19200 0    50   ~ 0
+REFRQ
+Text Label 17550 19100 0    50   ~ 0
+DRQ0
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 63F7D6D0
+P 3550 16225
+F 0 "J12" H 3630 16217 50  0001 L CNN
+F 1 "RESET" H 3630 16171 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3550 16225 50  0001 C CNN
+F 3 "~" H 3550 16225 50  0001 C CNN
+	1    3550 16225
+	1    0    0    -1  
+$EndComp
+Text Label 3350 16325 2    50   ~ 0
+GND
+Text Label 3350 16225 2    50   ~ 0
+RESET
+Text Label 14650 2400 0    50   ~ 0
+IORD
+Text Label 14650 2500 0    50   ~ 0
+IOWR
+Text Label 14650 2600 0    50   ~ 0
+MRD
+Text Label 14650 2700 0    50   ~ 0
+MWR
+Text Label 14650 2800 0    50   ~ 0
+GND
+Text Label 14650 2900 0    50   ~ 0
+12+
+Text Label 14650 3100 0    50   ~ 0
+12-
+Text Label 14650 3200 0    50   ~ 0
+DRQ2
+Text Label 14650 3300 0    50   ~ 0
+5-
+Text Label 14650 3400 0    50   ~ 0
+IRQ2
+Text Label 14650 3500 0    50   ~ 0
+5+
+Text Label 14650 3600 0    50   ~ 0
+RESOUT
+Text Label 14650 3700 0    50   ~ 0
+GND
+Text Label 14650 2300 0    50   ~ 0
+DACK3
+Text Label 14650 2200 0    50   ~ 0
+DRQ3
+Text Label 14650 2100 0    50   ~ 0
+DACK1
+Text Label 14650 2000 0    50   ~ 0
+DRQ1
+Text Label 14650 1900 0    50   ~ 0
+REFRQ
+Text Label 14650 1800 0    50   ~ 0
+CLK88
+Text Label 14650 1700 0    50   ~ 0
+IRQ7
+Text Label 14650 1600 0    50   ~ 0
+IRQ6
+Text Label 14650 1500 0    50   ~ 0
+IRQ5
+Text Label 14650 1400 0    50   ~ 0
+IRQ4
+Text Label 14650 1300 0    50   ~ 0
+IRQ3
+Text Label 14650 1200 0    50   ~ 0
+DACK2
+Text Label 14650 1100 0    50   ~ 0
+TC
+Text Label 14650 1000 0    50   ~ 0
+ALE
+Text Label 14650 900  0    50   ~ 0
+5+
+Text Label 13250 3600 2    50   ~ 0
+D7
+Text Label 13250 3500 2    50   ~ 0
+D6
+Text Label 13250 3400 2    50   ~ 0
+D5
+Text Label 13250 3300 2    50   ~ 0
+D4
+Text Label 13250 3200 2    50   ~ 0
+D3
+Text Label 13250 3100 2    50   ~ 0
+D2
+Text Label 13250 3000 2    50   ~ 0
+D1
+Text Label 13250 2900 2    50   ~ 0
+D0
+Text Label 13250 2800 2    50   ~ 0
+RDY1
+Text Label 13250 2700 2    50   ~ 0
+AEN
+Text Label 13250 2600 2    50   ~ 0
+A19
+Text Label 13250 2500 2    50   ~ 0
+A18
+Text Label 13250 2400 2    50   ~ 0
+A17
+Text Label 13250 2300 2    50   ~ 0
+A16
+Text Label 13250 2200 2    50   ~ 0
+A15
+Text Label 13250 2100 2    50   ~ 0
+A14
+Text Label 13250 2000 2    50   ~ 0
+A13
+Text Label 13250 1900 2    50   ~ 0
+A12
+Text Label 13250 1800 2    50   ~ 0
+A11
+Text Label 13250 1700 2    50   ~ 0
+A10
+Text Label 13250 1600 2    50   ~ 0
+A9
+Text Label 13250 1500 2    50   ~ 0
+A8
+Text Label 13250 1400 2    50   ~ 0
+A7
+Text Label 13250 1300 2    50   ~ 0
+A6
+Text Label 13250 1200 2    50   ~ 0
+A5
+Text Label 13250 1100 2    50   ~ 0
+A4
+Text Label 13250 1000 2    50   ~ 0
+A3
+Text Label 13250 900  2    50   ~ 0
+A2
+Text Label 13250 800  2    50   ~ 0
+A1
+Text Label 13250 3700 2    50   ~ 0
+CH_CK
+Text Label 4625 1725 0    50   ~ 0
+GND
+Text Label 4125 1725 2    50   ~ 0
+5+
+Text Label 14650 3000 0    50   ~ 0
+NC
+Text Label 14650 800  0    50   ~ 0
+OSC88
+Text Label 13250 700  2    50   ~ 0
+A0
+Text Label 14650 700  0    50   ~ 0
+GND
+$Comp
+L Connector:Bus_ISA_8bit J9
+U 1 1 6082C528
+P 13950 2200
+F 0 "J9" H 13950 3967 50  0001 C CNN
+F 1 "Bus_ISA_8bit" H 13950 3876 50  0001 C CNN
+F 2 "My:BUS_8_BIT_SMALL_PADS" H 13950 2200 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 13950 2200 50  0001 C CNN
+	1    13950 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L pspice:CAP C101
+U 1 1 64999963
+P 4375 1725
+F 0 "C101" V 4060 1725 50  0000 C CNN
+F 1 "0.1uF" V 4151 1725 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4375 1725 50  0001 C CNN
+F 3 "~" H 4375 1725 50  0001 C CNN
+	1    4375 1725
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS573 U102
+U 1 1 64980F25
+P 8575 2250
+F 0 "U102" H 8575 3231 50  0000 C CNN
+F 1 "74LS573" H 8575 3140 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 8575 2250 50  0001 C CNN
+F 3 "74xx/74hc573.pdf" H 8575 2250 50  0001 C CNN
+	1    8575 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS573 U103
+U 1 1 64980F26
+P 10100 4000
+F 0 "U103" H 10100 4981 50  0000 C CNN
+F 1 "74LS573" H 10100 4890 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 10100 4000 50  0001 C CNN
+F 3 "74xx/74hc573.pdf" H 10100 4000 50  0001 C CNN
+	1    10100 4000
+	1    0    0    -1  
+$EndComp
+Text Label 9075 1750 0    50   ~ 0
+A19
+Text Label 9075 1850 0    50   ~ 0
+A18
+Text Label 9075 1950 0    50   ~ 0
+A17
+Text Label 9075 2050 0    50   ~ 0
+A16
+Text Label 10600 3500 0    50   ~ 0
+A7
+Text Label 10600 3600 0    50   ~ 0
+A6
+Text Label 10600 3700 0    50   ~ 0
+A5
+Text Label 10600 3800 0    50   ~ 0
+A4
+Text Label 10600 3900 0    50   ~ 0
+A3
+Text Label 10600 4000 0    50   ~ 0
+A2
+Text Label 10600 4100 0    50   ~ 0
+A1
+Text Label 10600 4200 0    50   ~ 0
+A0
+Text Label 8075 2050 2    50   ~ 0
+A16_
+Text Label 8075 1950 2    50   ~ 0
+A17_
+Text Label 8075 1850 2    50   ~ 0
+A18_
+Text Label 8075 1750 2    50   ~ 0
+A19_
+Text Label 8575 1450 0    50   ~ 0
+5+
+Text Label 8575 3050 0    50   ~ 0
+GND
+Text Label 10100 3200 0    50   ~ 0
+5+
+Text Label 10100 4800 0    50   ~ 0
+GND
+Text Label 6450 4425 0    50   ~ 0
+A16_
+Text Label 6450 4525 0    50   ~ 0
+A17_
+Text Label 6450 4625 0    50   ~ 0
+A18_
+Text Label 6450 4725 0    50   ~ 0
+A19_
+Text Label 10225 2875 0    50   ~ 0
+GND
+Text Label 9725 2875 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C103
+U 1 1 64980F27
+P 9975 2875
+F 0 "C103" V 9660 2875 50  0000 C CNN
+F 1 "0.1uF" V 9751 2875 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9975 2875 50  0001 C CNN
+F 3 "~" H 9975 2875 50  0001 C CNN
+	1    9975 2875
+	0    1    1    0   
+$EndComp
+Text Label 8775 4400 0    50   ~ 0
+GND
+Text Label 8275 4400 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C104
+U 1 1 6106BA7C
+P 8525 4400
+F 0 "C104" V 8210 4400 50  0000 C CNN
+F 1 "0.1uF" V 8301 4400 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8525 4400 50  0001 C CNN
+F 3 "~" H 8525 4400 50  0001 C CNN
+	1    8525 4400
+	0    1    1    0   
+$EndComp
+Text Label 8625 1275 0    50   ~ 0
+GND
+Text Label 8125 1275 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C102
+U 1 1 6106C0FE
+P 8375 1275
+F 0 "C102" V 8060 1275 50  0000 C CNN
+F 1 "0.1uF" V 8151 1275 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 8375 1275 50  0001 C CNN
+F 3 "~" H 8375 1275 50  0001 C CNN
+	1    8375 1275
+	0    1    1    0   
+$EndComp
+Text Label 9600 3500 2    50   ~ 0
+AD7
+Text Label 9600 3600 2    50   ~ 0
+AD6
+Text Label 9600 3700 2    50   ~ 0
+AD5
+Text Label 9600 3800 2    50   ~ 0
+AD4
+Text Label 9600 3900 2    50   ~ 0
+AD3
+Text Label 9600 4000 2    50   ~ 0
+AD2
+Text Label 9600 4100 2    50   ~ 0
+AD1
+Text Label 9600 4200 2    50   ~ 0
+AD0
+Text Label 8000 4925 2    50   ~ 0
+AD7
+Text Label 8000 5025 2    50   ~ 0
+AD6
+Text Label 8000 5125 2    50   ~ 0
+AD5
+Text Label 8000 5225 2    50   ~ 0
+AD4
+Text Label 8000 5325 2    50   ~ 0
+AD3
+Text Label 8000 5425 2    50   ~ 0
+AD2
+Text Label 8000 5525 2    50   ~ 0
+AD1
+Text Label 8000 5625 2    50   ~ 0
+AD0
+Text Label 9000 5625 0    50   ~ 0
+D0
+Text Label 9000 5525 0    50   ~ 0
+D1
+Text Label 9000 5425 0    50   ~ 0
+D2
+Text Label 9000 5325 0    50   ~ 0
+D3
+Text Label 9000 5225 0    50   ~ 0
+D4
+Text Label 9000 5125 0    50   ~ 0
+D5
+Text Label 9000 5025 0    50   ~ 0
+D6
+Text Label 9000 4925 0    50   ~ 0
+D7
+Text Label 8500 4625 2    50   ~ 0
+5+
+Text Label 8500 6225 0    50   ~ 0
+GND
+Text Label 9600 4400 2    50   ~ 0
+ALE
+Text Label 5050 3425 2    50   ~ 0
+HOLDA
+Text Label 5050 3625 2    50   ~ 0
+HOLD
+Text Label 11175 7250 0    50   ~ 0
+IORD
+Text Label 11175 6950 0    50   ~ 0
+MRD
+Text Label 11175 7850 0    50   ~ 0
+MWR
+Text Label 11175 7550 0    50   ~ 0
+IOWR
+Text Label 6450 2225 0    50   ~ 0
+DTR
+Text Label 6450 2325 0    50   ~ 0
+DEN
+Text Label 8000 5925 2    50   ~ 0
+DEN
+Text Label 8000 5825 2    50   ~ 0
+DTR
+Text Label 9600 4500 2    50   ~ 0
+HOLDA
+Text Label 8075 2750 2    50   ~ 0
+HOLDA
+Text Label 8075 2650 2    50   ~ 0
+ALE
+Text Label 2725 4150 0    50   ~ 0
+X1
+Text Label 2725 4350 0    50   ~ 0
+X2
+Text Label 6450 2425 0    50   ~ 0
+ALE
+Text Label 7625 6275 2    50   ~ 0
+5+
+Text Label 7925 6275 0    50   ~ 0
+DEN
+$Comp
+L Device:R R105
+U 1 1 61072939
+P 7775 6275
+F 0 "R105" V 7568 6275 50  0000 C CNN
+F 1 "10K ohm" V 7659 6275 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7705 6275 50  0001 C CNN
+F 3 "~" H 7775 6275 50  0001 C CNN
+	1    7775 6275
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS245 U104
+U 1 1 61063CD3
+P 8500 5425
+F 0 "U104" H 8500 6406 50  0000 C CNN
+F 1 "74LS245" H 8500 6315 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 8500 5425 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 8500 5425 50  0001 C CNN
+	1    8500 5425
+	1    0    0    -1  
+$EndComp
+Text Label 5050 4025 2    50   ~ 0
+GND
+Text Label 2775 8175 0    50   ~ 0
+SPK_GO
+Text Label 2775 8075 0    50   ~ 0
+HF_PCLK
+Text Label 2775 8275 0    50   ~ 0
+SPK_OUT
+Text Label 6375 6825 0    50   ~ 0
+IRQ7
+Text Label 6375 6925 0    50   ~ 0
+IRQ6
+Text Label 6375 7025 0    50   ~ 0
+IRQ5
+Text Label 6375 7125 0    50   ~ 0
+IRQ4
+Text Label 6375 7325 0    50   ~ 0
+IRQ2
+Text Label 6375 7225 0    50   ~ 0
+IRQ3
+Text Label 6375 7425 0    50   ~ 0
+IRQ1
+$Comp
+L Device:Crystal Y101
+U 1 1 610DE620
+P 2900 4775
+F 0 "Y101" H 2900 4507 50  0000 C CNN
+F 1 "Crystal" H 2900 4598 50  0000 C CNN
+F 2 "Crystal:Crystal_HC18-U_Vertical" H 2900 4775 50  0001 C CNN
+F 3 "~" H 2900 4775 50  0001 C CNN
+	1    2900 4775
+	-1   0    0    1   
+$EndComp
+Text Label 2750 4775 2    50   ~ 0
+X1
+Text Label 3050 4775 0    50   ~ 0
+X2
+$Comp
+L Device:R R102
+U 1 1 610DFCED
+P 3325 4300
+F 0 "R102" V 3118 4300 50  0000 C CNN
+F 1 "510 ohm" V 3209 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3255 4300 50  0001 C CNN
+F 3 "~" H 3325 4300 50  0001 C CNN
+	1    3325 4300
+	0    -1   -1   0   
+$EndComp
+Text Label 3475 4075 0    50   ~ 0
+GND
+$Comp
+L Device:R R103
+U 1 1 610DF419
+P 3325 4075
+F 0 "R103" V 3118 4075 50  0000 C CNN
+F 1 "510 ohm" V 3209 4075 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3255 4075 50  0001 C CNN
+F 3 "~" H 3325 4075 50  0001 C CNN
+	1    3325 4075
+	0    -1   -1   0   
+$EndComp
+Text Label 3475 4300 0    50   ~ 0
+GND
+Text Label 3175 4075 2    50   ~ 0
+X2
+Text Label 3175 4300 2    50   ~ 0
+X1
+$Comp
+L MCU_Intel:8088 U101
+U 1 1 6113D842
+P 5750 3725
+F 0 "U101" H 5750 5706 50  0000 C CNN
+F 1 "8088" H 5750 5615 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 5800 3825 50  0001 C CIN
+F 3 "http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf" H 5750 3775 50  0001 C CNN
+	1    5750 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface:8259 U107
+U 1 1 6113F110
+P 5775 7625
+F 0 "U107" H 5775 8906 50  0000 C CNN
+F 1 "8259" H 5775 8815 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 5775 7625 50  0001 C CIN
+F 3 "http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf" H 5775 7625 50  0001 C CNN
+	1    5775 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Timer:8253 U108
+U 1 1 6114018C
+P 2175 7675
+F 0 "U108" H 2175 8856 50  0000 C CNN
+F 1 "8253" H 2175 8765 50  0000 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm" H 2225 7925 50  0001 C CNN
+F 3 "http://www.cpcwiki.eu/imgs/e/e3/8253.pdf" H 1725 8575 50  0001 C CNN
+	1    2175 7675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Timer:8284 U106
+U 1 1 61142859
+P 2025 3750
+F 0 "U106" H 2025 4831 50  0000 C CNN
+F 1 "8284" H 2025 4740 50  0000 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 2025 3750 50  0001 C CIN
+F 3 "http://www.cpu-galaxy.at/cpu/ram%20rom%20eprom/other_intel_chips/other_intel-Dateien/D8284A_Datasheet.pdf" H 2025 3750 50  0001 C CNN
+	1    2025 3750
+	1    0    0    -1  
+$EndComp
+Text Label 10175 8250 2    50   ~ 0
+HOLDA
+Text Label 6450 4925 0    50   ~ 0
+IO_M
+Text Label 6450 5025 0    50   ~ 0
+WR
+Text Label 6450 5125 0    50   ~ 0
+RD
+Text Label 10175 6950 2    50   ~ 0
+RD
+Text Label 10175 7350 2    50   ~ 0
+RD
+$Comp
+L Device:R R104
+U 1 1 61146C76
+P 10500 6075
+F 0 "R104" V 10293 6075 50  0000 C CNN
+F 1 "10K ohm" V 10384 6075 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10430 6075 50  0001 C CNN
+F 3 "~" H 10500 6075 50  0001 C CNN
+	1    10500 6075
+	0    1    1    0   
+$EndComp
+Text Label 10650 6075 0    50   ~ 0
+PU1
+Text Label 10175 7050 2    50   ~ 0
+PU1
+Text Label 10175 7250 2    50   ~ 0
+PU1
+Text Label 10175 7550 2    50   ~ 0
+PU1
+Text Label 10175 7950 2    50   ~ 0
+PU1
+Text Label 10175 7650 2    50   ~ 0
+WR
+Text Label 10175 7850 2    50   ~ 0
+WR
+Text Label 10350 6075 2    50   ~ 0
+5+
+Text Label 10675 6650 0    50   ~ 0
+5+
+Text Label 10675 8550 0    50   ~ 0
+GND
+Text Label 10175 8150 2    50   ~ 0
+IO_M
+Text Label 5850 5525 0    50   ~ 0
+GND
+Text Label 5650 5525 0    50   ~ 0
+GND
+Text Label 6450 2625 0    50   ~ 0
+AD0
+Text Label 6450 2725 0    50   ~ 0
+AD1
+Text Label 6450 2825 0    50   ~ 0
+AD2
+Text Label 6450 2925 0    50   ~ 0
+AD3
+Text Label 6450 3025 0    50   ~ 0
+AD4
+Text Label 6450 3125 0    50   ~ 0
+AD5
+Text Label 6450 3225 0    50   ~ 0
+AD6
+Text Label 6450 3325 0    50   ~ 0
+AD7
+Text Label 6450 3525 0    50   ~ 0
+A8
+Text Label 6450 3625 0    50   ~ 0
+A9
+Text Label 6450 3725 0    50   ~ 0
+A10
+Text Label 6450 3825 0    50   ~ 0
+A11
+Text Label 6450 3925 0    50   ~ 0
+A12
+Text Label 6450 4025 0    50   ~ 0
+A13
+Text Label 6450 4125 0    50   ~ 0
+A14
+Text Label 6450 4225 0    50   ~ 0
+A15
+Text Label 5750 1925 2    50   ~ 0
+5+
+Text Label 5050 4225 2    50   ~ 0
+5+
+Text Label 5050 3225 2    50   ~ 0
+INTA
+Text Label 5050 3025 2    50   ~ 0
+INTR
+Text Label 5050 2825 2    50   ~ 0
+NMI
+Text Label 5050 2225 2    50   ~ 0
+CLK_88
+Text Label 2725 3150 0    50   ~ 0
+CLK1
+$Comp
+L Device:R R101
+U 1 1 6115385B
+P 3250 2975
+F 0 "R101" V 3043 2975 50  0000 C CNN
+F 1 "27 ohm" V 3134 2975 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3180 2975 50  0001 C CNN
+F 3 "~" H 3250 2975 50  0001 C CNN
+	1    3250 2975
+	0    1    1    0   
+$EndComp
+Text Label 3400 2975 0    50   ~ 0
+CLK_88
+Text Label 3100 2975 2    50   ~ 0
+CLK1
+Text Label 2725 3350 0    50   ~ 0
+READY1
+$Comp
+L 74xx:74LS257 U105
+U 1 1 6114181C
+P 10675 7550
+F 0 "U105" H 10675 8631 50  0000 C CNN
+F 1 "74LS257" H 10675 8540 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 10675 7550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 10675 7550 50  0001 C CNN
+	1    10675 7550
+	1    0    0    -1  
+$EndComp
+Text Label 5775 8725 0    50   ~ 0
+GND
+Text Label 5175 8325 2    50   ~ 0
+INTR
+Text Label 5175 8425 2    50   ~ 0
+INTA
+Text Label 5175 7725 2    50   ~ 0
+A0
+Text Label 5175 6825 2    50   ~ 0
+D0
+Text Label 5175 6925 2    50   ~ 0
+D1
+Text Label 5175 7025 2    50   ~ 0
+D2
+Text Label 5175 7125 2    50   ~ 0
+D3
+Text Label 5175 7225 2    50   ~ 0
+D4
+Text Label 5175 7325 2    50   ~ 0
+D5
+Text Label 5175 7425 2    50   ~ 0
+D6
+Text Label 5175 7525 2    50   ~ 0
+D7
+Text Label 1575 6975 2    50   ~ 0
+D0
+Text Label 1575 7075 2    50   ~ 0
+D1
+Text Label 1575 7175 2    50   ~ 0
+D2
+Text Label 1575 7275 2    50   ~ 0
+D3
+Text Label 1575 7375 2    50   ~ 0
+D4
+Text Label 1575 7475 2    50   ~ 0
+D5
+Text Label 1575 7575 2    50   ~ 0
+D6
+Text Label 1575 7675 2    50   ~ 0
+D7
+Text Label 1575 7875 2    50   ~ 0
+IORD
+Text Label 1575 7975 2    50   ~ 0
+IOWR
+Text Label 5175 8125 2    50   ~ 0
+IORD
+Text Label 5175 8025 2    50   ~ 0
+IOWR
+Text Label 1575 8075 2    50   ~ 0
+A0
+Text Label 1575 8175 2    50   ~ 0
+A1
+Text Label 5175 7925 2    50   ~ 0
+IO_002X
+Text Label 1575 8375 2    50   ~ 0
+IO_004X
+Text Label 6375 8125 0    50   ~ 0
+5+
+Text Label 5775 6525 0    50   ~ 0
+5+
+Text Label 2175 6675 0    50   ~ 0
+5+
+Text Label 2775 7075 0    50   ~ 0
+HF_PCLK
+Text Label 2775 7575 0    50   ~ 0
+HF_PCLK
+Text Label 2775 7675 0    50   ~ 0
+5+
+Text Label 2775 7275 0    50   ~ 0
+IRQ0
+Text Label 2775 7175 0    50   ~ 0
+5+
+Text Label 6375 7525 0    50   ~ 0
+IRQ0
+Text Label 2175 8675 0    50   ~ 0
+GND
+Text Label 4925 6325 0    50   ~ 0
+GND
+Text Label 4425 6325 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C107
+U 1 1 61168CB8
+P 4675 6325
+F 0 "C107" V 4360 6325 50  0000 C CNN
+F 1 "0.1uF" V 4451 6325 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4675 6325 50  0001 C CNN
+F 3 "~" H 4675 6325 50  0001 C CNN
+	1    4675 6325
+	0    1    1    0   
+$EndComp
+Text Label 1650 2175 0    50   ~ 0
+GND
+Text Label 1150 2175 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C106
+U 1 1 61169247
+P 1400 2175
+F 0 "C106" V 1085 2175 50  0000 C CNN
+F 1 "0.1uF" V 1176 2175 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1400 2175 50  0001 C CNN
+F 3 "~" H 1400 2175 50  0001 C CNN
+	1    1400 2175
+	0    1    1    0   
+$EndComp
+Text Label 3100 6400 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C108
+U 1 1 61169660
+P 2850 6400
+F 0 "C108" V 2535 6400 50  0000 C CNN
+F 1 "0.1uF" V 2626 6400 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2850 6400 50  0001 C CNN
+F 3 "~" H 2850 6400 50  0001 C CNN
+	1    2850 6400
+	0    1    1    0   
+$EndComp
+Text Label 2600 6400 2    50   ~ 0
+5+
+Text Label 11400 6300 0    50   ~ 0
+GND
+Text Label 10900 6300 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C105
+U 1 1 6116A3B9
+P 11150 6300
+F 0 "C105" V 10835 6300 50  0000 C CNN
+F 1 "0.1uF" V 10926 6300 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 11150 6300 50  0001 C CNN
+F 3 "~" H 11150 6300 50  0001 C CNN
+	1    11150 6300
+	0    1    1    0   
+$EndComp
+Text Label 2025 2850 0    50   ~ 0
+5+
+Text Label 1325 3450 2    50   ~ 0
+GND
+Text Label 1325 3550 2    50   ~ 0
+GND
+Text Label 1325 3650 2    50   ~ 0
+5+
+Text Label 1325 3850 2    50   ~ 0
+GND
+Text Label 1325 3950 2    50   ~ 0
+GND
+Text Label 1325 4150 2    50   ~ 0
+GND
+Text Label 2025 4650 2    50   ~ 0
+GND
+Text Label 1325 3150 2    50   ~ 0
+RESET
+Text Label 2725 3550 0    50   ~ 0
+RESET1
+Text Label 5050 2625 2    50   ~ 0
+RESET1
+Text Label 1325 3350 2    50   ~ 0
+RDY1
+Text Label 5050 2425 2    50   ~ 0
+READY1
+Text Label 2775 7775 0    50   ~ 0
+DRQ0
+Text Label 22025 4750 0    50   ~ 0
+GND
+Text Label 21525 4750 2    50   ~ 0
+5+
+$Comp
+L Memory_RAM:AS6C4008-55PCN U204
+U 1 1 6106DB5F
+P 28125 6500
+F 0 "U204" H 28125 7781 50  0000 C CNN
+F 1 "AS6C4008" H 28125 7690 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 28125 6600 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf" H 28125 6600 50  0001 C CNN
+	1    28125 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C203
+U 1 1 61060B29
+P 26125 4875
+F 0 "C203" V 25810 4875 50  0000 C CNN
+F 1 "0.1uF" V 25901 4875 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 26125 4875 50  0001 C CNN
+F 3 "~" H 26125 4875 50  0001 C CNN
+	1    26125 4875
+	0    1    1    0   
+$EndComp
+Text Label 26375 4875 0    50   ~ 0
+GND
+Text Label 25875 4875 2    50   ~ 0
+5+
+$Comp
+L 74xx:74LS138 U206
+U 1 1 61061086
+P 27575 2750
+F 0 "U206" H 27575 3531 50  0000 C CNN
+F 1 "74LS138" H 27575 3440 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 27575 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 27575 2750 50  0001 C CNN
+	1    27575 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U205
+U 1 1 610617D6
+P 24650 2300
+F 0 "U205" H 24650 2667 50  0000 C CNN
+F 1 "74LS139" H 24650 2576 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 24650 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 24650 2300 50  0001 C CNN
+	1    24650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U205
+U 3 1 61062281
+P 24650 3600
+F 0 "U205" V 24283 3600 50  0000 C CNN
+F 1 "74LS139" V 24374 3600 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 24650 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 24650 3600 50  0001 C CNN
+	3    24650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:CAP C204
+U 1 1 61063D21
+P 28425 4775
+F 0 "C204" V 28110 4775 50  0000 C CNN
+F 1 "0.1uF" V 28201 4775 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 28425 4775 50  0001 C CNN
+F 3 "~" H 28425 4775 50  0001 C CNN
+	1    28425 4775
+	0    1    1    0   
+$EndComp
+Text Label 28675 4775 0    50   ~ 0
+GND
+Text Label 28175 4775 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C205
+U 1 1 61063F07
+P 25050 1625
+F 0 "C205" V 24735 1625 50  0000 C CNN
+F 1 "0.1uF" V 24826 1625 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 25050 1625 50  0001 C CNN
+F 3 "~" H 25050 1625 50  0001 C CNN
+	1    25050 1625
+	0    1    1    0   
+$EndComp
+Text Label 25300 1625 0    50   ~ 0
+GND
+Text Label 24800 1625 2    50   ~ 0
+5+
+Text Label 28625 6300 0    50   ~ 0
+D7
+Text Label 28625 6200 0    50   ~ 0
+D6
+Text Label 28625 6100 0    50   ~ 0
+D5
+Text Label 28625 6000 0    50   ~ 0
+D4
+Text Label 28625 5900 0    50   ~ 0
+D3
+Text Label 28625 5800 0    50   ~ 0
+D2
+Text Label 28625 5700 0    50   ~ 0
+D1
+Text Label 28625 5600 0    50   ~ 0
+D0
+Text Label 27625 7400 2    50   ~ 0
+A18
+Text Label 27625 7300 2    50   ~ 0
+A17
+Text Label 27625 7200 2    50   ~ 0
+A16
+Text Label 27625 7100 2    50   ~ 0
+A15
+Text Label 27625 7000 2    50   ~ 0
+A14
+Text Label 27625 6900 2    50   ~ 0
+A13
+Text Label 27625 6800 2    50   ~ 0
+A12
+Text Label 27625 6700 2    50   ~ 0
+A11
+Text Label 27625 6600 2    50   ~ 0
+A10
+Text Label 27625 6500 2    50   ~ 0
+A9
+Text Label 27625 6400 2    50   ~ 0
+A8
+Text Label 27625 6300 2    50   ~ 0
+A7
+Text Label 27625 6200 2    50   ~ 0
+A6
+Text Label 27625 6100 2    50   ~ 0
+A5
+Text Label 27625 6000 2    50   ~ 0
+A4
+Text Label 27625 5900 2    50   ~ 0
+A3
+Text Label 27625 5800 2    50   ~ 0
+A2
+Text Label 27625 5700 2    50   ~ 0
+A1
+Text Label 27625 5600 2    50   ~ 0
+A0
+Text Label 28125 5400 0    50   ~ 0
+5+
+Text Label 25150 3600 0    50   ~ 0
+5+
+Text Label 27575 2150 0    50   ~ 0
+5+
+Text Label 27575 3450 0    50   ~ 0
+GND
+Text Label 24150 3600 2    50   ~ 0
+GND
+Text Label 28125 7600 2    50   ~ 0
+GND
+Text Label 28625 6700 0    50   ~ 0
+MRD
+Text Label 28625 6800 0    50   ~ 0
+MWR
+Text Label 24150 2200 2    50   ~ 0
+GND
+Text Label 24150 2300 2    50   ~ 0
+A19
+Text Label 24150 2500 2    50   ~ 0
+GND
+Text Label 25150 2200 0    50   ~ 0
+512K_CS
+Text Label 25150 2300 0    50   ~ 0
+UPPER_512K
+Text Label 27075 2450 2    50   ~ 0
+A16
+Text Label 27075 2550 2    50   ~ 0
+A17
+Text Label 27075 2650 2    50   ~ 0
+A18
+Text Label 27075 3050 2    50   ~ 0
+GND
+Text Label 27075 3150 2    50   ~ 0
+UPPER_512K
+Text Label 28075 3150 0    50   ~ 0
+64K_ROM_CS
+Text Label 28625 6600 0    50   ~ 0
+512K_CS
+Text Label 21125 7600 2    50   ~ 0
+MRD
+Text Label 21125 7300 2    50   ~ 0
+5+
+Text Label 21725 7700 2    50   ~ 0
+GND
+Text Label 21725 5200 0    50   ~ 0
+5+
+Text Label 21125 5300 2    50   ~ 0
+A0
+Text Label 21125 5400 2    50   ~ 0
+A1
+Text Label 21125 5500 2    50   ~ 0
+A2
+Text Label 21125 5600 2    50   ~ 0
+A3
+Text Label 21125 5700 2    50   ~ 0
+A4
+Text Label 21125 5800 2    50   ~ 0
+A5
+Text Label 21125 5900 2    50   ~ 0
+A6
+Text Label 21125 6000 2    50   ~ 0
+A7
+Text Label 21125 6100 2    50   ~ 0
+A8
+Text Label 21125 6200 2    50   ~ 0
+A9
+Text Label 22325 5300 0    50   ~ 0
+D0
+Text Label 22325 5400 0    50   ~ 0
+D1
+Text Label 22325 5500 0    50   ~ 0
+D2
+Text Label 22325 5600 0    50   ~ 0
+D3
+Text Label 22325 5700 0    50   ~ 0
+D4
+Text Label 22325 5800 0    50   ~ 0
+D5
+Text Label 22325 5900 0    50   ~ 0
+D6
+Text Label 22325 6000 0    50   ~ 0
+D7
+$Comp
+L pspice:CAP C201
+U 1 1 6086EA25
+P 21775 4750
+F 0 "C201" V 21460 4750 50  0000 C CNN
+F 1 "0.1uF" V 21551 4750 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 21775 4750 50  0001 C CNN
+F 3 "~" H 21775 4750 50  0001 C CNN
+	1    21775 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Memory_RAM:628128_DIP32_SSOP32 U203
+U 1 1 622F9A5A
+P 25900 6400
+F 0 "U203" H 25900 7581 50  0000 C CNN
+F 1 "AS6C1008" H 25900 7490 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 25900 6400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 25900 6400 50  0001 C CNN
+	1    25900 6400
+	1    0    0    -1  
+$EndComp
+Text Label 25400 7200 2    50   ~ 0
+A16
+Text Label 25400 7100 2    50   ~ 0
+A15
+Text Label 25400 7000 2    50   ~ 0
+A14
+Text Label 25400 6900 2    50   ~ 0
+A13
+Text Label 25400 6800 2    50   ~ 0
+A12
+Text Label 25400 6700 2    50   ~ 0
+A11
+Text Label 25400 6600 2    50   ~ 0
+A10
+Text Label 25400 6500 2    50   ~ 0
+A9
+Text Label 25400 6400 2    50   ~ 0
+A8
+Text Label 25400 6300 2    50   ~ 0
+A7
+Text Label 25400 6200 2    50   ~ 0
+A6
+Text Label 25400 6100 2    50   ~ 0
+A5
+Text Label 25400 6000 2    50   ~ 0
+A4
+Text Label 25400 5900 2    50   ~ 0
+A3
+Text Label 25400 5800 2    50   ~ 0
+A2
+Text Label 25400 5700 2    50   ~ 0
+A1
+Text Label 25400 5600 2    50   ~ 0
+A0
+Text Label 25900 7400 2    50   ~ 0
+GND
+Text Label 25900 5400 0    50   ~ 0
+5+
+Text Label 26400 6600 0    50   ~ 0
+5+
+Text Label 26400 6300 0    50   ~ 0
+D7
+Text Label 26400 6200 0    50   ~ 0
+D6
+Text Label 26400 6100 0    50   ~ 0
+D5
+Text Label 26400 6000 0    50   ~ 0
+D4
+Text Label 26400 5900 0    50   ~ 0
+D3
+Text Label 26400 5800 0    50   ~ 0
+D2
+Text Label 26400 5700 0    50   ~ 0
+D1
+Text Label 26400 5600 0    50   ~ 0
+D0
+Text Label 26400 6700 0    50   ~ 0
+MRD
+Text Label 26400 6800 0    50   ~ 0
+MWR
+$Comp
+L pspice:CAP C206
+U 1 1 622FCCE5
+P 27775 1675
+F 0 "C206" V 27460 1675 50  0000 C CNN
+F 1 "0.1uF" V 27551 1675 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 27775 1675 50  0001 C CNN
+F 3 "~" H 27775 1675 50  0001 C CNN
+	1    27775 1675
+	0    1    1    0   
+$EndComp
+Text Label 28025 1675 0    50   ~ 0
+GND
+Text Label 27525 1675 2    50   ~ 0
+5+
+Text Label 26400 6500 0    50   ~ 0
+128K_CS
+Text Label 25125 2850 0    50   ~ 0
+128K_CS
+$Comp
+L 74xx:74LS139 U205
+U 2 1 622FD818
+P 24625 2950
+F 0 "U205" H 24625 3317 50  0000 C CNN
+F 1 "74LS139" H 24625 3226 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 24625 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 24625 2950 50  0001 C CNN
+	2    24625 2950
+	1    0    0    -1  
+$EndComp
+Text Label 24125 2950 2    50   ~ 0
+A17
+Text Label 24125 2850 2    50   ~ 0
+A18
+Text Label 24125 3150 2    50   ~ 0
+UPPER_512K
+$Comp
+L Memory_Flash:SST39SF040 U201
+U 1 1 62DD667A
+P 21725 6500
+F 0 "U201" H 21725 7981 50  0000 C CNN
+F 1 "64K" H 21725 7890 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 21725 6800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf" H 21725 6800 50  0001 C CNN
+	1    21725 6500
+	1    0    0    -1  
+$EndComp
+Text Label 27075 2950 2    50   ~ 0
+5+
+Text Label 21125 7500 2    50   ~ 0
+64K_ROM_CS
+$Comp
+L Memory_Flash:SST39SF010 U202
+U 1 1 636185BF
+P 23700 6450
+F 0 "U202" H 23700 7931 50  0000 C CNN
+F 1 "64K" H 23700 7840 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 23700 6750 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf" H 23700 6750 50  0001 C CNN
+	1    23700 6450
+	1    0    0    -1  
+$EndComp
+Text Label 21125 7100 2    50   ~ 0
+GND
+Text Label 21125 7000 2    50   ~ 0
+GND
+Text Label 21125 6900 2    50   ~ 0
+GND
+Text Label 21125 6800 2    50   ~ 0
+A15
+Text Label 21125 6700 2    50   ~ 0
+A14
+Text Label 21125 6600 2    50   ~ 0
+A13
+Text Label 21125 6500 2    50   ~ 0
+A12
+Text Label 21125 6400 2    50   ~ 0
+A11
+Text Label 21125 6300 2    50   ~ 0
+A10
+Text Label 23100 7550 2    50   ~ 0
+MRD
+Text Label 23700 7650 2    50   ~ 0
+GND
+Text Label 23700 5150 0    50   ~ 0
+5+
+Text Label 23100 5250 2    50   ~ 0
+A0
+Text Label 23100 5350 2    50   ~ 0
+A1
+Text Label 23100 5450 2    50   ~ 0
+A2
+Text Label 23100 5550 2    50   ~ 0
+A3
+Text Label 23100 5650 2    50   ~ 0
+A4
+Text Label 23100 5750 2    50   ~ 0
+A5
+Text Label 23100 5850 2    50   ~ 0
+A6
+Text Label 23100 5950 2    50   ~ 0
+A7
+Text Label 23100 6050 2    50   ~ 0
+A8
+Text Label 23100 6150 2    50   ~ 0
+A9
+Text Label 24300 5250 0    50   ~ 0
+D0
+Text Label 24300 5350 0    50   ~ 0
+D1
+Text Label 24300 5450 0    50   ~ 0
+D2
+Text Label 24300 5550 0    50   ~ 0
+D3
+Text Label 24300 5650 0    50   ~ 0
+D4
+Text Label 24300 5750 0    50   ~ 0
+D5
+Text Label 24300 5850 0    50   ~ 0
+D6
+Text Label 24300 5950 0    50   ~ 0
+D7
+Text Label 23100 7050 2    50   ~ 0
+GND
+Text Label 23100 6950 2    50   ~ 0
+GND
+Text Label 23100 6850 2    50   ~ 0
+GND
+Text Label 23100 6750 2    50   ~ 0
+A15
+Text Label 23100 6650 2    50   ~ 0
+A14
+Text Label 23100 6550 2    50   ~ 0
+A13
+Text Label 23100 6450 2    50   ~ 0
+A12
+Text Label 23100 6350 2    50   ~ 0
+A11
+Text Label 23100 6250 2    50   ~ 0
+A10
+Text Label 23100 7250 2    50   ~ 0
+MWR
+Text Label 28075 3050 0    50   ~ 0
+E0000_CS
+Text Label 23100 7450 2    50   ~ 0
+E0000_CS
+Text Label 24175 4650 0    50   ~ 0
+GND
+Text Label 23675 4650 2    50   ~ 0
+5+
+$Comp
+L pspice:CAP C202
+U 1 1 636485DC
+P 23925 4650
+F 0 "C202" V 23610 4650 50  0000 C CNN
+F 1 "0.1uF" V 23701 4650 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 23925 4650 50  0001 C CNN
+F 3 "~" H 23925 4650 50  0001 C CNN
+	1    23925 4650
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
